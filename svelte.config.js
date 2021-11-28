@@ -1,12 +1,12 @@
 import precompileIntl from "svelte-intl-precompile/sveltekit-plugin.js";
-import adapter from '@sveltejs/adapter-netlify';
+import cloudflare from '@sveltejs/adapter-cloudflare';
 // import adapter from '@sveltejs/adapter-static';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
-		adapter: adapter(), // currently the adapter does not take any options
 		target: '#svelte',
+		adapter: adapter(), // currently the adapter does not take any options
     vite: {
       plugins: [
         precompileIntl('locales') // if your translations are defined in /locales/[lang].json
