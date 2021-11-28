@@ -34,7 +34,7 @@
 </main>
 
 <footer>
-  <div>
+  <div style="text-align: center;">
     {$t('footer-label')}
   </div>
 </footer>
