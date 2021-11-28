@@ -5,18 +5,16 @@
 
 {#if t}
 
-    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;"> 
+    <div class="first-section"> 
         <h1>{$t('title')}</h1>
 
         <div class="about">
-            <div style="display: flex; flex-direction: row;">
                 <img class="img-hero-side" src="/backgrounds/madina-busy.jpg" />
                 <div class="paras-about">
                     <p>As salamu alaykum, peace be upon you, welcome to the Center for Knowledge & Insight 🍃</p>
                     <p>Our mission is to provide Muslims and all people with reliable, authentic, and accessible Islamic knowledge. There is nothing the world is more in need of. </p>
-                    <p></p>
+                    <p>Knowledge is truly gained from qualified scholars and teachers, and it's our goal to connect students all around the world to true scholars who connect them to the Noble Prophet (ﷺ).</p>
                     <p>Below are the courses we offer; some of them are open right now, while others are awaiting students. Proceed below with the Mercy of Allah, oh seeker of good! </p>
-                </div>
                 
             </div>
          </div>
@@ -60,18 +58,33 @@
 {/if}
 
 <style>
-    
+    div.first-section {
+        display: flex; flex-direction: column; justify-content: center; align-items: center;
+        flex-wrap: wrap;
+    }
+    div.paras-about {
+        min-width: 200px;
+    }
     img.img-hero-side {
         max-width: 40vw;
+        min-width: 200px;
         border-radius: 16px;
         border: 10px white solid;
         margin: 16px 56px 56px 72px;
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     }
     div.about {
-        min-width: 100vw;
-        max-width: 100vw;
+        flex:1; 
+
+display:flex;
+justify-content:center;
+align-items:center;
     }
+    @media only screen and (max-width: 600px) {
+        div.about {
+    flex-direction:column;
+  }
+}
     div.main {
         min-height: 100vh;
         min-width: 100vw;
@@ -79,11 +92,20 @@
         /* background-image: ; */
     }
     div.gallery {
-        display: flex;
-        flex-direction: row;
-        /* justify-content: space-between; */
-        flex-wrap: wrap;
+  flex:1; 
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
     }
+    @media only screen and (max-width: 600px) {
+  div.gallery {
+    flex-direction:column;
+  }
+}
+
+
+
     div.paras-about {
         margin: 32px 86px 56px 56px;
     }
@@ -91,4 +113,5 @@
         text-align: "center";
         font-size: larger;
     }
+    
 </style>

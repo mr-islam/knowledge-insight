@@ -17,9 +17,9 @@
     div.card-course {
         border-radius: 8px;
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-        max-width: 30%;
-        min-width: 200px;
-        flex: 2 1 calc(25% - 1em);
+        /* max-width: 30%; */
+        /* min-width: 200px; */
+        /* flex: 2 1 calc(25% - 1em); */
         margin: 10px;
     }
     div.card-inner {
