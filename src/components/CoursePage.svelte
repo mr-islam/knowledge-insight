@@ -2,27 +2,23 @@
     export let title, desc, src, level, link, action
 </script>
 
+<!-- UNUSED RIGHT NOW -->
+
 {#if action === "now"}
     <div class="card-course">
         <div class=card-inner>
-            <a href={link}>
-                <img {src} />
-                <h3>{title}</h3>
-            </a>
+            <img {src} />
+            <h3>{title}</h3>
             <p>{desc}</p>
-            <!-- <span>{level}</span> -->
             <a href={link}>Register Now</a>
         </div>
     </div>
 {:else}
 <div class="card-course">
     <div class=card-inner>
-        <a href={link}>
-            <img {src} />
-            <h3>{title}</h3>
-        </a>
+        <img {src} />
+        <h3>{title}</h3>
         <p>{desc}</p>
-        <!-- <span>{level}</span> -->
         <a href="mailto:ilm.marifah.center@gmail.com">Contact us</a>
     </div>
 </div>
@@ -43,7 +39,6 @@
     }
     img {
         border-radius: 12px;
-        max-width: 100%;
     }
     a {
         border: 4px;

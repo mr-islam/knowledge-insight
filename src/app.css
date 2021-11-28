@@ -6,9 +6,9 @@
 	--font-mono: 'Fira Mono', monospace;
 	--pure-white: #ffffff;
 	--primary-color: #EBFFDE;
-	--secondary-color: #d0dde9;
+	--secondary-color: #efffe4;
 	--tertiary-color: #edf0f8;
-	--accent-color: #ff3e00;
+	--accent-color: #67c200;
 	--heading-color: rgba(0, 0, 0, 0.7);
 	--text-color: #444444;
 	--background-without-opacity: rgba(255, 255, 255, 0.7);
@@ -19,13 +19,13 @@
 body {
 	min-height: 100vh;
 	margin: 0;
-	background-color: var(--primary-color);
-	background: linear-gradient(
+	/* background-color: var(--primary-color); */
+	/* background: linear-gradient(
 		180deg,
 		var(--primary-color) 0%,
 		var(--secondary-color) 10.45%,
 		var(--tertiary-color) 41.35%
-	);
+	); */
 }
 
 body::before {
@@ -49,6 +49,7 @@ body::before {
 	display: flex;
 	flex-direction: column;
 }
+
 
 h1,
 h2,
