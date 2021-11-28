@@ -1,43 +1,36 @@
 <script>
-	import { t, locale, locales } from 'svelte-intl-precompile'
-	let count = 1;
-	let time = new Date();
-	let gender = 'female';
+   	import { t, locale, locales } from 'svelte-intl-precompile'
 </script>
 
-<h1>Sample app using <code>svelte-intl-precompile</code></h1>
-<section>
-	<p>{$t('plain')}</p>
-	<p>{$t('interpolated', { values: { val: 'apple' } })}</p>
-	<p>{$t('time', { values: { time } })}</p>
-	<p>{$t('number', { values: { n: count } })}</p>
-	<p>{$t('pluralized', { values: { count } })}</p>
-	<p>{$t('pluralized-with-hash', { values: { count } })}</p>
-	<p>{$t('selected', { values: { gender } })}</p>
-	<hr/>
-	<button type="button" on:click={() => count--}>Decrement counter</button>
-	<button type="button" on:click={() => count++}>Increment counter</button>
-	<p>Select a gender:</p>
-	<p>
-		<button type="button" on:click={() => gender = 'male'}>Male</button>
-		<button type="button" on:click={() => gender = 'female'}>Female</button>		
-		<button type="button" on:click={() => gender = 'other'}>Other</button>		
-	</p>
-</section>
+{#if t}
+    <div class="main"> 
+        <h1>
+            {$t('title')}
+        </h1>
+    </div>
+    <div class="main">
+        <h1>About Us</h1>
+        <p></p>
+    </div>
+    <div class="main">
+        <h1>Courses</h1>
+        <div class="gallery">
 
-<footer>
-	Change language: 
-	{#each $locales as loc}
-		<button type="button" class={loc === $locale && 'current-locale'} on:click={() => $locale = loc}>{loc}</button>
-	{/each}
-</footer>
-
-
+        </div>
+    </div>
+{/if}
 
 <style>
-	section {
-		max-width: 400px;
-		margin: 0 auto;
-	}
+    div.main {
+        min-height: 100vh;
+        min-width: 100vw;
+        /* background-image: ; */
+    }
+    div.gallery {
+        display: flex;
+        flex-direction: row;
+    }
+    p {
+        text-align: "center";
+    }
 </style>
-
