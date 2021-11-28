@@ -11,11 +11,11 @@
         <div class="about">
             <div style="display: flex; flex-direction: row;">
                 <img class="img-hero-side" src="/backgrounds/madina-busy.jpg" />
-                <div>
-                    <p>This is </p>
-                    <p>This is </p>
-                    <p>This is </p>
-                    <p>This is </p>
+                <div class="paras-about">
+                    <p>As salamu alaykum, peace be upon you, welcome to the Center for Knowledge & Insight 🍃</p>
+                    <p>Our mission is to provide Muslims and all people with reliable, authentic, and accessible Islamic knowledge. There is nothing the world is more in need of. </p>
+                    <p></p>
+                    <p>Below are the courses we offer; some of them are open right now, while others are awaiting students. Proceed below with the Mercy of Allah, oh seeker of good! </p>
                 </div>
                 
             </div>
@@ -50,16 +50,7 @@
                     desc={"The Hadith are the precisely preserverd sayings of our Noble Prophet (ﷺ), and must be studied, learned, and also deserve to be memorized. In this course, explore the 42 Hadith that summarize Islam - gathered by one of the greatest scholars in Islam, Imam al-Nawawi. "} 
                     src={"/designs/hadith1.png"} 
                     level={"1"} 
-                    link={""} 
-                    price={""} 
-                    action={"later"}
-                />
-                <CourseCard 
-                    title={"Hadith Level 1"} 
-                    desc={"The Hadith are the precisely preserverd sayings of our Noble Prophet (ﷺ), and must be studied, learned, and also deserve to be memorized. In this course, explore the 42 Hadith that summarize Islam - gathered by one of the greatest scholars in Islam, Imam al-Nawawi. "} 
-                    src={"/designs/hadith1.png"} 
-                    level={"1"} 
-                    link={""} 
+                    link={"/courses/hadith1"} 
                     price={""} 
                     action={"later"}
                 />
@@ -74,7 +65,7 @@
         max-width: 40vw;
         border-radius: 16px;
         border: 10px white solid;
-        margin: 0 56px 56px 72px;
+        margin: 16px 56px 56px 72px;
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     }
     div.about {
@@ -92,9 +83,12 @@
         flex-direction: row;
         /* justify-content: space-between; */
         flex-wrap: wrap;
-
+    }
+    div.paras-about {
+        margin: 32px 86px 56px 56px;
     }
     p {
         text-align: "center";
+        font-size: larger;
     }
 </style>

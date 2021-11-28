@@ -31,7 +31,9 @@
 
 <main>
   <div style="display: flex; justify-content: center;">
-    <img id="logo" src="/logo.png" />
+    <a href="/">
+      <img alt="Logo of Arabic calligraphy" id="logo" src="/logo.png" />
+    </a>
   </div>
 
 	<slot />
@@ -39,7 +41,9 @@
 
 <footer>
   <div style="text-align: center;">
-    {$t('footer-label')}
+    {$t('title')}
+    *
+    <a href="mailto:ilm.marifah.center@gmail.com">Contact Us</a>
   </div>
 </footer>
 

@@ -10,7 +10,6 @@
             </a>
             <p>{desc}</p>
             <!-- <span>{level}</span> -->
-            <a href={link}>Learn more</a>
         </div>
     </div>
 

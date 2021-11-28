@@ -13,6 +13,9 @@
     price={""} 
     />
 
+
+    <h3>This course runs for 3 months, 2 classes a week, 1 hour each. </h3>
+    <h2>$140 (all proceeds are re-invested into the Center's projects</h2>
     <Pay price={140} />
 </div>
 

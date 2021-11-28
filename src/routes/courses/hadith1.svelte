@@ -4,16 +4,17 @@
 
 <div>
     <CourseCard 
-    title={"Tajwid Level 1"} 
-    desc={"Tajwid is the science of perfecting recitation of Allah Almighty's book, and it's core principles are obligatory for every Muslim to learn. Go through the classic primer \"al-Qaida al-Nuraniyya\" in this course to learn how to give the Quran it's right and preserve your Salah from invalidation."} 
-    src={"/designs/tajwid1.png"} 
-    level={"1"} 
-    link={""} 
-    price={""} />
+        title={"Hadith Level 1"} 
+        desc={"The Hadith are the precisely preserverd sayings of our Noble Prophet (ﷺ), and must be studied, learned, and also deserve to be memorized. In this course, explore the 42 Hadith that summarize Islam - gathered by one of the greatest scholars in Islam, Imam al-Nawawi. "} 
+        src={"/designs/hadith1.png"} 
+        level={"1"} 
+        link={"/courses/hadith1"} 
+        price={""} 
+        action={"later"}
+    />
 
 <p>This course begins when a group of students are ready. Please contact your family, fellow students and friends and let us know when you are ready.</p>
-<a href="mailto:ilm.marifah.center@gmail.com"> Contact us</a>
-
+<br><br>
 </div>
 
 <style>
@@ -21,6 +22,7 @@
         min-width: vw;
         min-height: vh;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }

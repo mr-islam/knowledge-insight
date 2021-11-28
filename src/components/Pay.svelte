@@ -2,9 +2,9 @@
 import { loadScript } from "@paypal/paypal-js";
 
 export let price
-const CLIENT_ID = "test"; // change this to your own client id
+const CLIENT_ID = "AY-QoC6c1Z40JmVdOiaJYCo_bkyh03LBV4Eu1uyT5OMD70ayQk1wiqpq74d7wtGdQgRWuOXbj48DvM1W";
 
-loadScript({ "client-id": AY-QoC6c1Z40JmVdOiaJYCo_bkyh03LBV4Eu1uyT5OMD70ayQk1wiqpq74d7wtGdQgRWuOXbj48DvM1W }).then((paypal) => {
+loadScript({ "client-id": CLIENT_ID }).then((paypal) => {
     paypal
     .Buttons({
         style: {
