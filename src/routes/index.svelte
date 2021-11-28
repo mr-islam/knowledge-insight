@@ -13,9 +13,7 @@
                 <div class="paras-about">
                     <p>As salamu alaykum, peace be upon you, welcome to the Center for Knowledge & Insight 🍃</p>
                     <p>Our mission is to provide Muslims and all people with reliable, authentic, and accessible Islamic knowledge. There is nothing the world is more in need of. </p>
-                    <p>Knowledge is truly gained from qualified scholars and teachers, and it's our goal to connect students all around the world to true scholars who connect them to the Noble Prophet (ﷺ).</p>
-                    <p>Below are the courses we offer; some of them are open right now, while others are awaiting students. Proceed below with the Mercy of Allah, oh seeker of good! </p>
-                
+                    <p>Knowledge is truly gained from qualified scholars and teachers, and it's our goal to connect students all around the world to true scholars who connect them to the Noble Prophet (ﷺ).</p>                
             </div>
          </div>
     </div>
@@ -80,7 +78,7 @@ display:flex;
 justify-content:center;
 align-items:center;
     }
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 1000px) {
         div.about {
     flex-direction:column;
   }

@@ -13,6 +13,7 @@
         action={"later"}
     />
 
+<br>
 <p>This course begins when a group of students are ready. Please contact your family, fellow students and friends and let us know when you are ready.</p>
 <br><br>
 </div>
@@ -25,5 +26,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin: 0 20px 0 20px;
     }
 </style>
