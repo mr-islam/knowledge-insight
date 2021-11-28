@@ -30,6 +30,10 @@
 
 
 <main>
+  <div style="display: flex; justify-content: center;">
+    <img id="logo" src="/logo.png" />
+  </div>
+
 	<slot />
 </main>
 
@@ -38,3 +42,11 @@
     {$t('footer-label')}
   </div>
 </footer>
+
+<style>
+  img#logo {
+        border: 2px black solid;
+        border-radius: 360px;
+        max-width: 10vw;
+    }
+</style>

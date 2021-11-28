@@ -1,16 +1,11 @@
 import precompileIntl from "svelte-intl-precompile/sveltekit-plugin.js";
+import adapter from '@sveltejs/adapter-netlify';
 // import adapter from '@sveltejs/adapter-static';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
-		// adapter: adapter({
-		// 	// default options are shown
-		// 	pages: 'build',
-		// 	assets: 'build',
-		// 	fallback: null
-		// }),    
-		// hydrate the <div id="svelte"> element in src/app.html
+		adapter: adapter(), // currently the adapter does not take any options
 		target: '#svelte',
     vite: {
       plugins: [
