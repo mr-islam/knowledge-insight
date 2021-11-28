@@ -6,7 +6,7 @@ import cloudflare from '@sveltejs/adapter-cloudflare';
 const config = {
 	kit: {
 		target: '#svelte',
-		adapter: adapter(), // currently the adapter does not take any options
+		adapter: cloudflare({}),
     vite: {
       plugins: [
         precompileIntl('locales') // if your translations are defined in /locales/[lang].json
