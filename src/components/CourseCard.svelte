@@ -16,8 +16,7 @@
 <style>
     div.card-course {
         border-radius: 8px;
-        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-        /* max-width: 30%; */
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;        /* max-width: 30%; */
         /* min-width: 200px; */
         /* flex: 2 1 calc(25% - 1em); */
         margin: 10px;

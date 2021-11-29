@@ -9,7 +9,7 @@
         <h1>{$t('title')}</h1>
 
         <div class="about">
-                <img class="img-hero-side" src="/backgrounds/madina-busy.jpg" />
+                <img alt="The Holy Mosque of Madinah" class="img-hero-side" src="/backgrounds/madina-busy.jpg" />
                 <div class="paras-about">
                     <p>{ $t('welcome.para_1') }</p>
                     <p>{ $t('welcome.para_2') } </p>
