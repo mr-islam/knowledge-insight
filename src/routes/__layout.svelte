@@ -45,7 +45,7 @@
   <div style="text-align: center;">
     {$t('title')}
     *
-    <a href="mailto:ilm.marifah.center@gmail.com">Contact Us</a>
+    <a href="mailto:ilm.marifah.center@gmail.com">{ $t('contact_us') }</a>
   </div>
   <script defer data-domain="ilm-marifah.com" src="https://plausible.io/js/plausible.js"></script>
 </footer>

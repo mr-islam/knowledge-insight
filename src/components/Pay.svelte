@@ -1,4 +1,5 @@
 <script>
+import { t } from 'svelte-intl-precompile'
 import { loadScript } from "@paypal/paypal-js";
 
 export let price
@@ -26,13 +27,13 @@ loadScript({ "client-id": CLIENT_ID }).then((paypal) => {
         onApprove: function (data, actions) {
         // Capture order after payment approved
         return actions.order.capture().then(function (details) {
-            alert("Payment successful!");
+            alert($t('payment.successful_alert'));
         });
         },
         onError: function (err) {
         // Log error if something goes wrong during approval
-        alert("Something went wrong");
-        console.log("Something went wrong", err);
+        alert($t('payment.error'));
+        console.log($t('payment.error'), err);
         },
     })
     .render("#paypal-button-container");

@@ -1,12 +1,13 @@
 <script>
+    import { t } from 'svelte-intl-precompile'
     import CourseCard from '../../components/CourseCard.svelte'
     import Pay from '../../components/Pay.svelte'
 </script>
 
 <div>
     <CourseCard 
-    title={"Tajwid Level 1"} 
-    desc={"Tajwid is the science of perfecting recitation of Allah Almighty's book, and it's core principles are obligatory for every Muslim to learn. Go through the classic primer \"al-Qaida al-Nuraniyya\" in this course to learn how to give the Quran it's right and preserve your Salah from invalidation."} 
+    title={$t('courses.tajwid1.title')} 
+    desc={$t('courses.tajwid1.desc')} 
     src={"/designs/tajwid1.png"} 
     level={"1"} 
     link={""} 
@@ -14,8 +15,8 @@
     />
 
 
-    <h3>This course runs for 3 months, 2 classes a week, 1 hour each. </h3>
-    <h2>$140 (all proceeds are re-invested into the Center's projects</h2>
+    <h3>{ $t('courses.lengths.3month_2week_1hour') } </h3>
+    <h2>{ $t('payment.price_140') }</h2>
     <Pay price={140} />
 </div>
 
