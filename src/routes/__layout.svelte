@@ -34,7 +34,7 @@
 <main>
   <div style="display: flex; justify-content: center;">
     <a href="/">
-      <img alt="Logo of Arabic calligraphy" id="logo" src="/logo.png" />
+      <img alt="Logo of Arabic calligraphy" id="logo" src="/logo.jpg" />
     </a>
   </div>
 
