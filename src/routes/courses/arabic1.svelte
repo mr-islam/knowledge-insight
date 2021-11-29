@@ -1,26 +1,23 @@
 <script>
     import { t } from 'svelte-intl-precompile'
     import CourseCard from '../../components/CourseCard.svelte'
-    import Pay from '../../components/Pay.svelte'
 </script>
 
 <div>
-    <CourseCard 
-    title={$t('courses.tajwid1.title')} 
-    desc={$t('courses.tajwid1.desc')} 
-    src={"/designs/tajwid1.png"} 
-    level={"1"} 
-    link={""} 
-    price={""} 
-    />
+    <CourseCard
+        title={$t("courses.arabic1.title")}
+        desc={$t("courses.arabic1.desc")}
+        src={"/designs/arabic1.png"}
+        level={"1"}
+        link={"/courses/arabic1"}
+        price={""}
+        action={"later"}
+      />
 
-
-    <h3>{ $t('courses.lengths.3month_2week_1hour') } </h3>
-    <h2>{ $t('payment.price_140') }</h2>
-    <Pay price={5} />
+<br>
+<p>{ $t('courses.contact_later') }</p>
+<br><br>
 </div>
-
-
 
 <style>
     div {

@@ -18,6 +18,10 @@
     "contact_later": "This course begins when a group of students are ready. Please contact your family, fellow students and friends and let us know when you are ready.",
     "lengths": {
       "3month_2week_1hour": "This course runs for 3 months, 2 classes a week, 1 hour each."
+    },
+    "arabic1": {
+      "title": "Arabic For Non Native Speakers",
+      "desc": "Arabic is the language of the Quran, Islam and Muslims worldwide. "
     }
   },
   "contact_us": "Contact Us",

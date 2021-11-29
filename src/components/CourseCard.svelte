@@ -20,6 +20,7 @@
         /* min-width: 200px; */
         /* flex: 2 1 calc(25% - 1em); */
         margin: 10px;
+        max-width: 300px;
     }
     div.card-inner {
         display: flex;

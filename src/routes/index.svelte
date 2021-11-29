@@ -51,6 +51,33 @@
         price={""}
         action={"later"}
       />
+      <CourseCard
+        title={$t("courses.arabic1.title")}
+        desc={$t("courses.arabic1.desc")}
+        src={"/designs/hadith1.png"}
+        level={"1"}
+        link={"/courses/arabic1"}
+        price={""}
+        action={"later"}
+      />
+      <CourseCard
+        title={$t("courses.arabic1.title")}
+        desc={$t("courses.arabic1.desc")}
+        src={"/designs/hadith1.png"}
+        level={"1"}
+        link={"/courses/arabic1"}
+        price={""}
+        action={"later"}
+      />
+      <CourseCard
+        title={$t("courses.arabic1.title")}
+        desc={$t("courses.arabic1.desc")}
+        src={"/designs/hadith1.png"}
+        level={"1"}
+        link={"/courses/arabic1"}
+        price={""}
+        action={"later"}
+      />
     </div>
   </div>
 {/if}
@@ -94,10 +121,10 @@
   div.gallery {
     flex: 1;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0 20px 30px 20px;
   }
   @media only screen and (max-width: 600px) {
     div.gallery {
