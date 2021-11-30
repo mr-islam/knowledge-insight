@@ -18,6 +18,7 @@
   register("ar", () => import("$locales/ar.js"));
 
   import "../app.css";
+  import Header from '../elements/header.svelte'
 </script>
 
 <script>
@@ -27,26 +28,9 @@
   });
 </script>
 
-<header>
-  <select
-    id="select-lang"
-    on:change={() => {
-      $locale = document.getElementById("select-lang").selectedOptions[0].value;
-    }}
-  >
-    {#each $locales as loc}
-      <option value={loc}>{loc}</option>
-    {/each}
-  </select>
-</header>
+<Header />
 
 <main>
-  <div style="display: flex; justify-content: center;">
-    <a href="/">
-      <img alt="Logo of Arabic calligraphy" id="logo" src="/logo.jpg" />
-    </a>
-  </div>
-
   <slot />
 </main>
 
@@ -61,9 +45,4 @@
 </footer>
 
 <style>
-  img#logo {
-    border: 2px black solid;
-    border-radius: 360px;
-    max-width: 10vw;
-  }
 </style>
