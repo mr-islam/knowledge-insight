@@ -4,19 +4,19 @@
 </script>
 
 {#if t}
-  <div class="first-section">
-    <div class="about">
-      <img
-        alt="The Holy Mosque of Madinah"
-        class="img-hero-side"
-        src="/backgrounds/madina-busy.jpg"
-      />
-      <div class="paras-about">
-        <p>{$t("welcome.para_1")}</p>
-        <p>{$t("welcome.para_2")}</p>
-        <p>{$t("welcome.para_3")}</p>
-      </div>
+  <div class="about">
+  </div>
+  <div class="slogan">
+    <h2 class="slogan-text">Islamic Knowledge, Prophetic Spirituality</h2>
+    <p class="slogan-text">Complete Islamic education taught by qualified scholars</p> <br>
+  </div>
+  <div class="paras-about">
+    <div>
+      <p>{$t("welcome.para_1")}</p>
+      <p>{$t("welcome.para_2")}</p>
+      <p>{$t("welcome.para_3")}</p>   
     </div>
+       
   </div>
 
   <div class="main">
@@ -86,31 +86,47 @@
 {/if}
 
 <style>
-  div.first-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+  div.slogan {
+    text-align: center;
+    min-width: 100vw;
+    margin-top: 300px;
+  }
+  .slogan-text, p {
+    color:   var(--pure-white);
+  }
+  h2.slogan-text {
+    font-size: 3rem;
+  }
+  p.slogan-text {
+    font-size: 1.5rem;
   }
   div.paras-about {
-    min-width: 200px;
+    background: #a4a6a9;
+  min-width: 100%;
+  margin: 20vh 0 56px 0;  
+
   }
-  img.img-hero-side {
-    max-width: 40vw;
-    min-width: 200px;
-    border-radius: 16px;
-    border: 10px white solid;
-    margin: 16px 56px 56px 72px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  div.paras-about > div {
+    padding: 20px 20vw 20px 20vw;
   }
   div.about {
+    position: absolute;
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("/backgrounds/madina-busy.jpg");
-    padding-top: 300px;
+    top: 0px;
+    z-index: -1;
+    min-width: 100vw;
+    min-height: 80vh;
+  background-size: cover;
+  background-image: url("/backgrounds/madina-busy.jpg");
+  filter: blur(2px) brightness(70%);
+
+  }
+  p {
+    text-align: "center";
+    font-size: larger;
   }
   @media only screen and (max-width: 1000px) {
     div.about {
@@ -136,12 +152,5 @@
       flex-direction: column;
     }
   }
-
-  div.paras-about {
-    margin: 32px 86px 56px 56px;
-  }
-  p {
-    text-align: "center";
-    font-size: larger;
-  }
+  
 </style>

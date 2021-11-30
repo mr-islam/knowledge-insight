@@ -36,15 +36,16 @@
     align-items: center;
     justify-content: space-between;
     border: 4px solid var(--primary-color);
-    margin: 0 0 0 10vw;
+    margin: 0 0 0  50px;
     border-radius: 8px;
     position: fixed;
-    top: 10px;
+    top: 30px;
     min-width: 80vw;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    z-index: 5;
   }
   img#logo {
-    border: 2px black solid;
+    border: 1px black solid;
     border-radius: 360px;
     max-width: 5vw;
     margin: 20px;
@@ -55,6 +56,7 @@
     }
     header {
       flex-direction: column;
+      margin: 0 0 0 0;
     }
     h1 {
       font-size: 0.8rem;
