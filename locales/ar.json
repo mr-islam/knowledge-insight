@@ -1,29 +1,3 @@
 {
-  "title": "مركز العلم والمعرفة",
-  "contact_us": "",
-  "courses": {
-    "contact_later": "",
-    "hadith1": {
-      "desc": "",
-      "title": ""
-    },
-    "lengths": {
-      "3month_2week_1hour": ""
-    },
-    "tajwid1": {
-      "desc": "",
-      "title": ""
-    },
-    "title": ""
-  },
-  "payment": {
-    "error": "",
-    "price_140": "",
-    "successful_alert": ""
-  },
-  "welcome": {
-    "para_1": "",
-    "para_2": "",
-    "para_3": ""
-  }
+  "title": "مركز العلم والمعرفة"
 }
