@@ -38,8 +38,15 @@
     width: auto;
     max-width: 100px;
     max-height: 150px;
-    border-radius: 12px;
+    border-radius: 8px;
     height: auto;
-    margin: 10px 0 10px 20px;
+    margin-left: 20px;
+  }
+  a {
+    color: var(--text-color);
+  }
+  subtitle {
+    font-weight: 400;
+    font-style: italic;
   }
 </style>

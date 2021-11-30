@@ -77,13 +77,7 @@
     font-size: 1.5rem;
     margin: 0 10px 0 0;
   }
-  div.flex-column {
-    display: flex;
-    flex-direction: column;
-  }
   div.flex-row {
-    display: flex;
-    flex-direction: row;
     align-items: center;
   }
 </style>

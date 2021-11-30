@@ -11,13 +11,13 @@
     "tajwid1": {
       "title": "Tajwid Level 1",
       "book": "Qaida Nuraniyyah",
-      "desc_short": "Tajwid is the essential knowledge of how to correctly recite the Quran.",
+      "desc_short": "Tajwid is how to correctly recite the Quran.",
       "desc_long": "Tajwid is the science of perfecting recitation of Allah Almighty's book, and it's core principles are obligatory for every Muslim to learn. Go through the classic primer \"al-Qaida al-Nuraniyya\" in this course to learn how to give the Quran it's right and preserve your Salah from invalidation."
     },
     "hadith1": {
       "title": "Hadith Level 1",
       "book": "The 40 Nawawi Hadith",
-      "desc_short": "These 40 Hadith are the complete summary of Islam and all its parts.",
+      "desc_short": "These 40 Hadith are the complete summary of Islam.",
       "desc_long": "The Hadith are the precisely preserverd sayings of our Noble Prophet (ﷺ), and must be studied, learned, and also deserve to be memorized. In this course, explore the 42 Hadith that summarize Islam - gathered by one of the greatest scholars in Islam, Imam al-Nawawi."
     },
     "contact_later": "This course begins when a group of students are ready. Please contact your family, fellow students and friends and let us know when you are ready.",
@@ -26,7 +26,7 @@
     },
     "arabic1": {
       "title": "Arabic For Non Native Speakers",
-      "desc_long": "Arabic is the language of the Quran, Islam and Muslims worldwide. "
+      "desc_long": "Arabic is the language of the Quran, Islam and Muslims. "
     }
   },
   "contact_us": "Contact Us",

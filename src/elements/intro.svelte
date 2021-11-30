@@ -13,7 +13,8 @@
 <div class="paras-about">
   <div>
     <!-- <p>{$t("welcome.para_1")}</p> -->
-    <p>{$t("welcome.para_2")}</p> <br>
+    <p>{$t("welcome.para_2")}</p>
+    <br />
     <p>{$t("welcome.para_3")}</p>
   </div>
 </div>
@@ -92,8 +93,8 @@
       margin: 15vh 0 56px 0;
     }
     div.paras-about > div {
-    padding: 10vh 1vw;
-    flex-direction: column;
-  }
+      padding: 10vh 1vw;
+      flex-direction: column;
+    }
   }
 </style>
