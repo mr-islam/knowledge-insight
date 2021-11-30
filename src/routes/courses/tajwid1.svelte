@@ -7,7 +7,7 @@
 <div>
     <CourseCard 
     title={$t('courses.tajwid1.title')} 
-    desc={$t('courses.tajwid1.desc')} 
+    desc={$t('courses.tajwid1.desc_long')} 
     src={"/designs/tajwid1.png"} 
     level={"1"} 
     link={""} 
