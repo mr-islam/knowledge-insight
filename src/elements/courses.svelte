@@ -73,7 +73,7 @@
   <style>
        div.main {
     min-height: 100vh;
-    min-width: 100vw;
+    min-width: 100%;
     max-width: 100vw;
     /* background-image: ; */
   }
@@ -83,7 +83,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 0 20px 30px 20px;
+    /* margin: 0 20px 30px 20px; */
   }
   @media only screen and (max-width: 600px) {
     div.gallery {

@@ -45,4 +45,7 @@
 </footer>
 
 <style>
+  footer {
+    padding-bottom: 5px;
+  }
 </style>

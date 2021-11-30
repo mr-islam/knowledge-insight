@@ -1,12 +1,12 @@
 <script>
   import { t, locale, locales } from "svelte-intl-precompile";
-  import About from "../elements/about.svelte"
+  import Intro from "../elements/intro.svelte"
   import Courses from "../elements/courses.svelte"
 
 </script>
 
 {#if t} 
-  <About />
+  <Intro />
   <Courses />
     
 {/if}
