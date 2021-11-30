@@ -1,64 +1,80 @@
 <script>
-  import { Splide, SplideSlide } from "@splidejs/svelte-splide";
-  import "@splidejs/splide/dist/css/splide.min.css";
-</script>
-
-<h1>Books</h1>
-<div class="container">
-  <Splide
-    options={{
-      rewind: true,
-    //   type: "loop",
-      perPage: 5,
-      autoScroll: {
-        speed: 2,
-      },
-      focus  : 'center',
-      drag   : 'free',
-    }}
-  >
-    <SplideSlide>
-      <img src="/books/sawanih.jpg" alt="Image 1" />
-    </SplideSlide>
-    <SplideSlide>
-      <img src="/books/fuyud.jpg" alt="Image 2" />
-    </SplideSlide>
-    <SplideSlide>
-      <img src="/books/maslak.png" alt="Image 2" />
-    </SplideSlide>
-    <SplideSlide>
-      <img src="/books/qawanin.jpg" alt="Image 2" />
-    </SplideSlide>
-    <SplideSlide>
-      <img src="/books/rawdah.jpg" alt="Image 2" />
-    </SplideSlide>
-    <SplideSlide>
-      <img src="/books/majmu.jpg" alt="Image 2" />
-    </SplideSlide>
-    <SplideSlide>
-      <img src="/books/tuhfah.jpg" alt="Image 2" />
-    </SplideSlide>
-    <SplideSlide>
-      <img src="/books/manar.png" alt="Image 2" />
-    </SplideSlide>
-    <SplideSlide>
-      <img src="/books/miftah.png" alt="Image 2" />
-    </SplideSlide>
-    <SplideSlide>
-      <img src="/books/suyuti.jpg" alt="Image 2" />
-    </SplideSlide>
-  </Splide>
-</div>
-
-<style>
-  img {
-    max-width: 200px;
-  }
-  div.container {
-    max-width: 80%;
-    margin: 5vh auto;
-  }
-  h1 {
-      margin: 10vh 0 0 0;
-  }
-</style>
+    import { Swiper, SwiperSlide } from "swiper/svelte";
+  
+    // Import Swiper styles
+    import "swiper/css";
+    import "swiper/css/effect-cards";
+    import "swiper/css/pagination";
+  
+    // import Swiper core and required modules
+    import SwiperCore, { Autoplay, EffectCards } from "swiper";
+  
+    // install Swiper modules
+    SwiperCore.use([EffectCards, Autoplay]);
+  </script>
+  
+  <div>
+    <Swiper
+      effect={"cards"}
+      grabCursor={true}
+      autoplay={{
+        delay: 2500,
+        disableOnInteraction: true,
+      }}
+      pagination={{
+        clickable: true,
+      }}
+    >
+      <SwiperSlide>
+        <img src="/books/sawanih.jpg" alt="sawanih" />
+      </SwiperSlide>
+      <SwiperSlide>
+        <img src="/books/fuyud.jpg" alt="Image 2" />
+      </SwiperSlide>
+      <SwiperSlide>
+        <img src="/books/maslak.png" alt="Image 2" />
+      </SwiperSlide>
+      <SwiperSlide>
+        <img src="/books/qawanin.jpg" alt="Image 2" />
+      </SwiperSlide>
+      <SwiperSlide>
+        <img src="/books/rawdah.jpg" alt="Image 2" />
+      </SwiperSlide>
+      <SwiperSlide>
+        <img src="/books/majmu.jpg" alt="Image 2" />
+      </SwiperSlide>
+      <SwiperSlide>
+        <img src="/books/tuhfah.jpg" alt="Image 2" />
+      </SwiperSlide>
+      <SwiperSlide>
+        <img src="/books/manar.png" alt="Image 2" />
+      </SwiperSlide>
+      <SwiperSlide>
+        <img src="/books/miftah.png" alt="Image 2" />
+      </SwiperSlide>
+      <SwiperSlide>
+        <img src="/books/suyuti.jpg" alt="Image 2" />
+      </SwiperSlide>
+    </Swiper>
+  </div>
+  
+  <style>
+    img {
+      max-width: 100%;
+    }
+    .swiper {
+      width: 240px;
+      height: 320px;
+    }
+  
+    .swiper-slide {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 18px;
+      font-size: 22px;
+      font-weight: bold;
+      color: #fff;
+    }
+  </style>
+  

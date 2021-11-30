@@ -1,12 +1,14 @@
 <script context="module">
     import { t, locale, locales } from "svelte-intl-precompile";
+    import Books from "../elements/books.svelte"
+
   </script>
   
   <div class="container">
     <h1> About Us </h1>
     <div class="flex-row">
         <div>
-            <h2>TWEFa</h2>
+            <Books />
         </div>
         <div>
             <p>dawds</p>

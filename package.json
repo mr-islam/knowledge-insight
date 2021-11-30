@@ -17,9 +17,9 @@
   "dependencies": {
     "@lukeed/uuid": "^2.0.0",
     "@paypal/paypal-js": "^4.2.1",
-    "@splidejs/svelte-splide": "^0.1.13",
     "cookie": "^0.4.1",
-    "svelte-intl-precompile": "^0.4.0"
+    "svelte-intl-precompile": "^0.4.0",
+    "swiper": "^7.3.1"
   },
   "engines": {
     "node": ">= 16"
