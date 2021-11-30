@@ -47,5 +47,9 @@
 <style>
   footer {
     padding-bottom: 5px;
+    background: var(--primary-color);
+  }
+  footer > div > a {
+    color: var(--text-color);
   }
 </style>
