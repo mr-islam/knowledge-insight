@@ -50,7 +50,6 @@
         price={""}
         action={"later"}
         book={$t("courses.hadith1.book")}
-
       />
       <CourseCard
         title={$t("courses.arabic1.title")}
@@ -110,7 +109,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('/backgrounds/madina-busy.jpg');
+    background-image: url("/backgrounds/madina-busy.jpg");
     padding-top: 300px;
   }
   @media only screen and (max-width: 1000px) {

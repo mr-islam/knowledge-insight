@@ -1,7 +1,5 @@
 <script>
 
-import { add_classes } from "svelte/internal";
-
 </script>
 
 <h1>Thank you for registering</h1>

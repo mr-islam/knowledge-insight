@@ -18,7 +18,7 @@
   register("ar", () => import("$locales/ar.js"));
 
   import "../app.css";
-  import Header from '../elements/header.svelte'
+  import Header from "../elements/header.svelte";
 </script>
 
 <script>

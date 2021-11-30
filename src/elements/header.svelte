@@ -13,7 +13,7 @@
     </div>
   </div>
   <div>
-    <a href="#Courses">{ $t('courses.title') }</a>
+    <a href="#Courses">{$t("courses.title")}</a>
     <a>About Us</a>
     <select
       id="select-lang"
@@ -51,15 +51,15 @@
   }
   @media only screen and (max-width: 600px) {
     img#logo {
-        max-width: 10vw;
+      max-width: 10vw;
     }
     header {
-        flex-direction: column;
+      flex-direction: column;
     }
     h1 {
-        font-size: 0.8rem;
+      font-size: 0.8rem;
     }
-}
+  }
   select {
     margin: 10px;
   }
