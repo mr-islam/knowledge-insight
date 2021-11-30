@@ -14,7 +14,9 @@
   </div>
   <div>
     <a href="#Courses">{$t("courses.title")}</a>
-    <a>About Us</a>
+    &middot
+    <a>About</a>
+    &middot
     <select
       id="select-lang"
       on:change={() => {
@@ -36,11 +38,11 @@
     align-items: center;
     justify-content: space-between;
     border: 4px solid var(--primary-color);
-    margin: 0 0 0  50px;
+    left: 10vw;
     border-radius: 8px;
     position: fixed;
     top: 30px;
-    min-width: 80vw;
+    width: 80vw;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     z-index: 5;
   }
@@ -48,15 +50,21 @@
     border: 1px black solid;
     border-radius: 360px;
     max-width: 5vw;
-    margin: 20px;
+    margin: 12px;
   }
   @media only screen and (max-width: 600px) {
     img#logo {
-      max-width: 10vw;
+      max-width: 8vw;
+      margin: 10px;
     }
     header {
       flex-direction: column;
-      margin: 0 0 0 0;
+      left: 0;
+      min-width: 100vw;
+      border-radius: 0px;
+      top: 0px;
+      border: 0px;
+      padding-top: 10px;
     }
     h1 {
       font-size: 0.8rem;

@@ -28,5 +28,6 @@
     justify-content: center;
     align-items: center;
     margin: 0 20px 0 20px;
+    margin: 30vh 20px 0 20px;
   }
 </style>
