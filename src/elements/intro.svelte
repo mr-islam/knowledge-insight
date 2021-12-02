@@ -54,15 +54,15 @@
   }
 
   @media only screen and (max-width: 600px) {
-
+    
     div.paras-about {
       background: #a4a6a9;
       min-width: 100%;
       margin: 15vh 0 56px 0;
     }
     div.paras-about > div {
-      padding: 10vh 1vw;
-      /* flex-direction: column; */
+      padding: 10vh 5vw;
+      grid-template-columns: 1fr;
     }
   }
 </style>

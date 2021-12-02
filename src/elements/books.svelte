@@ -63,8 +63,8 @@
     max-width: 100%;
   }
   div :global(.swiper) {
-    width: 300px;
-    height: 400px;
+    width: 280px;
+    height: 390px;
   }
 
   div :global(.swiper-slide) {
