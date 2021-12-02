@@ -58,7 +58,7 @@
     div.paras-about {
       background: #a4a6a9;
       min-width: 100%;
-      margin: 15vh 0 56px 0;
+      margin: 0 0 56px 0;
     }
     div.paras-about > div {
       padding: 10vh 5vw;
