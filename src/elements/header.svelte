@@ -58,6 +58,7 @@
       margin: 10px;
     }
     header {
+      position: relative;
       flex-direction: column;
       left: 0;
       min-width: 100vw;

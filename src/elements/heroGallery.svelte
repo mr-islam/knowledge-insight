@@ -104,4 +104,12 @@
     height: 100%;
     object-fit: cover;
   }
+  @media only screen and (max-width: 600px) {
+    div.container {
+    /* min-width: 100%; */
+    /* min-height: 700px; */
+    margin-top: 0vh;
+  }
+  }
+
 </style>
