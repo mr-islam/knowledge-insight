@@ -2,14 +2,13 @@
   import { t, locale, locales } from "svelte-intl-precompile";
 </script>
 
-<div class="about" />
-<div class="slogan">
-  <h2 class="slogan-text">Islamic Knowledge, Prophetic Spirituality</h2>
+<!-- <div class="slogan">
+  <h2 class="slogan-text"></h2>
   <p class="slogan-text">
     Complete Islamic education taught by qualified scholars
   </p>
   <br />
-</div>
+</div> -->
 <div class="paras-about">
   <div>
     <!-- <p>{$t("welcome.para_1")}</p> -->
@@ -23,16 +22,15 @@
   div.slogan {
     text-align: center;
     min-width: 100%;
-    margin-top: 300px;
+    /* margin-top: 300px; */
   }
   .slogan-text,
   p {
-    color: var(--pure-white);
+    
     margin: 0 auto;
   }
   h2.slogan-text {
-    font-size: 3rem;
-    font-weight: bold;
+    
   }
   p.slogan-text {
     font-size: 1.5rem;
@@ -40,7 +38,7 @@
   div.paras-about {
     background: #a4a6a9;
     min-width: 100%;
-    margin: 25vh 0 56px 0;
+    /* margin: 25vh 0 56px 0; */
   }
   div.paras-about > div {
     display: flex;
@@ -59,11 +57,9 @@
     min-height: 100vh;
     background-size: cover;
     background-image: url("/backgrounds/madina-busy.jpg");
-    filter: blur(1px) brightness(70%);
   }
   p {
-    text-align: "center";
-    font-size: larger;
+    
   }
   @media only screen and (max-width: 600px) {
     div.about {
