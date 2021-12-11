@@ -16,6 +16,30 @@
       registration: "",
     },
     {
+      id: "tajwid/hidayatrahman",
+      title: $t("Tajwid: Level 1"),
+      desc: $t("Contuining learning the traits and places of letters"),
+      tags: ["tajwid"],
+      src: "/books/hidayatrahman.jpg",
+      level: 1,
+      book: "Hidayah al-Rahman",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "tajwid/thani",
+      title: $t("Tajwid: Level 2"),
+      desc: $t("Add more depth to your knowledge of law,"),
+      tags: ["tajwid"],
+      src: "/books/thani.jpg",
+      level: 2,
+      book: "Al-Mustawa al-Thani",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
       title: $t("courses.hadith1.title"),
       desc: $t("courses.hadith1.desc_short"),
       tags: ["hadith-matn"],
@@ -23,6 +47,30 @@
       level: 1,
       id: "hadith/matn/nawawi",
       book: $t("courses.hadith1.book"),
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "hadith/matn/adab",
+      title: $t("Hadith: Text 2"),
+      desc: $t("Bring light to your every action with Prophetic guidance"),
+      tags: ["hadith"],
+      src: "/books/adab.jpg",
+      level: 2,
+      book: "Al-Adab al-Mufrad",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "hadith/matn/riyad",
+      title: $t("Hadith: Text 3"),
+      desc: $t("Take delight in the meadow of the righteous"),
+      tags: ["hadith"],
+      src: "/books/riyad.jpg",
+      level: 3,
+      book: "Riyad al-Salihin",
       action: "later",
       price: "",
       registration: "",
@@ -85,30 +133,6 @@
       src: "/books/nuzhah.jpg",
       level: 2,
       book: "Nuzhah al-Nazar",
-      action: "later",
-      price: "",
-      registration: "",
-    },
-    {
-      id: "hadith/matn/adab",
-      title: $t("Hadith: Text 2"),
-      desc: $t("Bring light to your every action with Prophetic guidance"),
-      tags: ["hadith"],
-      src: "/books/adab.jpg",
-      level: 2,
-      book: "Al-Adab al-Mufrad",
-      action: "later",
-      price: "",
-      registration: "",
-    },
-    {
-      id: "hadith/matn/riyad",
-      title: $t("Hadith: Text 3"),
-      desc: $t("Take delight in the meadow of the righteous"),
-      tags: ["hadith"],
-      src: "/books/riyad.jpg",
-      level: 3,
-      book: "Riyad al-Salihin",
       action: "later",
       price: "",
       registration: "",
@@ -245,6 +269,30 @@
       price: "",
       registration: "",
     },
+    {
+      id: "tafsir/nasafi",
+      title: $t("Tafsir: External 2"),
+      desc: $t("A summary of some of the most important tafsir"),
+      tags: ["tafsir"],
+      src: "/books/nasafi.jpg",
+      level: 2,
+      book: "Tafsir al-Nasafi",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "hadith/ulum/tadrib",
+      title: $t("Hadith: Terminology 4"),
+      desc: $t("The level for complete campacity in hadith science"),
+      tags: ["hadith"],
+      src: "/books/tadrib.jpg",
+      level: 4,
+      book: "Tadrib al-Rawi",
+      action: "later",
+      price: "",
+      registration: "",
+    }
   ];
   let searchTerm = "fard";
 
@@ -253,7 +301,7 @@
   });
 </script>
 
-<h1 id="courses">{$t("courses.title")}</h1>
+<h1>{$t("courses.title")}</h1>
 
 <p id="tag-container">
   <label
@@ -262,11 +310,6 @@
   >
   <label
     ><input type="radio" bind:group={searchTerm} value="aqida" /><span>Beliefs</span
-    ></label
-  >
-  <label
-    ><input type="radio" bind:group={searchTerm} value="tajwid" /><span
-      >tajwid</span
     ></label
   >
   <label
@@ -279,8 +322,13 @@
     ></label
   >
   <label
-    ><input type="radio" bind:group={searchTerm} value="quran" /><span
-      >quran</span
+    ><input type="radio" bind:group={searchTerm} value="tajwid" /><span
+      >tajwid</span
+    ></label
+  >
+  <label
+    ><input type="radio" bind:group={searchTerm} value="tafsir" /><span
+      >tafsir</span
     ></label
   >
   <label

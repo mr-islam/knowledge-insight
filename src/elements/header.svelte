@@ -13,7 +13,7 @@
     </div>
   </div>
   <div>
-    <a href="#Courses">{$t("courses.title")}</a>
+    <a href="#courses">{$t("courses.title")}</a>
     &middot
     <a>About</a>
     &middot

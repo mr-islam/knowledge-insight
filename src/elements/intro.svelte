@@ -18,7 +18,7 @@
 
       <p>{$t("welcome.para_3")}</p>
     </div>
-    <div>
+    <div id="courses">
       <span>🌳</span>
 
       <p>{$t("welcome.para_3")}</p>
