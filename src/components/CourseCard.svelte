@@ -27,6 +27,12 @@
     margin: 10px;
     max-width: 350px;
     min-width: 300px;
+    transition: top ease 200ms;
+    transition: box-shadow ease 200ms;
+  }
+  div.card-course:hover {
+    box-shadow: rgba(44, 105, 70, 0.2) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    top: -10px;
   }
   div.card-inner {
     display: flex;
@@ -40,7 +46,7 @@
     max-height: 150px;
     border-radius: 8px;
     height: auto;
-    margin-left: 20px;
+    margin-left: 10px;
   }
   a {
     color: var(--text-color);

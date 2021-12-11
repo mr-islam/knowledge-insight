@@ -61,7 +61,7 @@
 
 <h1 id="courses">{$t("courses.title")}</h1>
 
-<p id="id_work_days">
+<p id="tag-container">
   <label><input type="radio" bind:group={searchTerm} value="fard" /><span>Fard</span></label>
   <label><input type="radio" bind:group={searchTerm} value="tajwid" /><span>tajwid</span></label>
   <label><input type="radio" bind:group={searchTerm} value="fiqh" /><span>fiqh</span></label>
@@ -93,21 +93,34 @@
       flex-direction: column;
     }
   }
-  #id_work_days input[type="radio"] {
+
+
+  #tag-container {
+    text-align: center;
+  }
+  #tag-container input[type="radio"] {
     display: none;
   }
 
-  #id_work_days span {
+  #tag-container span {
+    font-weight: bold;
+    cursor: pointer;
     display: inline-block;
     padding: 10px;
-    text-transform: uppercase;
-    border: 2px solid gold;
-    border-radius: 3px;
-    color: gold;
+    text-transform: capitalize;
+    background-color: #fbfff9;
+    border: 2px dashed #90d344;
+    border-radius: 4px;
+    color: #273912;
+  }
+  #tag-container span:hover {
+    background-color: #ebffde;
   }
 
-  #id_work_days input[type="radio"]:checked + span {
-    background-color: gold;
+  #tag-container input[type="radio"]:checked + span {
+    background-color: #ebffde;
+    border: 2px solid #90d344;
+
     color: black;
   }
 </style>
