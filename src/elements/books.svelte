@@ -32,7 +32,7 @@
       <img src="/books/fuyud.jpg" alt="Image 2" />
     </SwiperSlide>
     <SwiperSlide>
-      <img src="/books/maslak.png" alt="Image 2" />
+      <img src="/books/maslak.jpg" alt="Image 2" />
     </SwiperSlide>
     <SwiperSlide>
       <img src="/books/qawanin.jpg" alt="Image 2" />
@@ -47,10 +47,10 @@
       <img src="/books/tuhfah.jpg" alt="Image 2" />
     </SwiperSlide>
     <SwiperSlide>
-      <img src="/books/manar.png" alt="Image 2" />
+      <img src="/books/manar.jpg" alt="Image 2" />
     </SwiperSlide>
     <SwiperSlide>
-      <img src="/books/miftah.png" alt="Image 2" />
+      <img src="/books/miftah.jpg" alt="Image 2" />
     </SwiperSlide>
     <SwiperSlide>
       <img src="/books/suyuti.jpg" alt="Image 2" />
@@ -71,7 +71,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 18px;
+    border-radius: 12px;
     font-size: 22px;
     font-weight: bold;
     color: #fff;

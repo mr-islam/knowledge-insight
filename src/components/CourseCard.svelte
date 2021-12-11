@@ -1,10 +1,10 @@
 <script>
-  export let title, desc, src, level, link, book;
+  export let title, desc, src, level, book, id;
 </script>
 
-<a href={link}>
+<a href={`/courses/${id}`}>
   <div class="card-course">
-    <img {src} />
+    <img {src} alt={book} />
     <div class="card-inner">
       <h3>{book}</h3>
       <subtitle>{title}</subtitle>
@@ -15,6 +15,9 @@
 </a>
 
 <style>
+  h3 {
+    margin-bottom: 0;
+  }
   div.card-course {
     display: flex;
     flex-direction: row;
