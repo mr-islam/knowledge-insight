@@ -40,13 +40,12 @@
     margin: 0 5px 0 15px;
   }
   img {
-    height: auto;
-    width: auto;
-    max-width: 100px;
-    max-height: 150px;
+    /* height: auto; */
+    /* width: auto; */
+    /* max-width: 100px; */
+    max-height: 163px;
     border-radius: 8px;
-    height: auto;
-    margin-left: 10px;
+    /* margin-left: 10px; */
   }
   a {
     color: var(--text-color);
