@@ -28,7 +28,7 @@
       action: "later",
     },
     {
-      title: $t("Fiqh Level 1"),
+      title: $t("Fiqh: Worship 1"),
       desc: $t("Worshipping Allah Almighty the way He commanded."),
       tags: ["fiqh", "fard"],
       src: "/books/maslak.png",
@@ -39,27 +39,36 @@
       price: "",
       action: "later",
     },
+    {
+      title: $t("Fiqh: Interactions 1"),
+      desc: $t("Being with Allah's creation the way He commanded."),
+      tags: ["fiqh", "fard"],
+      src: "/books/quduri.jpg",
+      level: "1",
+      link: "/courses/fiqh-1",
+      id: "fiqh/ibadat/1",
+      book: "Al-Quduri",
+      price: "",
+      action: "later",
+    },
   ];
   let searchTerm = "fard";
-    function setSearch(tag) {
-      searchTerm = tag
-    }
 
   $: filteredCourses = courses.filter((course) => {
-    return course.tags.find(tag => tag.includes(searchTerm))
+    return course.tags.find((tag) => tag.includes(searchTerm));
   });
 </script>
 
 <h1 id="courses">{$t("courses.title")}</h1>
 
 <p id="id_work_days">
-  <label><input type="radio" name="work_days" value="1"><span>sun</span></label>
-  <label><input type="radio" name="work_days" value="2"><span>mon</span></label>
-  <label><input type="radio" name="work_days" value="3"><span>tue</span></label>
-  <label><input type="radio" name="work_days" value="4"><span>wed</span></label>
-  <label><input type="radio" name="work_days" value="5"><span>thu</span></label>
-  <label><input type="radio" name="work_days" value="6"><span>fri</span></label>
-  <label><input type="radio" name="work_days" value="7"><span>sat</span></label>
+  <label><input type="radio" bind:group={searchTerm} value="fard" /><span>Fard</span></label>
+  <label><input type="radio" bind:group={searchTerm} value="tajwid" /><span>tajwid</span></label>
+  <label><input type="radio" bind:group={searchTerm} value="fiqh" /><span>fiqh</span></label>
+  <label><input type="radio" bind:group={searchTerm} value="hadith" /><span>hadith</span></label>
+  <label><input type="radio" bind:group={searchTerm} value="quran" /><span>quran</span></label>
+  <label><input type="radio" bind:group={searchTerm} value="tasawwuf" /><span>tasawwuf</span></label>
+  <label><input type="radio" bind:group={searchTerm} value="" /><span>all</span></label>
 </p>
 
 <div class="gallery">
@@ -85,20 +94,20 @@
     }
   }
   #id_work_days input[type="radio"] {
-  display: none;
-}
+    display: none;
+  }
 
-#id_work_days span {
-  display: inline-block;
-  padding: 10px;
-  text-transform: uppercase;
-  border: 2px solid gold;
-  border-radius: 3px;
-  color: gold;
-}
+  #id_work_days span {
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+    border: 2px solid gold;
+    border-radius: 3px;
+    color: gold;
+  }
 
-#id_work_days input[type="radio"]:checked + span {
-  background-color: gold;
-  color: black;
-}
+  #id_work_days input[type="radio"]:checked + span {
+    background-color: gold;
+    color: black;
+  }
 </style>
