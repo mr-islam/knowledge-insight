@@ -30,7 +30,7 @@
     {
       title: $t("Fiqh Level 1"),
       desc: $t("Worshipping Allah Almighty the way He commanded."),
-      tags: ["hadith-uloom"],
+      tags: ["fiqh", "fard"],
       src: "/books/maslak.png",
       level: "1",
       link: "/courses/fiqh-1",
@@ -40,16 +40,30 @@
       action: "later",
     },
   ];
-  let searchTerm = "tajwid";
+  let searchTerm = "fard";
+    function setSearch(tag) {
+      searchTerm = tag
+    }
+
   $: filteredCourses = courses.filter((course) => {
-    course.tags.find(tag => tag.includes(searchTerm))
+    return course.tags.find(tag => tag.includes(searchTerm))
   });
 </script>
 
 <h1 id="courses">{$t("courses.title")}</h1>
 
+<p id="id_work_days">
+  <label><input type="radio" name="work_days" value="1"><span>sun</span></label>
+  <label><input type="radio" name="work_days" value="2"><span>mon</span></label>
+  <label><input type="radio" name="work_days" value="3"><span>tue</span></label>
+  <label><input type="radio" name="work_days" value="4"><span>wed</span></label>
+  <label><input type="radio" name="work_days" value="5"><span>thu</span></label>
+  <label><input type="radio" name="work_days" value="6"><span>fri</span></label>
+  <label><input type="radio" name="work_days" value="7"><span>sat</span></label>
+</p>
+
 <div class="gallery">
-  {#each courses as course}
+  {#each filteredCourses as course}
     <CourseCard {...course} />
   {/each}
 </div>
@@ -70,4 +84,21 @@
       flex-direction: column;
     }
   }
+  #id_work_days input[type="radio"] {
+  display: none;
+}
+
+#id_work_days span {
+  display: inline-block;
+  padding: 10px;
+  text-transform: uppercase;
+  border: 2px solid gold;
+  border-radius: 3px;
+  color: gold;
+}
+
+#id_work_days input[type="radio"]:checked + span {
+  background-color: gold;
+  color: black;
+}
 </style>
