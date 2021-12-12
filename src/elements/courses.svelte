@@ -6,7 +6,7 @@
     {
       title: $t("courses.tajwid1.title"),
       desc: $t("courses.tajwid1.desc_short"),
-      tags: ["tajwid", "fard"],
+      tags: ["nazari", "fard"],
       src: "/books/tajwid1.jpg",
       level: 1,
       id: "tajwid/qaida",
@@ -19,7 +19,7 @@
       id: "tajwid/hidayatrahman",
       title: $t("Tajwid: Level 1"),
       desc: $t("Contuining learning the traits and places of letters"),
-      tags: ["tajwid"],
+      tags: ["nazari"],
       src: "/books/hidayatrahman.jpg",
       level: 1,
       book: "Hidayah al-Rahman",
@@ -31,7 +31,7 @@
       id: "tajwid/thani",
       title: $t("Tajwid: Level 2"),
       desc: $t("Add more depth to your knowledge of law,"),
-      tags: ["tajwid"],
+      tags: ["nazari"],
       src: "/books/thani.jpg",
       level: 2,
       book: "Al-Mustawa al-Thani",
@@ -55,7 +55,7 @@
       id: "hadith/matn/adab",
       title: $t("Hadith: Text 2"),
       desc: $t("Bring light to your every action with Prophetic guidance"),
-      tags: ["hadith"],
+      tags: ["hadith-matn"],
       src: "/books/adab.jpg",
       level: 2,
       book: "Al-Adab al-Mufrad",
@@ -67,7 +67,7 @@
       id: "hadith/matn/riyad",
       title: $t("Hadith: Text 3"),
       desc: $t("Take delight in the meadow of the righteous"),
-      tags: ["hadith"],
+      tags: ["hadith-matn"],
       src: "/books/riyad.jpg",
       level: 3,
       book: "Riyad al-Salihin",
@@ -78,7 +78,7 @@
     {
       title: $t("Fiqh: Worship 1"),
       desc: $t("Worshipping Allah Almighty the way He commanded."),
-      tags: ["fiqh", "fard"],
+      tags: ["ahkam", "fard"],
       src: "/books/maslak.jpg",
       level: 1,
       id: "fiqh/maslak",
@@ -91,7 +91,7 @@
       id: "fiqh/quduri",
       title: $t("Fiqh: Interactions 1"),
       desc: $t("Being with Allah's creation the way He commanded."),
-      tags: ["fiqh", "fard"],
+      tags: ["ahkam", "fard"],
       src: "/books/quduri.jpg",
       level: 1,
       book: "Al-Quduri",
@@ -103,7 +103,7 @@
       id: "fiqh/lubab",
       title: $t("Fiqh: Level 2"),
       desc: $t("Add more depth to your knowledge of law,"),
-      tags: ["fiqh"],
+      tags: ["ahkam"],
       src: "/books/lubab.jpg",
       level: 2,
       book: "Al-Lubab",
@@ -117,7 +117,7 @@
       desc: $t(
         "The tools to interact with Hadith and understand it's scholars"
       ),
-      tags: ["hadith"],
+      tags: ["hadith-ulum"],
       src: "/books/bayquni.jpg",
       level: 1,
       book: "Sharh al-Bayquni",
@@ -129,7 +129,7 @@
       id: "hadith/ulum/nuzhah",
       title: $t("Hadith: Terminology 2"),
       desc: $t("Being with Allah's creation the way He commanded."),
-      tags: ["hadith"],
+      tags: ["hadith-ulum"],
       src: "/books/nuzhah.jpg",
       level: 2,
       book: "Nuzhah al-Nazar",
@@ -225,7 +225,7 @@
       id: "fiqh/hidayah",
       title: $t("Fiqh: Level 4"),
       desc: $t("The mother book of the Madhhab"),
-      tags: ["fiqh"],
+      tags: ["ahkam"],
       src: "/books/hidayah.jpg",
       level: 4,
       book: "Al-Hidayah",
@@ -237,7 +237,7 @@
       id: "fiqh/rad",
       title: $t("Fiqh: Level 5"),
       desc: $t("The relied upon book for rulings and mastery"),
-      tags: ["fiqh"],
+      tags: ["ahkam"],
       src: "/books/rad.jpg",
       level: 5,
       book: "Radd al-Muhtar",
@@ -249,7 +249,7 @@
       id: "fiqh/maram",
       title: $t("Fiqh: Evidences 1"),
       desc: $t("The relied upon book for rulings and mastery"),
-      tags: ["fiqh"],
+      tags: ["usul"],
       src: "/books/maram.jpg",
       level: 3,
       book: "Sharh Bulugh al-Maram",
@@ -261,7 +261,7 @@
       id: "fiqh/isad",
       title: $t("Fiqh: Rulings 1"),
       desc: $t("A poem and explanation on the rulings of giving rulings"),
-      tags: ["fiqh"],
+      tags: ["usul"],
       src: "/books/isad.jpg",
       level: 3,
       book: "Sharh Uqud Rasm al-Mufti",
@@ -270,10 +270,10 @@
       registration: "",
     },
     {
-      id: "tafsir/nasafi",
+      id: "tafsir/zahir/nasafi",
       title: $t("Tafsir: External 2"),
       desc: $t("A summary of some of the most important tafsir"),
-      tags: ["tafsir"],
+      tags: ["zahir"],
       src: "/books/nasafi.jpg",
       level: 2,
       book: "Tafsir al-Nasafi",
@@ -285,7 +285,7 @@
       id: "hadith/ulum/tadrib",
       title: $t("Hadith: Terminology 4"),
       desc: $t("The level for complete campacity in hadith science"),
-      tags: ["hadith"],
+      tags: ["hadith-ulum"],
       src: "/books/tadrib.jpg",
       level: 4,
       book: "Tadrib al-Rawi",
@@ -317,6 +317,18 @@
       price: "",
       registration: "",
     },
+    {
+      id: "tafsir/ishari/mawaqif",
+      title: $t("Tafsir: Ishari 3"),
+      desc: $t(""),
+      tags: ["ishari"],
+      src: "/books/mawaqif.jpg",
+      level: 3,
+      book: "Al-Mawaqif al-Ruhaniyyah",
+      action: "later",
+      price: "",
+      registration: "",
+    },
   ];
   let searchTerm = "fard";
   $: console.log(searchTerm);
@@ -342,32 +354,33 @@
     ></label
   >
   <label
-    ><input type="radio" bind:group={searchTerm} value="fiqh" /><span>fiqh</span
+    ><input type="radio" bind:group={searchTerm} value="ahkam" /><span
+      >fiqh & Its Principles</span
     ></label
   >
   <label
-    ><input type="radio" bind:group={searchTerm} value="hadith" /><span
-      >hadith</span
+    ><input type="radio" bind:group={searchTerm} value="matn" /><span
+      >hadith & Its sciences</span
     ></label
   >
   <label
-    ><input type="radio" bind:group={searchTerm} value="tajwid" /><span
-      >tajwid</span
+    ><input type="radio" bind:group={searchTerm} value="zahir" /><span
+      >Quran & Its Sciences</span
     ></label
   >
   <label
-    ><input type="radio" bind:group={searchTerm} value="tafsir" /><span
-      >tafsir</span
-    ></label
-  >
-  <label
-    ><input type="radio" bind:group={searchTerm} value="tasawwuf" /><span
+    ><input type="radio" bind:group={searchTerm} value="suluk" /><span
       >tasawwuf</span
     ></label
   >
   <label
     ><input type="radio" bind:group={searchTerm} value="natiq" /><span
       >Arabic for Non-Natives</span
+    ></label
+  >
+  <label
+    ><input type="radio" bind:group={searchTerm} value="nahw" /><span
+      >Arabic & Its Sciences</span
     ></label
   >
   <label
@@ -400,7 +413,75 @@
       ></label
     >
   </p>
-{:else}{/if}
+{:else if searchTerm == "tafsir" || searchTerm == "zahir" || searchTerm == "ishari" || searchTerm == "tajwid" || searchTerm == "nazari" || searchTerm == "amali"}
+  <p id="tag-container">
+    <label
+      ><input type="radio" bind:group={searchTerm} value="nazari" /><span
+        >Tajwid: Theory</span
+      ></label
+    >
+    <label
+      ><input type="radio" bind:group={searchTerm} value="amali" /><span
+        >Tajwid: Practice</span
+      ></label
+    >
+
+    <label
+      ><input type="radio" bind:group={searchTerm} value="zahir" /><span
+        >Tafsir: Zahir</span
+      ></label
+    >
+    <label
+      ><input type="radio" bind:group={searchTerm} value="ishari" /><span
+        >Tafsir: Ishari</span
+      ></label
+    >
+  </p>
+{:else if searchTerm == "hadith" || searchTerm == "matn" || searchTerm == "ulum"}
+  <p id="tag-container">
+    <label
+      ><input type="radio" bind:group={searchTerm} value="matn" /><span
+        >Texts</span
+      ></label
+    >
+    <label
+      ><input type="radio" bind:group={searchTerm} value="ulum" /><span
+        >Sciences</span
+      ></label
+    >
+  </p>
+{:else if searchTerm == "fiqh" || searchTerm == "ahkam" || searchTerm == "usul"}
+  <p id="tag-container">
+    <label
+      ><input type="radio" bind:group={searchTerm} value="ahkam" /><span
+        >Rulings</span
+      ></label
+    >
+    <label
+      ><input type="radio" bind:group={searchTerm} value="usul" /><span
+        >Principles</span
+      ></label
+    >
+  </p>
+{:else if searchTerm == "arabi" || searchTerm == "nahw" || searchTerm == "sarf" || searchTerm == "balaghah"}
+  <p id="tag-container">
+    <label
+      ><input type="radio" bind:group={searchTerm} value="nahw" /><span
+        >nahw</span
+      ></label
+    >
+    <label
+      ><input type="radio" bind:group={searchTerm} value="sarf" /><span
+        >sarf</span
+      ></label
+    >
+    <label
+      ><input type="radio" bind:group={searchTerm} value="balaghah" /><span
+        >balaghah</span
+      ></label
+    >
+  </p>
+{/if}
 
 <div class="gallery">
   {#each filteredCourses as course}
@@ -427,6 +508,7 @@
 
   #tag-container {
     text-align: center;
+    user-select: none;
   }
   #tag-container input[type="radio"] {
     display: none;
