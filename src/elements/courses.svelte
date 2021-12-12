@@ -1,7 +1,6 @@
 <script>
   import CourseCard from "../components/CourseCard.svelte";
   import { t, locale, locales } from "svelte-intl-precompile";
-  import { slimscroll } from "svelte-slimscroll";
 
   let courses = [
     {
