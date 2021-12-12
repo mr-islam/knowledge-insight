@@ -13,9 +13,11 @@
     </div>
   </div>
   <div>
-    <a href="#courses">{$t("courses.title")}</a>
+    <a href="/#courses">{$t("courses.title")}</a>
     &middot
-    <a>About</a>
+    <a href="/#articles">Articles</a>
+    &middot
+    <a href="/#about">About</a>
     &middot
     <select
       id="select-lang"

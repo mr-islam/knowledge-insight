@@ -5,6 +5,7 @@
 <container>
     <h1>Articles</h1>
 <a href="/articles/fard-ayn">The Mandatory Knowledge Every Muslim Must Learn →</a>
+  <a target="_blank"  href="/articles/curing-laziness" id="about"
 </container>
 
 
