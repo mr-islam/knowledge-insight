@@ -292,10 +292,34 @@
       action: "later",
       price: "",
       registration: "",
-    }
+    },
+    {
+      id: "tasawwuf/suluk/tuhfah",
+      title: $t("Spirituality: Seeking 2"),
+      desc: $t("A summary of Imam al-Ghazzali's Ihya"),
+      tags: ["suluk"],
+      src: "/books/tuhfah.jpg",
+      level: 2,
+      book: "Tuhfah al-Salikin",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "tasawwuf/irfan/qawanin",
+      title: $t("Spirituality: Reaching 2"),
+      desc: $t("Insights and illuminations for all wayfarers"),
+      tags: ["irfan"],
+      src: "/books/qawanin.jpg",
+      level: 2,
+      book: "Qawanin Hikam al-Ishraq",
+      action: "later",
+      price: "",
+      registration: "",
+    },
   ];
   let searchTerm = "fard";
-
+  $: console.log(searchTerm);
   $: filteredCourses = courses.filter((course) => {
     return course.tags.find((tag) => tag.includes(searchTerm));
   });
@@ -305,11 +329,16 @@
 
 <p id="tag-container">
   <label
+    ><input type="radio" bind:group={searchTerm} value="" /><span>all</span
+    ></label
+  >
+  <label
     ><input type="radio" bind:group={searchTerm} value="fard" /><span>Fard</span
     ></label
   >
   <label
-    ><input type="radio" bind:group={searchTerm} value="aqida" /><span>Beliefs</span
+    ><input type="radio" bind:group={searchTerm} value="aqida" /><span
+      >Beliefs</span
     ></label
   >
   <label
@@ -337,10 +366,41 @@
     ></label
   >
   <label
-    ><input type="radio" bind:group={searchTerm} value="" /><span>all</span
+    ><input type="radio" bind:group={searchTerm} value="natiq" /><span
+      >Arabic for Non-Natives</span
+    ></label
+  >
+  <label
+    ><input type="radio" bind:group={searchTerm} value="misc" /><span
+      >Various</span
+    ></label
+  >
+  <label
+    ><input type="radio" bind:group={searchTerm} value="barnamij" /><span
+      >Programs</span
+    ></label
+  >
+  <label
+    ><input type="radio" bind:group={searchTerm} value="sirah" /><span
+      >Seerah</span
     ></label
   >
 </p>
+
+{#if searchTerm == "tasawwuf" || searchTerm == "suluk" || searchTerm == "irfan"}
+  <p id="tag-container">
+    <label
+      ><input type="radio" bind:group={searchTerm} value="suluk" /><span
+        >Seeking</span
+      ></label
+    >
+    <label
+      ><input type="radio" bind:group={searchTerm} value="irfan" /><span
+        >Reaching</span
+      ></label
+    >
+  </p>
+{:else}{/if}
 
 <div class="gallery">
   {#each filteredCourses as course}
