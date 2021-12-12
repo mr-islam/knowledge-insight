@@ -419,7 +419,7 @@
 </div>
 
 {#if searchTerm == "tasawwuf" || searchTerm == "suluk" || searchTerm == "irfan"}
-  <p id="tag-container">
+  <p id="sub-container">
     <label
       ><input type="radio" bind:group={searchTerm} value="suluk" /><span
         >Seeking</span
@@ -432,7 +432,7 @@
     >
   </p>
 {:else if searchTerm == "tafsir" || searchTerm == "zahir" || searchTerm == "ishari" || searchTerm == "tajwid" || searchTerm == "nazari" || searchTerm == "amali"}
-  <p id="tag-container">
+  <p id="sub-container">
     <label
       ><input type="radio" bind:group={searchTerm} value="nazari" /><span
         >Tajwid: Theory</span
@@ -456,7 +456,7 @@
     >
   </p>
 {:else if searchTerm == "hadith" || searchTerm == "matn" || searchTerm == "ulum"}
-  <p id="tag-container">
+  <p id="sub-container">
     <label
       ><input type="radio" bind:group={searchTerm} value="matn" /><span
         >Texts</span
@@ -469,7 +469,7 @@
     >
   </p>
 {:else if searchTerm == "fiqh" || searchTerm == "ahkam" || searchTerm == "usul"}
-  <p id="tag-container">
+  <p id="sub-container">
     <label
       ><input type="radio" bind:group={searchTerm} value="ahkam" /><span
         >Rulings</span
@@ -482,7 +482,7 @@
     >
   </p>
 {:else if searchTerm == "arabi" || searchTerm == "nahw" || searchTerm == "sarf" || searchTerm == "balaghah"}
-  <p id="tag-container">
+  <p id="sub-container">
     <label
       ><input type="radio" bind:group={searchTerm} value="nahw" /><span
         >nahw</span
@@ -580,6 +580,48 @@
   #tag-container input[type="radio"]:checked + span {
     background-color: #ebffde;
     border: 2px solid #90d344;
+
+    color: black;
+  }
+
+/*  */
+  #sub-container {
+    /* display: flex; */
+    /* max-width: 100%; */
+    /* overflow: scroll; */
+    text-align: center;
+    user-select: none;
+    flex-direction: row;
+    margin-bottom: 25px;
+    align-items: center;
+    justify-items: center;
+    font-size: smaller;
+
+  scrollbar-color: gold white;
+
+  }
+  #sub-container input[type="radio"] {
+    display: none;
+  }
+
+  #sub-container span {
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    text-transform: capitalize;
+    /* background-color: #fbfff9; */
+    /* border: 2px dashed #90d344; */
+    border-radius: 4px;
+    color: #273912;
+  }
+  #sub-container span:hover {
+    /* background-color: #ebffde; */
+  }
+
+  #sub-container input[type="radio"]:checked + span {
+    background-color: rgb(255, 242, 172);
+    border: 2px solid gold;
 
     color: black;
   }
