@@ -295,12 +295,24 @@
     },
     {
       id: "tasawwuf/suluk/tuhfah",
-      title: $t("Spirituality: Seeking 2"),
+      title: $t("Spirituality: Seeking 1"),
       desc: $t("A summary of Imam al-Ghazzali's Ihya"),
-      tags: ["suluk"],
+      tags: ["fard", "suluk"],
       src: "/books/tuhfah.jpg",
-      level: 2,
+      level: 1,
       book: "Tuhfah al-Salikin",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "tasawwuf/suluk/fuyud",
+      title: $t("Spirituality: Seeking 1"),
+      desc: $t("An abridged collection of oaths the Holy Prophet ﷺ took from us"),
+      tags: ["fard", "suluk"],
+      src: "/books/fuyud.jpg",
+      level: 1,
+      book: "Al-Fuyud al-Ahmadiyyah",
       action: "later",
       price: "",
       registration: "",
@@ -347,7 +359,7 @@
     >
     <label
       ><input type="radio" bind:group={searchTerm} value="fard" /><span
-        >Fard</span
+        >Obligatory</span
       ></label
     >
     <label
