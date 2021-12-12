@@ -1,6 +1,7 @@
 <script>
   import CourseCard from "../components/CourseCard.svelte";
   import { t, locale, locales } from "svelte-intl-precompile";
+  import { slimscroll } from "svelte-slimscroll";
 
   let courses = [
     {
@@ -308,7 +309,9 @@
     {
       id: "tasawwuf/suluk/fuyud",
       title: $t("Spirituality: Seeking 1"),
-      desc: $t("An abridged collection of oaths the Holy Prophet ﷺ took from us"),
+      desc: $t(
+        "An abridged collection of oaths the Holy Prophet ﷺ took from us"
+      ),
       tags: ["fard", "suluk"],
       src: "/books/fuyud.jpg",
       level: 1,
@@ -504,7 +507,7 @@
   {/each}
 </div>
 
-<div style="" id="articles"></div>
+<div style="" id="articles" />
 
 <style>
   div.gallery {
@@ -525,17 +528,36 @@
   }
   #tag-container {
     display: flex;
-    overflow: hidden;
+    /* max-width: 100%; */
+    overflow: scroll;
     text-align: center;
     user-select: none;
     flex-direction: row;
     margin-bottom: 25px;
+    align-items: center;
+    justify-items: center;
+    font-size: smaller;
+
+  scrollbar-color: gold white;
+
   }
   #tag-container > div {
     flex: 0 0 auto;
-    overflow: scroll;
+    padding-bottom: 5px;
+    /* overflow: scroll; */
   }
-
+  #tag-container::-webkit-scrollbar {
+    margin-top: 20px;
+    height: 10px;
+  }
+  #tag-container::-webkit-scrollbar-track {
+    background: white;
+  }
+  #tag-container::-webkit-scrollbar-thumb {
+    background-color: gold;
+    border-radius: 6px;
+    /* border: 2px solid rgba(71, 119, 0, 0.493) */
+  }
   #tag-container input[type="radio"] {
     display: none;
   }
