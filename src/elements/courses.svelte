@@ -17,11 +17,11 @@
     },
     {
       id: "tajwid/hidayatrahman",
-      title: $t("Tajwid: Level 1"),
+      title: $t("Tajwid: Level 2"),
       desc: $t("Contuining learning the traits and places of letters"),
       tags: ["nazari"],
       src: "/books/hidayatrahman.jpg",
-      level: 1,
+      level: 2,
       book: "Hidayah al-Rahman",
       action: "later",
       price: "",
@@ -29,11 +29,11 @@
     },
     {
       id: "tajwid/thani",
-      title: $t("Tajwid: Level 2"),
+      title: $t("Tajwid: Level 3"),
       desc: $t("Add more depth to your knowledge of law,"),
       tags: ["nazari"],
       src: "/books/thani.jpg",
-      level: 2,
+      level: 3,
       book: "Al-Mustawa al-Thani",
       action: "later",
       price: "",
@@ -44,21 +44,9 @@
       title: $t("Open-book Recitation"),
       desc: $t(""),
       tags: ["amali"],
-      src: "",
+      src: "/books/mushaf.jpg",
       level: 1,
       book: "Juz 30: ʿAmma",
-      action: "later",
-      price: "",
-      registration: "",
-    },
-    {
-      id: "tajwid/baqara",
-      title: $t("Open-book Recitation"),
-      desc: $t(""),
-      tags: ["amali"],
-      src: "",
-      level: 2,
-      book: "Surah al-Baqara",
       action: "later",
       price: "",
       registration: "",
@@ -68,7 +56,7 @@
       title: $t("Open-book Recitation"),
       desc: $t(""),
       tags: ["amali"],
-      src: "",
+      src: "/books/mushaf.jpg",
       level: 3,
       book: "The Entire Quran",
       action: "later",
@@ -80,7 +68,7 @@
       title: $t("Reciting from Memory"),
       desc: $t(""),
       tags: ["amali"],
-      src: "",
+      src: "/books/mushaf.jpg",
       level: 4,
       book: "The Entire Quran for Ijaza",
       action: "later",
@@ -232,13 +220,25 @@
       registration: "",
     },
     {
+      title: $t("Fiqh: Worship 2"),
+      desc: $t("Worshipping Allah Almighty the way He commanded."),
+      tags: ["ahkam"],
+      src: "/books/maslak.jpg",
+      level: 2,
+      id: "fiqh/maslak",
+      book: "Maslak al-Najah",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
       title: $t("Fiqh: Worship 1"),
       desc: $t("Worshipping Allah Almighty the way He commanded."),
       tags: ["ahkam", "fard"],
       src: "/books/maslak.jpg",
       level: 1,
       id: "fiqh/maslak",
-      book: "Maslak al-Najah",
+      book: "Nur al-Idah",
       action: "later",
       price: "",
       registration: "",
@@ -247,7 +247,7 @@
       id: "fiqh/quduri",
       title: $t("Fiqh: Interactions 1"),
       desc: $t("Being with Allah's creation the way He commanded."),
-      tags: ["ahkam", "fard"],
+      tags: ["fard"],
       src: "/books/quduri.jpg",
       level: 1,
       book: "Al-Quduri",
@@ -512,7 +512,9 @@
     {
       id: "tafsir/zahir/durrah",
       title: $t("Tafsir: External 1"),
-      desc: $t("A contemporary tafsir that provides the cream of those before it"),
+      desc: $t(
+        "A contemporary tafsir that provides the cream of those before it"
+      ),
       tags: ["zahir"],
       src: "",
       level: 1,
@@ -571,11 +573,11 @@
     },
     {
       id: "tasawwuf/tuhfah",
-      title: $t("Spirituality: Seeking 1"),
+      title: $t("Spirituality"),
       desc: $t("A summary of Imam al-Ghazzali's Ihya"),
       tags: ["fard", "suluk"],
       src: "/books/tuhfah.jpg",
-      level: 1,
+      level: 6,
       book: "Tuhfah al-Salikin",
       action: "later",
       price: "",
@@ -583,25 +585,25 @@
     },
     {
       id: "tasawwuf/taj",
-      title: $t("Spirituality: Seeking 1"),
+      title: $t("Spirituality"),
       desc: $t("A summary of Imam al-Ghazzali's Ihya"),
       tags: ["suluk"],
       src: "/books/taj.jpg",
-      level: 1,
+      level: 2,
       book: "Taj al-Arus",
       action: "later",
       price: "",
       registration: "",
     },
     {
-      id: "tasawwuf/suluk/fuyud",
-      title: $t("Spirituality: Seeking 1"),
+      id: "tasawwuf/fuyud",
+      title: $t("Spirituality"),
       desc: $t(
         "An abridged collection of oaths the Holy Prophet ﷺ took from us"
       ),
       tags: ["fard", "suluk"],
       src: "/books/fuyud.jpg",
-      level: 1,
+      level: 4,
       book: "Al-Fuyud al-Ahmadiyyah",
       action: "later",
       price: "",
@@ -609,11 +611,11 @@
     },
     {
       id: "tasawwuf/qasd",
-      title: $t("Spirituality: Seeking 1"),
+      title: $t("Spirituality"),
       desc: $t(""),
       tags: ["suluk"],
       src: "/books/qasd.jpg",
-      level: 1,
+      level: 5,
       book: "Sharh al-Muntaqa min al-Qawaid",
       action: "later",
       price: "",
@@ -621,19 +623,19 @@
     },
     {
       id: "tasawwuf/uyub",
-      title: $t("Spirituality: Seeking 1"),
+      title: $t("Spirituality"),
       desc: $t(""),
       tags: ["suluk"],
-      src: "/books/uyub.jpg",
-      level: 1,
-      book: "Usub al-Nafs wa Adwiyatuha",
+      src: "",
+      level: 3,
+      book: "Uyub al-Nafs wa Adwiyatuha",
       action: "later",
       price: "",
       registration: "",
     },
     {
       id: "tasawwuf/bidayah",
-      title: $t("Spirituality: Seeking 1"),
+      title: $t("Spirituality"),
       desc: $t(""),
       tags: ["suluk"],
       src: "/books/bidayah.jpg",
@@ -645,11 +647,11 @@
     },
     {
       id: "tasawwuf/manazil",
-      title: $t("Spirituality: Seeking 1"),
+      title: $t("Spirituality"),
       desc: $t(""),
       tags: ["suluk"],
       src: "",
-      level: 2,
+      level: 7,
       book: "Manazil al-Saʾirin",
       action: "later",
       price: "",
@@ -657,11 +659,11 @@
     },
     {
       id: "tasawwuf/himam",
-      title: $t("Spirituality: Seeking 1"),
+      title: $t("Spirituality"),
       desc: $t(""),
       tags: ["suluk"],
       src: "",
-      level: 2,
+      level: 8,
       book: "Iqaz al-Himam",
       action: "later",
       price: "",
@@ -669,11 +671,11 @@
     },
     {
       id: "tasawwuf/mabahith",
-      title: $t("Spirituality: Seeking 1"),
+      title: $t("Spirituality"),
       desc: $t(""),
       tags: ["suluk"],
       src: "",
-      level: 2,
+      level: 6,
       book: "Sharh al-Mabahith al-Asliyyah",
       action: "later",
       price: "",
@@ -850,6 +852,26 @@
         ></label
       >
       <label
+        ><input type="radio" bind:group={searchTerm} value="barnamij" /><span
+          >Programs</span
+        ></label
+      >
+      <label
+        ><input type="radio" bind:group={searchTerm} value="nazari" /><span
+          >Quran Recitation & Tajwid</span
+        ></label
+      >
+      <label
+        ><input type="radio" bind:group={searchTerm} value="natiq" /><span
+          >Arabic for Non-Natives</span
+        ></label
+      >
+      <label
+        ><input type="radio" bind:group={searchTerm} value="nahw" /><span
+          >Arabic & Its Sciences</span
+        ></label
+      >
+      <label
         ><input type="radio" bind:group={searchTerm} value="aqida" /><span
           >Beliefs</span
         ></label
@@ -880,23 +902,8 @@
         ></label
       >
       <label
-        ><input type="radio" bind:group={searchTerm} value="natiq" /><span
-          >Arabic for Non-Natives</span
-        ></label
-      >
-      <label
-        ><input type="radio" bind:group={searchTerm} value="nahw" /><span
-          >Arabic & Its Sciences</span
-        ></label
-      >
-      <label
         ><input type="radio" bind:group={searchTerm} value="other" /><span
           >Various</span
-        ></label
-      >
-      <label
-        ><input type="radio" bind:group={searchTerm} value="barnamij" /><span
-          >Programs</span
         ></label
       >
     </div>
@@ -907,36 +914,38 @@
   <p id="sub-container">
     <label
       ><input type="radio" bind:group={searchTerm} value="suluk" /><span
-        >Seeking</span
+        >Self-purification & Suluk</span
       ></label
     >
     <label
       ><input type="radio" bind:group={searchTerm} value="irfan" /><span
-        >Reaching</span
+        >Higher Understandings</span
+      ></label
+    >
+  </p>
+{:else if searchTerm == "tajwid" || searchTerm == "nazari" || searchTerm == "amali"}
+  <p id="sub-container">
+    <label
+      ><input type="radio" bind:group={searchTerm} value="nazari" /><span
+        >Theory & Rules</span
+      ></label
+    >
+    <label
+      ><input type="radio" bind:group={searchTerm} value="amali" /><span
+        >Practical Recitation</span
       ></label
     >
   </p>
 {:else if searchTerm == "tafsir" || searchTerm == "zahir" || searchTerm == "ishari" || searchTerm == "tajwid" || searchTerm == "nazari" || searchTerm == "amali"}
   <p id="sub-container">
     <label
-      ><input type="radio" bind:group={searchTerm} value="nazari" /><span
-        >Tajwid: Theory</span
-      ></label
-    >
-    <label
-      ><input type="radio" bind:group={searchTerm} value="amali" /><span
-        >Tajwid: Practical</span
-      ></label
-    >
-
-    <label
       ><input type="radio" bind:group={searchTerm} value="zahir" /><span
-        >Tafsir: Zahir</span
+        >External Tafsir</span
       ></label
     >
     <label
       ><input type="radio" bind:group={searchTerm} value="ishari" /><span
-        >Tafsir: Ishari</span
+        >Ishari Tafsir</span
       ></label
     >
   </p>
@@ -944,12 +953,12 @@
   <p id="sub-container">
     <label
       ><input type="radio" bind:group={searchTerm} value="matn" /><span
-        >Texts</span
+        >Hadith Texts</span
       ></label
     >
     <label
       ><input type="radio" bind:group={searchTerm} value="ulum" /><span
-        >Sciences</span
+        >Hadith Sciences</span
       ></label
     >
   </p>
@@ -1027,19 +1036,20 @@
   #tag-container {
     display: flex;
     /* max-width: 100%; */
-    overflow: scroll;
+    /* overflow: scroll; */
+    gap: 20%;
     text-align: center;
     user-select: none;
     flex-direction: row;
     margin-bottom: 25px;
     align-items: center;
     justify-items: center;
-    font-size: smaller;
-
+    /* font-size: smaller; */
+    padding: 0 25px;
     scrollbar-color: gold white;
   }
   #tag-container > div {
-    flex: 0 0 auto;
+    /* flex: 0 0 auto; */
     padding-bottom: 5px;
     /* overflow: scroll; */
   }
