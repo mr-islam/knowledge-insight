@@ -8,7 +8,7 @@
       <span>🔗</span>
       <p>{$t("welcome.para_3")}</p>
     </div>
-    <div id="courses">
+    <div>
       <span>🌐</span>
 
       <p>

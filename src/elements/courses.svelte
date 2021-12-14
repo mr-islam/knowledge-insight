@@ -861,9 +861,9 @@
     });
 </script>
 
-<h1>{$t("courses.title")}</h1>
+<h1 id="courses">{$t("courses.title")}</h1>
 
-<div id="container2">
+<!-- <div id="container2">
   <div id="tag-container">
     <div>
       <label
@@ -896,7 +896,7 @@
         ></label
       >
       <label
-        ><input type="radio" bind:group={searchTerm} value="aqida" /><span
+        ><input type="radio" bind:group={searchTerm} value="aqidah" /><span
           >Beliefs</span
         ></label
       >
@@ -932,10 +932,61 @@
       >
     </div>
   </div>
+</div> -->
+
+<div id="grid">
+  <button
+    on:click={() => {
+      searchTerm = "fard";
+      window.location.href = "#gallery";
+    }}
+  >
+    Obligatory Knowledge
+  </button>
+  <a href="#gallery" on:click={() => (searchTerm = "program")}>
+    Bundle Programs
+  </a>
+  <a href="#section-title" on:click={() => (searchTerm = "nazari")}>
+    Quran Recitation & Tajwid
+  </a>
+  <a href="#gallery" on:click={() => (searchTerm = "arabi")}>
+    Arabic for Non-natives
+  </a>
+  <a href="#section-title" on:click={() => (searchTerm = "nahw")}>
+    Arabic & Its Sciences
+  </a>
+  <a href="#gallery" on:click={() => (searchTerm = "aqidah")}> Beliefs </a>
+  <a href="#section-title" on:click={() => (searchTerm = "ahkam")}>
+    Fiqh & Its Foundations
+  </a>
+  <a href="#section-title" on:click={() => (searchTerm = "suluk")}>
+    Sprituality
+  </a>
+  <a href="#section-title" on:click={() => (searchTerm = "zahir")}>
+    The Quran & Its Sciences
+  </a>
+  <a href="#section-title" on:click={() => (searchTerm = "matn")}>
+    Hadith & Its Sciences
+  </a>
+  <a href="#gallery" on:click={() => (searchTerm = "sirah")}>
+    Seerah & Shamail
+  </a>
+  <a href="#gallery" on:click={() => (searchTerm = "other")}>
+    Assorted Classes
+  </a>
 </div>
 
 {#if searchTerm == "tasawwuf" || searchTerm == "suluk" || searchTerm == "irfan"}
+  <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
+    Spirituality
+  </h3>
   <p id="sub-container">
+    <a
+      href="#grid"
+      on:click={() => (searchTerm = "islam")}
+      style="border: white; background-color: white; text-decoration: underline;"
+      >← Back</a
+    >
     <label
       ><input type="radio" bind:group={searchTerm} value="suluk" /><span
         >Self-purification & Suluk</span
@@ -948,7 +999,16 @@
     >
   </p>
 {:else if searchTerm == "tajwid" || searchTerm == "nazari" || searchTerm == "amali"}
+  <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
+    Tajwid
+  </h3>
   <p id="sub-container">
+    <a
+      href="#grid"
+      on:click={() => (searchTerm = "islam")}
+      style="border: white; background-color: white; text-decoration: underline;"
+      >← Back</a
+    >
     <label
       ><input type="radio" bind:group={searchTerm} value="nazari" /><span
         >Theory & Rules</span
@@ -961,7 +1021,16 @@
     >
   </p>
 {:else if searchTerm == "tafsir" || searchTerm == "zahir" || searchTerm == "ishari" || searchTerm == "tajwid" || searchTerm == "nazari" || searchTerm == "amali"}
+  <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
+    Tafsir
+  </h3>
   <p id="sub-container">
+    <a
+      href="#grid"
+      on:click={() => (searchTerm = "islam")}
+      style="border: white; background-color: white; text-decoration: underline;"
+      >← Back</a
+    >
     <label
       ><input type="radio" bind:group={searchTerm} value="zahir" /><span
         >External Tafsir</span
@@ -974,7 +1043,16 @@
     >
   </p>
 {:else if searchTerm == "hadith" || searchTerm == "matn" || searchTerm == "ulum"}
+  <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
+    Hadith
+  </h3>
   <p id="sub-container">
+    <a
+      href="#grid"
+      on:click={() => (searchTerm = "islam")}
+      style="border: white; background-color: white; text-decoration: underline;"
+      >← Back</a
+    >
     <label
       ><input type="radio" bind:group={searchTerm} value="matn" /><span
         >Hadith Texts</span
@@ -987,7 +1065,14 @@
     >
   </p>
 {:else if searchTerm == "fiqh" || searchTerm == "ahkam" || searchTerm == "usul" || searchTerm == "qawaid" || searchTerm == "dalil"}
+  <h3 id="section-title" style="margin-top: 5vh; text-align: center;">Fiqh</h3>
   <p id="sub-container">
+    <a
+      href="#grid"
+      on:click={() => (searchTerm = "islam")}
+      style="border: white; background-color: white; text-decoration: underline;"
+      >← Back</a
+    >
     <label
       ><input type="radio" bind:group={searchTerm} value="ahkam" /><span
         >Rulings</span
@@ -1010,7 +1095,16 @@
     >
   </p>
 {:else if searchTerm == "arabi" || searchTerm == "nahw" || searchTerm == "sarf" || searchTerm == "balaghah"}
+  <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
+    Arabic
+  </h3>
   <p id="sub-container">
+    <a
+      href="#grid"
+      on:click={() => (searchTerm = "islam")}
+      style="border: white; background-color: white; text-decoration: underline;"
+      >← Back</a
+    >
     <label
       ><input type="radio" bind:group={searchTerm} value="nahw" /><span
         >nahw</span
@@ -1027,38 +1121,71 @@
       ></label
     >
   </p>
-{/if}
+{:else}{/if}
+<!-- <h3 id="section-title" style="text-align: center;">{searchTerm} Courses</h3> -->
 
-<div class="gallery">
-  {#each filteredCourses as course}
-    <CourseCard {...course} />
-  {/each}
-</div>
+{#if filteredCourses !== "islam"}
+  <div id="gallery">
+    {#each filteredCourses as course}
+      <CourseCard {...course} />
+    {/each}
+    <br />
+    <a
+      href="#grid"
+      on:click={() => (searchTerm = "islam")}
+      style="border: white; background-color: white; text-decoration: underline;"
+      >← Back to Categories</a
+    >
+  </div>
+{/if}
 
 <div style="" id="articles" />
 
 <style>
+  div#grid > a {
+    width: 10vw;
+    height: 10vw;
+    text-align: center;
+    background: var(--primary-color);
+    border-radius: 4px;
+    border: 2px dashed #90d344;
+    padding: 10px;
+  }
+  a:hover,
+  a:focused {
+    background-color: black;
+  }
+  a > span {
+    vertical-align: middle;
+  }
+  div#grid {
+    row-gap: 10px;
+    column-gap: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 0 20px;
+    justify-items: center;
+    align-items: center;
+  }
   div#container2 {
     max-width: 100%;
   }
-  div.gallery {
+  div#gallery {
     min-width: 100%;
     flex: 1;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10vh;
+    margin: 5vh 0;
+    padding-bottom: 10vh;
   }
   @media only screen and (max-width: 600px) {
-    div.gallery {
+    div#gallery {
       flex-direction: column;
     }
   }
-  div#flex {
-  }
   #tag-container {
-    display: flex;
     /* max-width: 100%; */
     /* overflow: scroll; */
     gap: 20%;
@@ -1073,9 +1200,13 @@
     scrollbar-color: gold white;
   }
   #tag-container > div {
-    /* flex: 0 0 auto; */
     padding-bottom: 5px;
-    /* overflow: scroll; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  #tag-container > div > label > span {
+    min-width: 10vw;
+    min-height: 5vh;
   }
   #tag-container::-webkit-scrollbar {
     margin-top: 20px;
@@ -1097,7 +1228,7 @@
     font-weight: bold;
     cursor: pointer;
     display: inline-block;
-    padding: 10px;
+    padding: 20px;
     text-transform: capitalize;
     background-color: #fbfff9;
     border: 2px dashed #90d344;
@@ -1117,6 +1248,7 @@
 
   /*  */
   #sub-container {
+    margin-top: 30px;
     /* display: flex; */
     /* max-width: 100%; */
     /* overflow: scroll; */

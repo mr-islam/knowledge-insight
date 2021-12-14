@@ -42,7 +42,7 @@
     border: 4px solid var(--primary-color);
     left: 10vw;
     border-radius: 8px;
-    position: fixed;
+    position: absolute;
     top: 10px;
     width: 80vw;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
