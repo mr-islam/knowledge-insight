@@ -77,4 +77,10 @@
     color: #fff;
     background-color: #7e7e7e;
   }
+  @media only screen and (max-width: 600px) {
+    div :global(.swiper) {
+      width: 144px;
+      height: 200px;
+    }
+  }
 </style>
