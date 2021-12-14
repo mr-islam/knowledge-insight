@@ -2,17 +2,30 @@
   export let title, desc, src, level, book, id;
 </script>
 
-<a href={`/courses/${id}`}>
-  <div class="card-course">
-    <img {src} alt={book} />
-    <div class="card-inner">
-      <h3>{book}</h3>
-      <subtitle>{title}</subtitle>
-      <p>{desc}</p>
-      <!-- <span>{level}</span> -->
+{#if src}
+  <a href={`/courses/${id}`}>
+    <div class="card-course">
+      <img {src} alt={book} />
+      <div class="card-inner">
+        <h3>{book}</h3>
+        <subtitle>{title}</subtitle>
+        <p>{desc}</p>
+        <!-- <span>{level}</span> -->
+      </div>
     </div>
-  </div>
-</a>
+  </a>
+{:else}
+  <a href={`/courses/${id}`}>
+    <div class="card-course">
+      <div class="card-inner">
+        <h3>{book}</h3>
+        <subtitle>{title}</subtitle>
+        <p>{desc}</p>
+        <!-- <span>{level}</span> -->
+      </div>
+    </div>
+  </a>
+{/if}
 
 <style>
   h3 {
@@ -34,7 +47,8 @@
     transition: box-shadow ease 200ms;
   }
   div.card-course:hover {
-    box-shadow: rgba(44, 105, 70, 0.2) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    box-shadow: rgba(44, 105, 70, 0.2) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     top: -10px;
   }
   div.card-inner {

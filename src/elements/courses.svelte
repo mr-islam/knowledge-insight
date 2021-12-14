@@ -40,6 +40,54 @@
       registration: "",
     },
     {
+      id: "tajwid/amma",
+      title: $t("Open-book Recitation"),
+      desc: $t(""),
+      tags: ["amali"],
+      src: "",
+      level: 1,
+      book: "Juz 30: ʿAmma",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "tajwid/baqara",
+      title: $t("Open-book Recitation"),
+      desc: $t(""),
+      tags: ["amali"],
+      src: "",
+      level: 2,
+      book: "Surah al-Baqara",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "tajwid/reading",
+      title: $t("Open-book Recitation"),
+      desc: $t(""),
+      tags: ["amali"],
+      src: "",
+      level: 3,
+      book: "The Entire Quran",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "tajwid/reciting",
+      title: $t("Reciting from Memory"),
+      desc: $t(""),
+      tags: ["amali"],
+      src: "",
+      level: 4,
+      book: "The Entire Quran for Ijaza",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
       title: $t("courses.hadith1.title"),
       desc: $t("courses.hadith1.desc_short"),
       tags: ["hadith-matn"],
@@ -71,6 +119,114 @@
       src: "/books/riyad.jpg",
       level: 3,
       book: "Riyad al-Salihin",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "hadith/matn/bukhari",
+      title: $t("Hadith: Text 4"),
+      desc: $t("Take delight in the meadow of the righteous"),
+      tags: ["hadith-matn"],
+      src: "/books/bukhari.jpg",
+      level: 4,
+      book: "Sahih al-Bukhari",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "hadith/matn/muslim",
+      title: $t("Hadith: Text 4"),
+      desc: $t("Take delight in the meadow of the righteous"),
+      tags: ["hadith-matn"],
+      src: "/books/muslim.jpg",
+      level: 4,
+      book: "Sahih Muslim",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "hadith/matn/tirmidhi",
+      title: $t("Hadith: Text 5"),
+      desc: $t("Take delight in the meadow of the righteous"),
+      tags: ["hadith-matn"],
+      src: "/books/tirmidhi.jpg",
+      level: 5,
+      book: "Sunan al-Tirmidhi",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "hadith/matn/abudawud",
+      title: $t("Hadith: Text 5"),
+      desc: $t("Take delight in the meadow of the righteous"),
+      tags: ["hadith-matn"],
+      src: "/books/abudawud.jpg",
+      level: 5,
+      book: "Sunan Abu Dawud",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "hadith/matn/ibnmajah",
+      title: $t("Hadith: Text 5"),
+      desc: $t("Take delight in the meadow of the righteous"),
+      tags: ["hadith-matn"],
+      src: "/books/ibnmajah.jpg",
+      level: 5,
+      book: "Sunan ibn Majah",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "hadith/matn/nasai",
+      title: $t("Hadith: Text 4"),
+      desc: $t("Take delight in the meadow of the righteous"),
+      tags: ["hadith-matn"],
+      src: "/books/nasai.jpg",
+      level: 4,
+      book: "Sunan al-Nasai",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "hadith/matn/musnad",
+      title: $t("Hadith: Text 5"),
+      desc: $t("Take delight in the meadow of the righteous"),
+      tags: ["hadith-matn"],
+      src: "/books/musnad.jpg",
+      level: 5,
+      book: "Musnad Ahmad",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "hadith/matn/darimi",
+      title: $t("Hadith: Text 5"),
+      desc: $t("Take delight in the meadow of the righteous"),
+      tags: ["hadith-matn"],
+      src: "/books/darimi.jpg",
+      level: 5,
+      book: "Sunan al-Darimi",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "hadith/matn/muwatta",
+      title: $t("Hadith: Text 5"),
+      desc: $t("Take delight in the meadow of the righteous"),
+      tags: ["hadith-matn"],
+      src: "/books/muwatta.jpg",
+      level: 5,
+      book: "Al-Muwatta",
       action: "later",
       price: "",
       registration: "",
@@ -133,6 +289,18 @@
       src: "/books/nuzhah.jpg",
       level: 2,
       book: "Nuzhah al-Nazar",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "hadith/ulum/nuzhah",
+      title: $t("Hadith: Terminology 3"),
+      desc: $t("The work that changed the field"),
+      tags: ["hadith-ulum"],
+      src: "",
+      level: 3,
+      book: "Muqaddimah Ibn al-Salah",
       action: "later",
       price: "",
       registration: "",
@@ -249,22 +417,106 @@
       id: "fiqh/maram",
       title: $t("Fiqh: Evidences 1"),
       desc: $t("The relied upon book for rulings and mastery"),
-      tags: ["usul"],
+      tags: ["dalil"],
       src: "/books/maram.jpg",
-      level: 3,
+      level: 2,
       book: "Sharh Bulugh al-Maram",
       action: "later",
       price: "",
       registration: "",
     },
     {
+      id: "fiqh/ila",
+      title: $t("Fiqh: Principles 1"),
+      desc: $t("The definitive reference for hadith evidence for fiqh"),
+      tags: ["dalil"],
+      src: "",
+      level: 3,
+      book: "Ila al-Sunan",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "fiqh/ghamz",
+      title: $t("Fiqh: Rules 3"),
+      desc: $t("The standard across schools for this genre"),
+      tags: ["qawaid"],
+      src: "/books/ghamz.jpg",
+      level: 3,
+      book: "Ghamz al-Basair",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
       id: "fiqh/isad",
-      title: $t("Fiqh: Rulings 1"),
+      title: $t("Fiqh: Rules 1"),
+      desc: $t("A poem and explanation on the rulings of giving rulings"),
+      tags: ["qawaid"],
+      src: "/books/isad.jpg",
+      level: 1,
+      book: "Sharh Uqud Rasm al-Mufti",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "fiqh/sharhmanar",
+      title: $t("Fiqh: Rules 2"),
       desc: $t("A poem and explanation on the rulings of giving rulings"),
       tags: ["usul"],
-      src: "/books/isad.jpg",
-      level: 3,
-      book: "Sharh Uqud Rasm al-Mufti",
+      src: "/books/sharhmanar.jpg",
+      level: 2,
+      book: "Sharh al-Manar",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "fiqh/zaydan",
+      title: $t("Fiqh: Rules 1"),
+      desc: $t("A poem and explanation on the rulings of giving rulings"),
+      tags: ["qawaid"],
+      src: "/books/zaydan.jpg",
+      level: 1,
+      book: "Al-Wajiz Fi al-Qawaid",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "fiqh/zad",
+      title: $t("Fiqh: Rules 2"),
+      desc: $t("A poem and explanation on the rulings of giving rulings"),
+      tags: ["usul"],
+      src: "/books/zad.jpg",
+      level: 2,
+      book: "Sharh al-Manar",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "fiqh/manar",
+      title: $t("Fiqh: Rules 1"),
+      desc: $t("A poem and explanation on the rulings of giving rulings"),
+      tags: ["usul"],
+      src: "/books/manar.jpg",
+      level: 1,
+      book: "Sharh al-Manar",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "tafsir/zahir/durrah",
+      title: $t("Tafsir: External 1"),
+      desc: $t("A contemporary tafsir that provides the cream of those before it"),
+      tags: ["zahir"],
+      src: "",
+      level: 1,
+      book: "Durrah al-Tafasir",
       action: "later",
       price: "",
       registration: "",
@@ -282,6 +534,30 @@
       registration: "",
     },
     {
+      id: "tafsir/baydawi",
+      title: $t("Tafsir: External 3"),
+      desc: $t(""),
+      tags: ["zahir"],
+      src: "",
+      level: 3,
+      book: "Tafsir al-Baydawi",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "tafsir/qurtubi",
+      title: $t("Tafsir: External 4"),
+      desc: $t(""),
+      tags: ["zahir"],
+      src: "",
+      level: 4,
+      book: "Tafsir al-Qurtubi",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
       id: "hadith/ulum/tadrib",
       title: $t("Hadith: Terminology 4"),
       desc: $t("The level for complete campacity in hadith science"),
@@ -294,13 +570,25 @@
       registration: "",
     },
     {
-      id: "tasawwuf/suluk/tuhfah",
+      id: "tasawwuf/tuhfah",
       title: $t("Spirituality: Seeking 1"),
       desc: $t("A summary of Imam al-Ghazzali's Ihya"),
       tags: ["fard", "suluk"],
       src: "/books/tuhfah.jpg",
       level: 1,
       book: "Tuhfah al-Salikin",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "tasawwuf/taj",
+      title: $t("Spirituality: Seeking 1"),
+      desc: $t("A summary of Imam al-Ghazzali's Ihya"),
+      tags: ["suluk"],
+      src: "/books/taj.jpg",
+      level: 1,
+      book: "Taj al-Arus",
       action: "later",
       price: "",
       registration: "",
@@ -320,7 +608,127 @@
       registration: "",
     },
     {
-      id: "tasawwuf/irfan/qawanin",
+      id: "tasawwuf/qasd",
+      title: $t("Spirituality: Seeking 1"),
+      desc: $t(""),
+      tags: ["suluk"],
+      src: "/books/qasd.jpg",
+      level: 1,
+      book: "Sharh al-Muntaqa min al-Qawaid",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "tasawwuf/uyub",
+      title: $t("Spirituality: Seeking 1"),
+      desc: $t(""),
+      tags: ["suluk"],
+      src: "/books/uyub.jpg",
+      level: 1,
+      book: "Usub al-Nafs wa Adwiyatuha",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "tasawwuf/bidayah",
+      title: $t("Spirituality: Seeking 1"),
+      desc: $t(""),
+      tags: ["suluk"],
+      src: "/books/bidayah.jpg",
+      level: 1,
+      book: "Bidayah al-Hidayah",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "tasawwuf/manazil",
+      title: $t("Spirituality: Seeking 1"),
+      desc: $t(""),
+      tags: ["suluk"],
+      src: "",
+      level: 2,
+      book: "Manazil al-Saʾirin",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "tasawwuf/himam",
+      title: $t("Spirituality: Seeking 1"),
+      desc: $t(""),
+      tags: ["suluk"],
+      src: "",
+      level: 2,
+      book: "Iqaz al-Himam",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "tasawwuf/mabahith",
+      title: $t("Spirituality: Seeking 1"),
+      desc: $t(""),
+      tags: ["suluk"],
+      src: "",
+      level: 2,
+      book: "Sharh al-Mabahith al-Asliyyah",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "tasawwuf/wasaya",
+      title: $t("Spirituality: Reaching 1"),
+      desc: $t(""),
+      tags: ["irfan"],
+      src: "",
+      level: 1,
+      book: "Al-Wasaya",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "tasawwuf/naqsh",
+      title: $t("Spirituality: Reaching 3"),
+      desc: $t(""),
+      tags: ["irfan"],
+      src: "",
+      level: 3,
+      book: "Naqsh al-Fusus",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "tasawwuf/insankamil",
+      title: $t("Spirituality: Reaching 3"),
+      desc: $t(""),
+      tags: ["irfan"],
+      src: "",
+      level: 3,
+      book: "Al-Insan al-Kamil",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "tasawwuf/fusus",
+      title: $t("Spirituality: Reaching 3"),
+      desc: $t(""),
+      tags: ["irfan"],
+      src: "",
+      level: 4,
+      book: "Fusus al-Hikam",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "tasawwuf/qawanin",
       title: $t("Spirituality: Reaching 2"),
       desc: $t("Insights and illuminations for all wayfarers"),
       tags: ["irfan"],
@@ -332,7 +740,31 @@
       registration: "",
     },
     {
-      id: "tafsir/ishari/mawaqif",
+      id: "tafsir/bahr",
+      title: $t("Tafsir: Internal 1"),
+      desc: $t(""),
+      tags: ["ishari"],
+      src: "",
+      level: 1,
+      book: "Mukhtasar al-Bahr al-Madid",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "tafsir/waridat",
+      title: $t("Tafsir: Internal 2"),
+      desc: $t(""),
+      tags: ["ishari"],
+      src: "",
+      level: 2,
+      book: "Al-Waridat al-Ilahiyyah",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "tafsir/mawaqif",
       title: $t("Tafsir: Ishari 3"),
       desc: $t(""),
       tags: ["ishari"],
@@ -346,9 +778,13 @@
   ];
   let searchTerm = "fard";
   $: console.log(searchTerm);
-  $: filteredCourses = courses.filter((course) => {
-    return course.tags.find((tag) => tag.includes(searchTerm));
-  });
+  $: filteredCourses = courses
+    .filter((course) => {
+      return course.tags.find((tag) => tag.includes(searchTerm));
+    })
+    .sort(function (a, b) {
+      return a.level - b.level;
+    });
 </script>
 
 <h1>{$t("courses.title")}</h1>
@@ -372,12 +808,12 @@
       >
       <label
         ><input type="radio" bind:group={searchTerm} value="ahkam" /><span
-          >fiqh & Its Principles</span
+          >fiqh & Its Foundations</span
         ></label
       >
       <label
-        ><input type="radio" bind:group={searchTerm} value="matn" /><span
-          >hadith & Its sciences</span
+        ><input type="radio" bind:group={searchTerm} value="suluk" /><span
+          >tasawwuf</span
         ></label
       >
       <label
@@ -386,8 +822,13 @@
         ></label
       >
       <label
-        ><input type="radio" bind:group={searchTerm} value="suluk" /><span
-          >tasawwuf</span
+        ><input type="radio" bind:group={searchTerm} value="matn" /><span
+          >hadith & Its sciences</span
+        ></label
+      >
+      <label
+        ><input type="radio" bind:group={searchTerm} value="sirah" /><span
+          >Seerah</span
         ></label
       >
       <label
@@ -410,15 +851,9 @@
           >Programs</span
         ></label
       >
-      <label
-        ><input type="radio" bind:group={searchTerm} value="sirah" /><span
-          >Seerah</span
-        ></label
-      >
     </div>
   </div>
 </div>
-
 
 {#if searchTerm == "tasawwuf" || searchTerm == "suluk" || searchTerm == "irfan"}
   <p id="sub-container">
@@ -442,7 +877,7 @@
     >
     <label
       ><input type="radio" bind:group={searchTerm} value="amali" /><span
-        >Tajwid: Practice</span
+        >Tajwid: Practical</span
       ></label
     >
 
@@ -470,7 +905,7 @@
       ></label
     >
   </p>
-{:else if searchTerm == "fiqh" || searchTerm == "ahkam" || searchTerm == "usul"}
+{:else if searchTerm == "fiqh" || searchTerm == "ahkam" || searchTerm == "usul" || searchTerm == "qawaid" || searchTerm == "dalil"}
   <p id="sub-container">
     <label
       ><input type="radio" bind:group={searchTerm} value="ahkam" /><span
@@ -479,7 +914,17 @@
     >
     <label
       ><input type="radio" bind:group={searchTerm} value="usul" /><span
+        >Foundations</span
+      ></label
+    >
+    <label
+      ><input type="radio" bind:group={searchTerm} value="qawaid" /><span
         >Principles</span
+      ></label
+    >
+    <label
+      ><input type="radio" bind:group={searchTerm} value="dalil" /><span
+        >Evidences</span
       ></label
     >
   </p>
@@ -543,8 +988,7 @@
     justify-items: center;
     font-size: smaller;
 
-  scrollbar-color: gold white;
-
+    scrollbar-color: gold white;
   }
   #tag-container > div {
     flex: 0 0 auto;
@@ -589,7 +1033,7 @@
     color: black;
   }
 
-/*  */
+  /*  */
   #sub-container {
     /* display: flex; */
     /* max-width: 100%; */
@@ -602,8 +1046,7 @@
     justify-items: center;
     font-size: smaller;
 
-  scrollbar-color: gold white;
-
+    scrollbar-color: gold white;
   }
   #sub-container input[type="radio"] {
     display: none;
