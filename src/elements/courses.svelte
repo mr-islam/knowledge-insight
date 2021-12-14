@@ -938,42 +938,110 @@
   <button
     on:click={() => {
       searchTerm = "fard";
-      window.location.href = "#gallery";
+      window.location.href = "#section-title";
     }}
   >
     Obligatory Knowledge
   </button>
-  <a href="#gallery" on:click={() => (searchTerm = "program")}>
+  <button
+    href="#gallery"
+    on:click={() => {
+      searchTerm = "fard";
+      window.location.href = "#section-title";
+    }}
+  >
     Bundle Programs
-  </a>
-  <a href="#section-title" on:click={() => (searchTerm = "nazari")}>
+  </button>
+  <button
+    href="#section-title"
+    on:click={() => {
+      searchTerm = "nazari";
+      window.location.href = "#section-title";
+    }}
+  >
     Quran Recitation & Tajwid
-  </a>
-  <a href="#gallery" on:click={() => (searchTerm = "arabi")}>
+  </button>
+  <button
+    href="#gallery"
+    on:click={() => {
+      searchTerm = "ghair";
+      window.location.href = "#section-title";
+    }}
+  >
     Arabic for Non-natives
-  </a>
-  <a href="#section-title" on:click={() => (searchTerm = "nahw")}>
+  </button>
+  <button
+    href="#section-title"
+    on:click={() => {
+      searchTerm = "nahw";
+      window.location.href = "#section-title";
+    }}
+  >
     Arabic & Its Sciences
-  </a>
-  <a href="#gallery" on:click={() => (searchTerm = "aqidah")}> Beliefs </a>
-  <a href="#section-title" on:click={() => (searchTerm = "ahkam")}>
+  </button>
+  <button
+    href="#gallery"
+    on:click={() => {
+      searchTerm = "aqidah";
+      window.location.href = "#section-title";
+    }}
+  >
+    Beliefs
+  </button>
+  <button
+    href="#section-title"
+    on:click={() => {
+      searchTerm = "fiqh";
+      window.location.href = "#section-title";
+    }}
+  >
     Fiqh & Its Foundations
-  </a>
-  <a href="#section-title" on:click={() => (searchTerm = "suluk")}>
+  </button>
+  <button
+    href="#section-title"
+    on:click={() => {
+      searchTerm = "tasawwuf";
+      window.location.href = "#section-title";
+    }}
+  >
     Sprituality
-  </a>
-  <a href="#section-title" on:click={() => (searchTerm = "zahir")}>
+  </button>
+  <button
+    href="#section-title"
+    on:click={() => {
+      searchTerm = "zahir";
+      window.location.href = "#section-title";
+    }}
+  >
     The Quran & Its Sciences
-  </a>
-  <a href="#section-title" on:click={() => (searchTerm = "matn")}>
+  </button>
+  <button
+    href="#section-title"
+    on:click={() => {
+      searchTerm = "matn";
+      window.location.href = "#section-title";
+    }}
+  >
     Hadith & Its Sciences
-  </a>
-  <a href="#gallery" on:click={() => (searchTerm = "sirah")}>
+  </button>
+  <button
+    href="#gallery"
+    on:click={() => {
+      window.location.href = "#section-title";
+      searchTerm = "sirah";
+    }}
+  >
     Seerah & Shamail
-  </a>
-  <a href="#gallery" on:click={() => (searchTerm = "other")}>
+  </button>
+  <button
+    href="#gallery"
+    on:click={() => {
+      searchTerm = "other";
+      window.location.href = "#section-title";
+    }}
+  >
     Assorted Classes
-  </a>
+  </button>
 </div>
 
 {#if searchTerm == "tasawwuf" || searchTerm == "suluk" || searchTerm == "irfan"}
@@ -1125,6 +1193,27 @@
 <!-- <h3 id="section-title" style="text-align: center;">{searchTerm} Courses</h3> -->
 
 {#if filteredCourses !== "islam"}
+  {#if searchTerm == "fard"}
+    <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
+      Obligatory For Every Muslim
+    </h3>
+  {:else if searchTerm == "program"}
+    <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
+      Larger Programs
+    </h3>
+  {:else if searchTerm == "aqidah"}
+    <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
+      Beliefs
+    </h3>
+  {:else if searchTerm == "sirah"}
+    <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
+      Seerah & Shamai
+    </h3>
+  {:else if searchTerm == "other"}
+    <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
+      Miscellaneous
+    </h3>
+  {/if}
   <div id="gallery">
     {#each filteredCourses as course}
       <CourseCard {...course} />
@@ -1142,18 +1231,19 @@
 <div style="" id="articles" />
 
 <style>
-  div#grid > a {
-    width: 10vw;
-    height: 10vw;
+  div#grid > button {
+    width: 12vw;
+    height: 12vw;
     text-align: center;
     background: var(--primary-color);
     border-radius: 4px;
     border: 2px dashed #90d344;
     padding: 10px;
   }
-  a:hover,
-  a:focused {
-    background-color: black;
+  div#grid > button:hover {
+    background-color: #bef184;
+    border: 2px solid #90d344;
+    cursor: pointer;
   }
   a > span {
     vertical-align: middle;
