@@ -5,23 +5,17 @@
 <div class="paras-about">
   <div>
     <div>
-      <span>🌳</span>
-      <p>{$t("welcome.para_3")}</p>
-    </div>
-    <div>
-      <span>🌳</span>
-
-      <p>{$t("welcome.para_3")}</p>
-    </div>
-    <div>
-      <span>🌳</span>
-
+      <span>🔗</span>
       <p>{$t("welcome.para_3")}</p>
     </div>
     <div id="courses">
-      <span>🌳</span>
+      <span>🌐</span>
 
-      <p>{$t("welcome.para_3")}</p>
+      <p>
+        {$t(
+          "Access your lessons and recordings wherever you are—learning always goes on."
+        )}
+      </p>
     </div>
   </div>
 </div>
@@ -31,7 +25,7 @@
     color: var(--pure-white);
   }
   div.paras-about {
-    background: #a4a6a9;
+    background: var(--accent-color);
     width: 100%;
     /* margin: 25vh 0 56px 0; */
   }
@@ -49,14 +43,13 @@
   span {
     padding: 10px 10px 10px 10px;
     margin-right: 10px;
-    background: white;
+    background: var(--secondary-color);
     border-radius: 360px;
   }
 
   @media only screen and (max-width: 600px) {
-    
     div.paras-about {
-      background: #a4a6a9;
+      background: var(--accent-color);
       min-width: 100%;
       margin: 0 0 56px 0;
     }

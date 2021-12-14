@@ -353,69 +353,72 @@
 
 <h1>{$t("courses.title")}</h1>
 
-<div id="tag-container">
-  <div>
-    <label
-      ><input type="radio" bind:group={searchTerm} value="" /><span>all</span
-      ></label
-    >
-    <label
-      ><input type="radio" bind:group={searchTerm} value="fard" /><span
-        >Obligatory</span
-      ></label
-    >
-    <label
-      ><input type="radio" bind:group={searchTerm} value="aqida" /><span
-        >Beliefs</span
-      ></label
-    >
-    <label
-      ><input type="radio" bind:group={searchTerm} value="ahkam" /><span
-        >fiqh & Its Principles</span
-      ></label
-    >
-    <label
-      ><input type="radio" bind:group={searchTerm} value="matn" /><span
-        >hadith & Its sciences</span
-      ></label
-    >
-    <label
-      ><input type="radio" bind:group={searchTerm} value="zahir" /><span
-        >Quran & Its Sciences</span
-      ></label
-    >
-    <label
-      ><input type="radio" bind:group={searchTerm} value="suluk" /><span
-        >tasawwuf</span
-      ></label
-    >
-    <label
-      ><input type="radio" bind:group={searchTerm} value="natiq" /><span
-        >Arabic for Non-Natives</span
-      ></label
-    >
-    <label
-      ><input type="radio" bind:group={searchTerm} value="nahw" /><span
-        >Arabic & Its Sciences</span
-      ></label
-    >
-    <label
-      ><input type="radio" bind:group={searchTerm} value="misc" /><span
-        >Various</span
-      ></label
-    >
-    <label
-      ><input type="radio" bind:group={searchTerm} value="barnamij" /><span
-        >Programs</span
-      ></label
-    >
-    <label
-      ><input type="radio" bind:group={searchTerm} value="sirah" /><span
-        >Seerah</span
-      ></label
-    >
+<div id="container2">
+  <div id="tag-container">
+    <div>
+      <label
+        ><input type="radio" bind:group={searchTerm} value="" /><span>all</span
+        ></label
+      >
+      <label
+        ><input type="radio" bind:group={searchTerm} value="fard" /><span
+          >Obligatory</span
+        ></label
+      >
+      <label
+        ><input type="radio" bind:group={searchTerm} value="aqida" /><span
+          >Beliefs</span
+        ></label
+      >
+      <label
+        ><input type="radio" bind:group={searchTerm} value="ahkam" /><span
+          >fiqh & Its Principles</span
+        ></label
+      >
+      <label
+        ><input type="radio" bind:group={searchTerm} value="matn" /><span
+          >hadith & Its sciences</span
+        ></label
+      >
+      <label
+        ><input type="radio" bind:group={searchTerm} value="zahir" /><span
+          >Quran & Its Sciences</span
+        ></label
+      >
+      <label
+        ><input type="radio" bind:group={searchTerm} value="suluk" /><span
+          >tasawwuf</span
+        ></label
+      >
+      <label
+        ><input type="radio" bind:group={searchTerm} value="natiq" /><span
+          >Arabic for Non-Natives</span
+        ></label
+      >
+      <label
+        ><input type="radio" bind:group={searchTerm} value="nahw" /><span
+          >Arabic & Its Sciences</span
+        ></label
+      >
+      <label
+        ><input type="radio" bind:group={searchTerm} value="misc" /><span
+          >Various</span
+        ></label
+      >
+      <label
+        ><input type="radio" bind:group={searchTerm} value="barnamij" /><span
+          >Programs</span
+        ></label
+      >
+      <label
+        ><input type="radio" bind:group={searchTerm} value="sirah" /><span
+          >Seerah</span
+        ></label
+      >
+    </div>
   </div>
 </div>
+
 
 {#if searchTerm == "tasawwuf" || searchTerm == "suluk" || searchTerm == "irfan"}
   <p id="sub-container">
@@ -509,6 +512,9 @@
 <div style="" id="articles" />
 
 <style>
+  div#container2 {
+    max-width: 100%;
+  }
   div.gallery {
     min-width: 100%;
     flex: 1;

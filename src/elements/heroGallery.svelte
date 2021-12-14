@@ -54,11 +54,12 @@
     transform: translate(-50%, -50%);
     z-index: 100;
     text-align: "center";
+    min-width: 70vw;
+    /* user-select: none; */
   }
   p {
     font-size: 1.5rem;
     color: var(--pure-white);
-
   }
   h1 {
     font-size: 3rem;
@@ -105,11 +106,28 @@
     object-fit: cover;
   }
   @media only screen and (max-width: 600px) {
+    div.center {
+      min-width: 90vw;
+      /* user-select: none; */
+    }
     div.container {
-    /* min-width: 100%; */
-    /* min-height: 700px; */
-    margin-top: 0vh;
+      /* min-width: 100%; */
+      /* min-height: 700px; */
+      margin-top: 0vh;
+    }
+    div :global(.swiper) {
+      width: 100%;
+      height: 40vh;
+    }
+    p {
+      font-size: 1rem;
+      color: var(--pure-white);
+      /* display: none; */
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: var(--pure-white);
+    }
   }
-  }
-
 </style>
