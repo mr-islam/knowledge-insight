@@ -775,6 +775,54 @@
       price: "",
       registration: "",
     },
+    {
+      id: "other/isa",
+      title: $t("Logic"),
+      desc: $t(""),
+      tags: ["other"],
+      src: "/books/isa.jpg",
+      level: 1,
+      book: "Mughni al-Tullab",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "other/diwankurdi",
+      title: $t("Inshad & Singing"),
+      desc: $t(""),
+      tags: ["other"],
+      src: "/books/diwankurdi.jpg",
+      level: 1,
+      book: "Diwan al-Shaykh al-Kurdi",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "sirah/halabi",
+      title: $t("Seerah 1"),
+      desc: $t(""),
+      tags: ["sirah"],
+      src: "/books/halabi.jpg",
+      level: 1,
+      book: "Tahdhib al-Seerah al-Halabiyyah",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "sirah/wasail",
+      title: $t("Shamail 1"),
+      desc: $t(""),
+      tags: ["sirah"],
+      src: "/books/wasail.jpg",
+      level: 1,
+      book: "Wasail al-Wusul",
+      action: "later",
+      price: "",
+      registration: "",
+    },
   ];
   let searchTerm = "fard";
   $: console.log(searchTerm);
@@ -828,7 +876,7 @@
       >
       <label
         ><input type="radio" bind:group={searchTerm} value="sirah" /><span
-          >Seerah</span
+          >Seerah & Shamail</span
         ></label
       >
       <label
@@ -842,7 +890,7 @@
         ></label
       >
       <label
-        ><input type="radio" bind:group={searchTerm} value="misc" /><span
+        ><input type="radio" bind:group={searchTerm} value="other" /><span
           >Various</span
         ></label
       >
