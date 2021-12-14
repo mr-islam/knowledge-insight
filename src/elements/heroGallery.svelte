@@ -31,8 +31,8 @@
     </SwiperSlide>
     <SwiperSlide>
       <div class="center">
-        <h1>Islamic Knowledge, Prophetic Spirituality</h1>
-        <p>Complete Islamic education taught by qualified scholars</p>
+        <h1>Tajwid for Ladies</h1>
+        <p>Learn how to recite Allah Almighty's book correctly</p>
       </div>
       <img src="/backgrounds/madina-busy.jpg" />
     </SwiperSlide>

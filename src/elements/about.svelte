@@ -10,7 +10,7 @@
       <Books />
     </div>
     <div class="text-right">
-      <p>Led by Shaykh</p>
+      <p>Complete: Center for Knowledge, Markaz al-Ilm wal-Maʿrifah, based in Jordan aims to uphold to the </p>
       <p>Based in Jordan</p>
     </div>
   </div>
