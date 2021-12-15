@@ -28,9 +28,10 @@
     background: var(--accent-color);
     width: 100%;
     /* margin: 25vh 0 56px 0; */
+    /* max-height: 10vh; */
   }
   div.paras-about > div {
-    padding: 10vh 5vw;
+    padding: 5vh 5vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 30px;

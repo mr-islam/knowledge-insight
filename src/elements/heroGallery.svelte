@@ -26,7 +26,6 @@
         <h1>Islamic Knowledge, Prophetic Spirituality</h1>
         <p>Complete Islamic education taught by qualified scholars</p>
       </div>
-
       <img src="/backgrounds/madina-busy.jpg" />
     </SwiperSlide>
     <SwiperSlide>
@@ -34,14 +33,21 @@
         <h1>Tajwid for Ladies</h1>
         <p>Learn how to recite Allah Almighty's book correctly</p>
       </div>
-      <img src="/backgrounds/madina-busy.jpg" />
+      <img src="/backgrounds/cloud.jpg" />
     </SwiperSlide>
     <SwiperSlide
       ><div class="center">
         <h1>Islamic Knowledge, Prophetic Spirituality</h1>
         <p>Complete Islamic education taught by qualified scholars</p>
       </div>
-      <img src="/backgrounds/madina-busy.jpg" /></SwiperSlide
+      <img src="/backgrounds/garden.jpg" /></SwiperSlide
+    >
+    <SwiperSlide
+      ><div class="center">
+        <h1>Islamic Knowledge, Prophetic Spirituality</h1>
+        <p>Complete Islamic education taught by qualified scholars</p>
+      </div>
+      <img src="/backgrounds/flowers.jpg" /></SwiperSlide
     >
   </Swiper>
 </div>
@@ -76,7 +82,7 @@
   }
   div :global(.swiper) {
     width: 100%;
-    height: 70vh;
+    height: 80vh;
   }
 
   div :global(.swiper-slide) {

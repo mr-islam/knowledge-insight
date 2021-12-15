@@ -1086,7 +1086,7 @@
   <button
     href="#section-title"
     on:click={() => {
-      searchTerm = "tasawwuf";
+      searchTerm = "suluk";
       document
         .getElementById("section-title")
         .scrollIntoView({ behavior: "smooth" });
@@ -1267,7 +1267,11 @@
     </h3>
   {:else if searchTerm == "sirah"}
     <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
-      Seerah & Shamai
+      Seerah & Shamail
+    </h3>
+    {:else if searchTerm == "natiq"}
+    <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
+      Arabic for Non-native Speakers
     </h3>
   {:else if searchTerm == "other"}
     <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
@@ -1297,6 +1301,7 @@
     border-radius: 4px;
     border: 2px dashed #90d344;
     padding: 10px;
+    font-weight: bold;
   }
   div#grid > button:hover {
     background-color: #bef184;
