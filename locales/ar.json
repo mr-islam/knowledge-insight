@@ -1,3 +1,42 @@
 {
-  "title": "مركز العلم والمعرفة"
+  "title": "مركز العلم والمعرفة",
+  "courses": {
+    "title": "المواد",
+    "tajwid-qaida": {
+      "src": "/books/tajwid-qaida.jpg",
+      "title": "التجويد: المستوى 1",
+      "desc": "Level 1 to recite the Quran right",
+      "book": "القاعدة النورانية"
+    },
+    "fiqh-nur": {
+      "title": "فقه العبادات: 1",
+      "desc": "Worshipping Allah Almighty the way He commanded",
+      "src": "/books/fiqh-nur.jpg",
+      "book": "نور الإيضاح"
+    },
+    "fiqh-quduri": {
+      "title": "Fiqh of Interactions: 1",
+      "desc": "Being with Allah's creation the way He commanded",
+      "src": "/books/fiqh-quduri.jpg",
+      "book": "Mukhtasar al-Quduri"
+    },
+    "aqidah-ahl-sunnah": {
+      "title": "Beliefs: Essentials",
+      "desc": "There is no belief without knowledge",
+      "src": "/books/aqidah-ahl-sunnah.jpg",
+      "book": "Aqida Ahl al-Sunnah"
+    },
+    "tasawwuf-tuhfah": {
+      "title": "Spirituality: Essentials",
+      "desc": "A summary of Imam al-Ghazzali's Ihya",
+      "src": "/books/tasawwuf-tuhfah.jpg",
+      "book": "Tuhfat al-Salikin"
+    },
+    "tasawwuf-fuyud": {
+      "title": "Spirituality: Essentials",
+      "desc": "An abridged collection of oaths the Holy Prophet ﷺ took from us",
+      "src": "/books/tasawwuf-fuyud.jpg",
+      "book": "Al-Fuyud al-Ahmadiyyah"
+    }
+  }
 }

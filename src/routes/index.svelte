@@ -1,5 +1,5 @@
 <script>
-  import { t, locale, locales } from "svelte-intl-precompile";
+  import { isLoading } from "svelte-intl-precompile";
 
   import Intro from "../elements/intro.svelte";
   import Courses from "../elements/courses.svelte";
@@ -8,7 +8,9 @@
   import Articles from "../elements/articles.svelte";
 </script>
 
-{#if t}
+{#if $isLoading}
+  Please wait...
+{:else}
   <HeroGallery />
   <Intro />
   <Courses />

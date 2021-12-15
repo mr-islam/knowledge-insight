@@ -1,22 +1,26 @@
 <script>
-  import { t, locale, locales } from "svelte-intl-precompile";
+  import { t, locale, locales, isLoading } from "svelte-intl-precompile";
   import { onMount } from "svelte";
 
-  export let id, title, desc, book, src;
-
+  // export let id, title, desc, book, src;
+  export let id;
 </script>
 
-<a href={`/courses/${id}`}>
-  <div class="card-course">
-    <img src={src} alt={book} />
-    <div class="card-inner">
-      <h3>{book}</h3>
-      <subtitle>{title}</subtitle>
-      <p>{desc}</p>
-      <!-- <span>{level}</span> -->
+{#if $isLoading}
+Loading..
+{:else}
+  <a href={`/courses/${id}`}>
+    <div class="card-course">
+      <img src={$t(`courses.${id}.src`)} alt={$t(`courses.${id}.book`)} />
+      <div class="card-inner">
+        <h3>{$t(`courses.${id}.book`)}</h3>
+        <subtitle>{$t(`courses.${id}.title`)}</subtitle>
+        <p>{$t(`courses.${id}.desc`)}</p>
+        <!-- <span>{level}</span> -->
+      </div>
     </div>
-  </div>
-</a>
+  </a>
+{/if}
 
 <style>
   h3 {

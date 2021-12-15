@@ -2,10 +2,10 @@
   import CourseCard from "../components/CourseCard.svelte";
   import CourseCard2 from "../components/CourseCard2.svelte";
 
-  import { t, locale, locales } from "svelte-intl-precompile";
+  import { t, locale, locales, isLoading } from "svelte-intl-precompile";
   import About from "./about.svelte";
 
-  let testId = "tajwid-qaida";
+  console.log($locales);
 
   function scrollToTitle() {
     document
@@ -877,45 +877,38 @@
 {:else}{/if}
 <!-- <h3 id="section-title" style="text-align: center;">{searchTerm} Courses</h3> -->
 
-{#if filteredCourses !== "islam"}
-  {#if searchTerm == "fard"}
-    <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
-      Obligatory For Every Muslim
-    </h3>
-  {:else if searchTerm == "program"}
-    <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
-      Larger Programs
-    </h3>
-  {:else if searchTerm == "aqidah"}
-    <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
-      Beliefs
-    </h3>
-  {:else if searchTerm == "sirah"}
-    <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
-      Seerah & Shamail
-    </h3>
-  {:else if searchTerm == "natiq"}
-    <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
-      Arabic for Non-native Speakers
-    </h3>
-  {:else if searchTerm == "other"}
-    <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
-      Miscellaneous
-    </h3>
-  {/if}
-  <div id="gallery">
-    {#each filteredCourses as course}
-      <CourseCard2
-        id={course.id}
-        title={$t(`courses.${course.id}.title`)}
-        desc={$t(`courses.${course.id}.desc`)}
-        book={$t(`courses.${course.id}.book`)}
-        src={$t(`courses.${course.id}.src`)}
-      />
-    {/each}
-    <br />
-  </div>
+{#if searchTerm == "fard"}
+  <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
+    Obligatory For Every Muslim
+  </h3>
+{:else if searchTerm == "program"}
+  <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
+    Larger Programs
+  </h3>
+{:else if searchTerm == "aqidah"}
+  <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
+    Beliefs
+  </h3>
+{:else if searchTerm == "sirah"}
+  <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
+    Seerah & Shamail
+  </h3>
+{:else if searchTerm == "natiq"}
+  <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
+    Arabic for Non-native Speakers
+  </h3>
+{:else if searchTerm == "other"}
+  <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
+    Miscellaneous
+  </h3>
 {/if}
+
+<div id="gallery">
+  {#each filteredCourses as course}
+    <CourseCard2 id={course.id} />
+  {/each}
+  <br />
+</div>
 
 <div style="" id="articles" />
 
