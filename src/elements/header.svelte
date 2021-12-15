@@ -52,7 +52,7 @@
     border: 1px black solid;
     border-radius: 360px;
     max-width: 5vw;
-    margin: 12px;
+    margin: 5px 12px 2px 5px;
   }
   @media only screen and (max-width: 600px) {
     img#logo {
