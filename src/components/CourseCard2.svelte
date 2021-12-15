@@ -1,18 +1,22 @@
 <script>
-  export let title, desc, src, level, book, id;
+  import { t, locale, locales } from "svelte-intl-precompile";
+  import { onMount } from "svelte";
+
+  export let id, title, desc, book, src;
+
 </script>
 
-  <a href={`/courses/${id}`}>
-    <div class="card-course">
-      <img {src} alt={book} />
-      <div class="card-inner">
-        <h3>{book}</h3>
-        <subtitle>{title}</subtitle>
-        <p>{desc}</p>
-        <!-- <span>{level}</span> -->
-      </div>
+<a href={`/courses/${id}`}>
+  <div class="card-course">
+    <img src={src} alt={book} />
+    <div class="card-inner">
+      <h3>{book}</h3>
+      <subtitle>{title}</subtitle>
+      <p>{desc}</p>
+      <!-- <span>{level}</span> -->
     </div>
-  </a>
+  </div>
+</a>
 
 <style>
   h3 {
