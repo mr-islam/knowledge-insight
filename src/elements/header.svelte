@@ -63,7 +63,7 @@
       position: relative;
       flex-direction: column;
       left: 0;
-      min-width: 100vw;
+      min-width: 100%;
       border-radius: 0px;
       top: 0px;
       border: 0px;
