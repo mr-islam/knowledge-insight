@@ -1204,6 +1204,7 @@
     padding-top: 10px;
   }
   div#grid > button {
+    height: 100px;
     text-align: center;
     background: #f2ffe9;
     border-radius: 4px;
@@ -1225,14 +1226,16 @@
     vertical-align: middle;
   }
   div#grid {
+    
     row-gap: 10px;
     column-gap: 10px;
     display: grid;
     /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; */
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    /* grid-template-rows: repeat(3, minmax(100px, 1fr)); */
     margin: 0 20px;
-    justify-items: center;
-    align-items: center;
+    place-items: center;
+    place-content: center;
   }
   div#gallery {
     min-width: 100%;
@@ -1246,7 +1249,7 @@
   }
   @media only screen and (max-width: 600px) {
     div#grid {
-      grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     }
     div#gallery {
       flex-direction: column;
