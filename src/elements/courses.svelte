@@ -247,7 +247,7 @@
       title: $t("Fiqh: Worship 1"),
       desc: $t("Worshipping Allah Almighty the way He commanded."),
       tags: ["ahkam", "fard"],
-      src: "/books/maslak.jpg",
+      src: "/books/nuridah.jpg",
       level: 1,
       id: "fiqh/maslak",
       book: "Nur al-Idah",
@@ -849,6 +849,78 @@
       price: "",
       registration: "",
     },
+    {
+      id: "program/youth",
+      title: $t("A complete program spanning several books"),
+      desc: $t(""),
+      tags: ["program"],
+      src: "",
+      level: 1,
+      book: "Youth Program",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "program/women",
+      title: $t("A complete program spanning several books"),
+      desc: $t(""),
+      tags: ["program"],
+      src: "",
+      level: 1,
+      book: "Women's Program",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "natiq/um1",
+      title: $t("A complete program spanning several books"),
+      desc: $t(""),
+      tags: ["natiq"],
+      src: "/books/um1.jpg",
+      level: 1,
+      book: "Silsilah al-Lisan: 1",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "natiq/um2",
+      title: $t("A complete program spanning several books"),
+      desc: $t(""),
+      tags: ["natiq"],
+      src: "/books/um2.jpg",
+      level: 2,
+      book: "Silsilah al-Lisan: 2",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "natiq/um3",
+      title: $t("A complete program spanning several books"),
+      desc: $t(""),
+      tags: ["natiq"],
+      src: "/books/um3.jpg",
+      level: 3,
+      book: "Silsilah al-Lisan: 3",
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "natiq/um4",
+      title: $t("A complete program spanning several books"),
+      desc: $t(""),
+      tags: ["natiq"],
+      src: "/books/um4.jpg",
+      level: 4,
+      book: "Silsilah al-Lisan: 4",
+      action: "later",
+      price: "",
+      registration: "",
+    },
   ];
   let searchTerm = "fard";
   $: console.log(searchTerm);
@@ -970,7 +1042,7 @@
   <button
     href="#gallery"
     on:click={() => {
-      searchTerm = "ghair";
+      searchTerm = "natiq";
       document
         .getElementById("section-title")
         .scrollIntoView({ behavior: "smooth" });
@@ -1003,7 +1075,7 @@
   <button
     href="#section-title"
     on:click={() => {
-      searchTerm = "fiqh";
+      searchTerm = "ahkam";
       document
         .getElementById("section-title")
         .scrollIntoView({ behavior: "smooth" });
@@ -1208,14 +1280,7 @@
     {/each}
     <br />
   </div>
-  <button
-    on:click={() => {
-      searchTerm = "islam";
-      document.getElementById("courses").scrollIntoView({ behavior: "smooth" });
-    }}
-    style="margin: auto; border: white; background-color: white; text-decoration: underline;"
-    >← Back to Categories</button
-  >
+ 
 {/if}
 
 <div style="" id="articles" />

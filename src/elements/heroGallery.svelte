@@ -72,7 +72,7 @@
   div.container {
     /* min-width: 100%; */
     /* min-height: 700px; */
-    margin-top: 20vh;
+    /* margin-top: 10vh; */
   }
   div :global(.swiper) {
     width: 100%;
