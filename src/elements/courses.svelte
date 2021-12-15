@@ -937,8 +937,10 @@
 <div id="grid">
   <button
     on:click={() => {
+      document
+        .getElementById("section-title")
+        .scrollIntoView({ behavior: "smooth" });
       searchTerm = "fard";
-      window.location.href = "#section-title";
     }}
   >
     Obligatory Knowledge
@@ -946,8 +948,10 @@
   <button
     href="#gallery"
     on:click={() => {
-      searchTerm = "fard";
-      window.location.href = "#section-title";
+      searchTerm = "program";
+      document
+        .getElementById("section-title")
+        .scrollIntoView({ behavior: "smooth" });
     }}
   >
     Bundle Programs
@@ -956,7 +960,9 @@
     href="#section-title"
     on:click={() => {
       searchTerm = "nazari";
-      window.location.href = "#section-title";
+      document
+        .getElementById("section-title")
+        .scrollIntoView({ behavior: "smooth" });
     }}
   >
     Quran Recitation & Tajwid
@@ -965,7 +971,9 @@
     href="#gallery"
     on:click={() => {
       searchTerm = "ghair";
-      window.location.href = "#section-title";
+      document
+        .getElementById("section-title")
+        .scrollIntoView({ behavior: "smooth" });
     }}
   >
     Arabic for Non-natives
@@ -974,7 +982,9 @@
     href="#section-title"
     on:click={() => {
       searchTerm = "nahw";
-      window.location.href = "#section-title";
+      document
+        .getElementById("section-title")
+        .scrollIntoView({ behavior: "smooth" });
     }}
   >
     Arabic & Its Sciences
@@ -983,7 +993,9 @@
     href="#gallery"
     on:click={() => {
       searchTerm = "aqidah";
-      window.location.href = "#section-title";
+      document
+        .getElementById("section-title")
+        .scrollIntoView({ behavior: "smooth" });
     }}
   >
     Beliefs
@@ -992,7 +1004,9 @@
     href="#section-title"
     on:click={() => {
       searchTerm = "fiqh";
-      window.location.href = "#section-title";
+      document
+        .getElementById("section-title")
+        .scrollIntoView({ behavior: "smooth" });
     }}
   >
     Fiqh & Its Foundations
@@ -1001,7 +1015,9 @@
     href="#section-title"
     on:click={() => {
       searchTerm = "tasawwuf";
-      window.location.href = "#section-title";
+      document
+        .getElementById("section-title")
+        .scrollIntoView({ behavior: "smooth" });
     }}
   >
     Sprituality
@@ -1010,7 +1026,9 @@
     href="#section-title"
     on:click={() => {
       searchTerm = "zahir";
-      window.location.href = "#section-title";
+      document
+        .getElementById("section-title")
+        .scrollIntoView({ behavior: "smooth" });
     }}
   >
     The Quran & Its Sciences
@@ -1019,7 +1037,9 @@
     href="#section-title"
     on:click={() => {
       searchTerm = "matn";
-      window.location.href = "#section-title";
+      document
+        .getElementById("section-title")
+        .scrollIntoView({ behavior: "smooth" });
     }}
   >
     Hadith & Its Sciences
@@ -1027,7 +1047,9 @@
   <button
     href="#gallery"
     on:click={() => {
-      window.location.href = "#section-title";
+      document
+        .getElementById("section-title")
+        .scrollIntoView({ behavior: "smooth" });
       searchTerm = "sirah";
     }}
   >
@@ -1037,7 +1059,9 @@
     href="#gallery"
     on:click={() => {
       searchTerm = "other";
-      window.location.href = "#section-title";
+      document
+        .getElementById("section-title")
+        .scrollIntoView({ behavior: "smooth" });
     }}
   >
     Assorted Classes
@@ -1049,12 +1073,6 @@
     Spirituality
   </h3>
   <p id="sub-container">
-    <a
-      href="#grid"
-      on:click={() => (searchTerm = "islam")}
-      style="border: white; background-color: white; text-decoration: underline;"
-      >← Back</a
-    >
     <label
       ><input type="radio" bind:group={searchTerm} value="suluk" /><span
         >Self-purification & Suluk</span
@@ -1071,12 +1089,6 @@
     Tajwid
   </h3>
   <p id="sub-container">
-    <a
-      href="#grid"
-      on:click={() => (searchTerm = "islam")}
-      style="border: white; background-color: white; text-decoration: underline;"
-      >← Back</a
-    >
     <label
       ><input type="radio" bind:group={searchTerm} value="nazari" /><span
         >Theory & Rules</span
@@ -1093,12 +1105,6 @@
     Tafsir
   </h3>
   <p id="sub-container">
-    <a
-      href="#grid"
-      on:click={() => (searchTerm = "islam")}
-      style="border: white; background-color: white; text-decoration: underline;"
-      >← Back</a
-    >
     <label
       ><input type="radio" bind:group={searchTerm} value="zahir" /><span
         >External Tafsir</span
@@ -1115,12 +1121,6 @@
     Hadith
   </h3>
   <p id="sub-container">
-    <a
-      href="#grid"
-      on:click={() => (searchTerm = "islam")}
-      style="border: white; background-color: white; text-decoration: underline;"
-      >← Back</a
-    >
     <label
       ><input type="radio" bind:group={searchTerm} value="matn" /><span
         >Hadith Texts</span
@@ -1135,12 +1135,6 @@
 {:else if searchTerm == "fiqh" || searchTerm == "ahkam" || searchTerm == "usul" || searchTerm == "qawaid" || searchTerm == "dalil"}
   <h3 id="section-title" style="margin-top: 5vh; text-align: center;">Fiqh</h3>
   <p id="sub-container">
-    <a
-      href="#grid"
-      on:click={() => (searchTerm = "islam")}
-      style="border: white; background-color: white; text-decoration: underline;"
-      >← Back</a
-    >
     <label
       ><input type="radio" bind:group={searchTerm} value="ahkam" /><span
         >Rulings</span
@@ -1167,12 +1161,6 @@
     Arabic
   </h3>
   <p id="sub-container">
-    <a
-      href="#grid"
-      on:click={() => (searchTerm = "islam")}
-      style="border: white; background-color: white; text-decoration: underline;"
-      >← Back</a
-    >
     <label
       ><input type="radio" bind:group={searchTerm} value="nahw" /><span
         >nahw</span
@@ -1219,18 +1207,23 @@
       <CourseCard {...course} />
     {/each}
     <br />
-    <a
-      href="#grid"
-      on:click={() => (searchTerm = "islam")}
-      style="border: white; background-color: white; text-decoration: underline;"
-      >← Back to Categories</a
-    >
   </div>
+  <button
+    on:click={() => {
+      searchTerm = "islam";
+      document.getElementById("courses").scrollIntoView({ behavior: "smooth" });
+    }}
+    style="margin: auto; border: white; background-color: white; text-decoration: underline;"
+    >← Back to Categories</button
+  >
 {/if}
 
 <div style="" id="articles" />
 
 <style>
+  #section-title {
+    padding-top: 10px;
+  }
   div#grid > button {
     width: 12vw;
     height: 12vw;
