@@ -17,6 +17,24 @@
         )}
       </p>
     </div>
+    <div>
+      <span>🌐</span>
+
+      <p>
+        {$t(
+          "Access your lessons and recordings wherever you are—learning always goes on."
+        )}
+      </p>
+    </div>
+    <div>
+      <span>🌐</span>
+
+      <p>
+        {$t(
+          "Access your lessons and recordings wherever you are—learning always goes on."
+        )}
+      </p>
+    </div>
   </div>
 </div>
 
@@ -34,7 +52,9 @@
     padding: 5vh 5vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 30px;
+    column-gap: 10vw;
+    place-content: center;
+    place-items: center;
   }
   div.paras-about > div > div {
     display: flex;
@@ -55,7 +75,7 @@
       margin: 0 0 56px 0;
     }
     div.paras-about > div {
-      padding: 10vh 5vw;
+      padding: 5vh 5vw;
       grid-template-columns: 1fr;
     }
   }
