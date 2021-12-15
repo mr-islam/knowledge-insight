@@ -1294,14 +1294,14 @@
     padding-top: 10px;
   }
   div#grid > button {
-    width: 12vw;
-    height: 12vw;
     text-align: center;
     background: var(--primary-color);
     border-radius: 4px;
     border: 2px dashed #90d344;
     padding: 10px;
     font-weight: bold;
+    justify-self:stretch;
+    align-self: stretch;
   }
   div#grid > button:hover {
     background-color: #bef184;
@@ -1313,15 +1313,13 @@
   }
   div#grid {
     row-gap: 10px;
-    column-gap: auto;
+    column-gap: 10px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     margin: 0 20px;
     justify-items: center;
     align-items: center;
-  }
-  div#container2 {
-    max-width: 100%;
   }
   div#gallery {
     min-width: 100%;
