@@ -2,6 +2,12 @@
   import CourseCard from "../components/CourseCard.svelte";
   import { t, locale, locales } from "svelte-intl-precompile";
 
+  function scrollToTitle() {
+    document
+      .getElementById("section-title")
+      .scrollIntoView({ behavior: "smooth" });
+  }
+
   let courses = [
     {
       title: $t("courses.tajwid1.title"),
@@ -44,7 +50,7 @@
       title: $t("Tajwid: Level 4"),
       desc: $t("Add more depth to your knowledge of law,"),
       tags: ["nazari"],
-      src: "",
+      src: "/books/mushaf.jpg",
       level: 4,
       book: "Sharh al-Jazariyyah",
       action: "later",
@@ -54,7 +60,7 @@
     {
       id: "tajwid/amma",
       title: $t("Open-book Recitation"),
-      desc: $t(""),
+      desc: $t("This is placeholder of some text, we need to write later"),
       tags: ["amali"],
       src: "/books/mushaf.jpg",
       level: 1,
@@ -66,7 +72,7 @@
     {
       id: "tajwid/reading",
       title: $t("Open-book Recitation"),
-      desc: $t(""),
+      desc: $t("This is placeholder of some text, we need to write later"),
       tags: ["amali"],
       src: "/books/mushaf.jpg",
       level: 3,
@@ -78,7 +84,7 @@
     {
       id: "tajwid/reciting",
       title: $t("Reciting from Memory"),
-      desc: $t(""),
+      desc: $t("This is placeholder of some text, we need to write later"),
       tags: ["amali"],
       src: "/books/mushaf.jpg",
       level: 4,
@@ -310,7 +316,7 @@
       title: $t("Hadith: Terminology 3"),
       desc: $t("The work that changed the field"),
       tags: ["hadith-ulum"],
-      src: "",
+      src: "/books/mushaf.jpg",
       level: 3,
       book: "Muqaddimah Ibn al-Salah",
       action: "later",
@@ -442,7 +448,7 @@
       title: $t("Fiqh: Principles 1"),
       desc: $t("The definitive reference for hadith evidence for fiqh"),
       tags: ["dalil"],
-      src: "",
+      src: "/books/mushaf.jpg",
       level: 3,
       book: "Ila al-Sunan",
       action: "later",
@@ -490,7 +496,7 @@
       title: $t("Fiqh: Rules 3"),
       desc: $t("A poem and explanation on the rulings of giving rulings"),
       tags: ["usul"],
-      src: "",
+      src: "/books/mushaf.jpg",
       level: 3,
       book: "Al-Talwih maʿa al-Tawdih ",
       action: "later",
@@ -540,7 +546,7 @@
         "A contemporary tafsir that provides the cream of those before it"
       ),
       tags: ["zahir"],
-      src: "",
+      src: "/books/mushaf.jpg",
       level: 1,
       book: "Durrah al-Tafasir",
       action: "later",
@@ -562,9 +568,9 @@
     {
       id: "tafsir/baydawi",
       title: $t("Tafsir: External 3"),
-      desc: $t(""),
+      desc: $t("This is placeholder of some text, we need to write later"),
       tags: ["zahir"],
-      src: "",
+      src: "/books/mushaf.jpg",
       level: 3,
       book: "Tafsir al-Baydawi",
       action: "later",
@@ -574,9 +580,9 @@
     {
       id: "tafsir/qurtubi",
       title: $t("Tafsir: External 4"),
-      desc: $t(""),
+      desc: $t("This is placeholder of some text, we need to write later"),
       tags: ["zahir"],
-      src: "",
+      src: "/books/mushaf.jpg",
       level: 4,
       book: "Tafsir al-Qurtubi",
       action: "later",
@@ -636,7 +642,7 @@
     {
       id: "tasawwuf/qasd",
       title: $t("Spirituality"),
-      desc: $t(""),
+      desc: $t("This is placeholder of some text, we need to write later"),
       tags: ["suluk"],
       src: "/books/qasd.jpg",
       level: 5,
@@ -648,9 +654,9 @@
     {
       id: "tasawwuf/uyub",
       title: $t("Spirituality"),
-      desc: $t(""),
+      desc: $t("This is placeholder of some text, we need to write later"),
       tags: ["suluk"],
-      src: "",
+      src: "/books/mushaf.jpg",
       level: 3,
       book: "Uyub al-Nafs wa Adwiyatuha",
       action: "later",
@@ -660,7 +666,7 @@
     {
       id: "tasawwuf/bidayah",
       title: $t("Spirituality"),
-      desc: $t(""),
+      desc: $t("This is placeholder of some text, we need to write later"),
       tags: ["suluk"],
       src: "/books/bidayah.jpg",
       level: 1,
@@ -672,9 +678,9 @@
     {
       id: "tasawwuf/manazil",
       title: $t("Spirituality"),
-      desc: $t(""),
+      desc: $t("This is placeholder of some text, we need to write later"),
       tags: ["suluk"],
-      src: "",
+      src: "/books/mushaf.jpg",
       level: 7,
       book: "Manazil al-Saʾirin",
       action: "later",
@@ -684,9 +690,9 @@
     {
       id: "tasawwuf/himam",
       title: $t("Spirituality"),
-      desc: $t(""),
+      desc: $t("This is placeholder of some text, we need to write later"),
       tags: ["suluk"],
-      src: "",
+      src: "/books/mushaf.jpg",
       level: 8,
       book: "Iqaz al-Himam",
       action: "later",
@@ -696,9 +702,9 @@
     {
       id: "tasawwuf/mabahith",
       title: $t("Spirituality"),
-      desc: $t(""),
+      desc: $t("This is placeholder of some text, we need to write later"),
       tags: ["suluk"],
-      src: "",
+      src: "/books/mushaf.jpg",
       level: 6,
       book: "Sharh al-Mabahith al-Asliyyah",
       action: "later",
@@ -708,9 +714,9 @@
     {
       id: "tasawwuf/wasaya",
       title: $t("Spirituality: Reaching 1"),
-      desc: $t(""),
+      desc: $t("This is placeholder of some text, we need to write later"),
       tags: ["irfan"],
-      src: "",
+      src: "/books/mushaf.jpg",
       level: 1,
       book: "Al-Wasaya",
       action: "later",
@@ -720,9 +726,9 @@
     {
       id: "tasawwuf/naqsh",
       title: $t("Spirituality: Reaching 3"),
-      desc: $t(""),
+      desc: $t("This is placeholder of some text, we need to write later"),
       tags: ["irfan"],
-      src: "",
+      src: "/books/mushaf.jpg",
       level: 3,
       book: "Naqsh al-Fusus",
       action: "later",
@@ -732,9 +738,9 @@
     {
       id: "tasawwuf/insankamil",
       title: $t("Spirituality: Reaching 3"),
-      desc: $t(""),
+      desc: $t("This is placeholder of some text, we need to write later"),
       tags: ["irfan"],
-      src: "",
+      src: "/books/mushaf.jpg",
       level: 3,
       book: "Al-Insan al-Kamil",
       action: "later",
@@ -744,9 +750,9 @@
     {
       id: "tasawwuf/fusus",
       title: $t("Spirituality: Reaching 3"),
-      desc: $t(""),
+      desc: $t("This is placeholder of some text, we need to write later"),
       tags: ["irfan"],
-      src: "",
+      src: "/books/mushaf.jpg",
       level: 4,
       book: "Fusus al-Hikam",
       action: "later",
@@ -768,9 +774,9 @@
     {
       id: "tafsir/bahr",
       title: $t("Tafsir: Internal 1"),
-      desc: $t(""),
+      desc: $t("This is placeholder of some text, we need to write later"),
       tags: ["ishari"],
-      src: "",
+      src: "/books/mushaf.jpg",
       level: 1,
       book: "Mukhtasar al-Bahr al-Madid",
       action: "later",
@@ -780,9 +786,9 @@
     {
       id: "tafsir/waridat",
       title: $t("Tafsir: Internal 2"),
-      desc: $t(""),
+      desc: $t("This is placeholder of some text, we need to write later"),
       tags: ["ishari"],
-      src: "",
+      src: "/books/mushaf.jpg",
       level: 2,
       book: "Al-Waridat al-Ilahiyyah",
       action: "later",
@@ -792,7 +798,7 @@
     {
       id: "tafsir/mawaqif",
       title: $t("Tafsir: Ishari 3"),
-      desc: $t(""),
+      desc: $t("This is placeholder of some text, we need to write later"),
       tags: ["ishari"],
       src: "/books/mawaqif.jpg",
       level: 3,
@@ -804,7 +810,7 @@
     {
       id: "other/isa",
       title: $t("Logic"),
-      desc: $t(""),
+      desc: $t("This is placeholder of some text, we need to write later"),
       tags: ["other"],
       src: "/books/isa.jpg",
       level: 1,
@@ -816,7 +822,7 @@
     {
       id: "other/diwankurdi",
       title: $t("Inshad & Singing"),
-      desc: $t(""),
+      desc: $t("This is placeholder of some text, we need to write later"),
       tags: ["other"],
       src: "/books/diwankurdi.jpg",
       level: 1,
@@ -828,7 +834,7 @@
     {
       id: "sirah/halabi",
       title: $t("Seerah 1"),
-      desc: $t(""),
+      desc: $t("This is placeholder of some text, we need to write later"),
       tags: ["sirah"],
       src: "/books/halabi.jpg",
       level: 1,
@@ -840,7 +846,7 @@
     {
       id: "sirah/wasail",
       title: $t("Shamail 1"),
-      desc: $t(""),
+      desc: $t("This is placeholder of some text, we need to write later"),
       tags: ["sirah"],
       src: "/books/wasail.jpg",
       level: 1,
@@ -852,9 +858,9 @@
     {
       id: "program/youth",
       title: $t("A complete program spanning several books"),
-      desc: $t(""),
+      desc: $t("This is placeholder of some text, we need to write later"),
       tags: ["program"],
-      src: "",
+      src: "/books/mushaf.jpg",
       level: 1,
       book: "Youth Program",
       action: "later",
@@ -864,9 +870,9 @@
     {
       id: "program/women",
       title: $t("A complete program spanning several books"),
-      desc: $t(""),
+      desc: $t("This is placeholder of some text, we need to write later"),
       tags: ["program"],
-      src: "",
+      src: "/books/mushaf.jpg",
       level: 1,
       book: "Women's Program",
       action: "later",
@@ -876,7 +882,7 @@
     {
       id: "natiq/um1",
       title: $t("A complete program spanning several books"),
-      desc: $t(""),
+      desc: $t("This is placeholder of some text, we need to write later"),
       tags: ["natiq"],
       src: "/books/um1.jpg",
       level: 1,
@@ -888,7 +894,7 @@
     {
       id: "natiq/um2",
       title: $t("A complete program spanning several books"),
-      desc: $t(""),
+      desc: $t("This is placeholder of some text, we need to write later"),
       tags: ["natiq"],
       src: "/books/um2.jpg",
       level: 2,
@@ -900,7 +906,7 @@
     {
       id: "natiq/um3",
       title: $t("A complete program spanning several books"),
-      desc: $t(""),
+      desc: $t("This is placeholder of some text, we need to write later"),
       tags: ["natiq"],
       src: "/books/um3.jpg",
       level: 3,
@@ -912,7 +918,7 @@
     {
       id: "natiq/um4",
       title: $t("A complete program spanning several books"),
-      desc: $t(""),
+      desc: $t("This is placeholder of some text, we need to write later"),
       tags: ["natiq"],
       src: "/books/um4.jpg",
       level: 4,
@@ -1009,9 +1015,7 @@
 <div id="grid">
   <button
     on:click={() => {
-      document
-        .getElementById("section-title")
-        .scrollIntoView({ behavior: "smooth" });
+      setTimeout(scrollToTitle(), 100);
       searchTerm = "fard";
     }}
   >
@@ -1021,9 +1025,7 @@
     href="#gallery"
     on:click={() => {
       searchTerm = "program";
-      document
-        .getElementById("section-title")
-        .scrollIntoView({ behavior: "smooth" });
+      setTimeout(scrollToTitle(), 100);
     }}
   >
     Bundle Programs
@@ -1032,9 +1034,7 @@
     href="#section-title"
     on:click={() => {
       searchTerm = "nazari";
-      document
-        .getElementById("section-title")
-        .scrollIntoView({ behavior: "smooth" });
+      setTimeout(scrollToTitle(), 100);
     }}
   >
     Quran Recitation & Tajwid
@@ -1043,9 +1043,7 @@
     href="#gallery"
     on:click={() => {
       searchTerm = "natiq";
-      document
-        .getElementById("section-title")
-        .scrollIntoView({ behavior: "smooth" });
+      setTimeout(scrollToTitle(), 100);
     }}
   >
     Arabic for Non-natives
@@ -1054,9 +1052,7 @@
     href="#section-title"
     on:click={() => {
       searchTerm = "nahw";
-      document
-        .getElementById("section-title")
-        .scrollIntoView({ behavior: "smooth" });
+      setTimeout(scrollToTitle(), 100);
     }}
   >
     Arabic & Its Sciences
@@ -1065,9 +1061,7 @@
     href="#gallery"
     on:click={() => {
       searchTerm = "aqidah";
-      document
-        .getElementById("section-title")
-        .scrollIntoView({ behavior: "smooth" });
+      setTimeout(scrollToTitle(), 100);
     }}
   >
     Beliefs
@@ -1076,9 +1070,7 @@
     href="#section-title"
     on:click={() => {
       searchTerm = "ahkam";
-      document
-        .getElementById("section-title")
-        .scrollIntoView({ behavior: "smooth" });
+      setTimeout(scrollToTitle(), 100);
     }}
   >
     Fiqh & Its Foundations
@@ -1087,9 +1079,7 @@
     href="#section-title"
     on:click={() => {
       searchTerm = "suluk";
-      document
-        .getElementById("section-title")
-        .scrollIntoView({ behavior: "smooth" });
+      setTimeout(scrollToTitle(), 100);
     }}
   >
     Sprituality
@@ -1098,9 +1088,7 @@
     href="#section-title"
     on:click={() => {
       searchTerm = "zahir";
-      document
-        .getElementById("section-title")
-        .scrollIntoView({ behavior: "smooth" });
+      setTimeout(scrollToTitle(), 100);
     }}
   >
     The Quran & Its Sciences
@@ -1109,9 +1097,7 @@
     href="#section-title"
     on:click={() => {
       searchTerm = "matn";
-      document
-        .getElementById("section-title")
-        .scrollIntoView({ behavior: "smooth" });
+      setTimeout(scrollToTitle(), 100);
     }}
   >
     Hadith & Its Sciences
@@ -1119,9 +1105,7 @@
   <button
     href="#gallery"
     on:click={() => {
-      document
-        .getElementById("section-title")
-        .scrollIntoView({ behavior: "smooth" });
+      setTimeout(scrollToTitle(), 100);
       searchTerm = "sirah";
     }}
   >
@@ -1131,9 +1115,7 @@
     href="#gallery"
     on:click={() => {
       searchTerm = "other";
-      document
-        .getElementById("section-title")
-        .scrollIntoView({ behavior: "smooth" });
+      setTimeout(scrollToTitle(), 100);
     }}
   >
     Assorted Classes
@@ -1269,7 +1251,7 @@
     <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
       Seerah & Shamail
     </h3>
-    {:else if searchTerm == "natiq"}
+  {:else if searchTerm == "natiq"}
     <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
       Arabic for Non-native Speakers
     </h3>
@@ -1284,7 +1266,6 @@
     {/each}
     <br />
   </div>
- 
 {/if}
 
 <div style="" id="articles" />
@@ -1295,13 +1276,16 @@
   }
   div#grid > button {
     text-align: center;
-    background: var(--primary-color);
+    background: #f2ffe9;
     border-radius: 4px;
     border: 2px dashed #90d344;
     padding: 10px;
     font-weight: bold;
-    justify-self:stretch;
+    justify-self: stretch;
     align-self: stretch;
+  }
+  div#grid > button:nth-child(odd) {
+    background: #f9fff5;
   }
   div#grid > button:hover {
     background-color: #bef184;
@@ -1316,7 +1300,7 @@
     column-gap: 10px;
     display: grid;
     /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; */
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     margin: 0 20px;
     justify-items: center;
     align-items: center;
@@ -1332,6 +1316,9 @@
     padding-bottom: 10vh;
   }
   @media only screen and (max-width: 600px) {
+    div#grid {
+      grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    }
     div#gallery {
       flex-direction: column;
     }
