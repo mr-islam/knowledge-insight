@@ -1,5 +1,7 @@
 <script>
   import { Swiper, SwiperSlide } from "swiper/svelte";
+  import { locale } from "svelte-intl-precompile";
+  import { onMount, afterUpdate } from "svelte";
 
   import "swiper/css";
   import "swiper/css/navigation";
@@ -7,48 +9,58 @@
   import SwiperCore, { Autoplay, Navigation } from "swiper";
 
   SwiperCore.use([Navigation, Autoplay]);
+
+  let dir;
+  onMount(() => {
+    dir = $locale === "ar" ? "rtl" : "ltr";
+  });
+  afterUpdate(() => {
+    dir = $locale === "ar" ? "rtl" : "ltr";
+  });
 </script>
 
-<div class="container">
-  <Swiper
-  dir="rtl"
-    navigation={true}
-    autoplay={{
-      delay: 4000,
-      disableOnInteraction: false,
-    }}
-    class="mySwiper"
-  >
-    <SwiperSlide>
-      <div class="center">
-        <h1>Islamic Knowledge, Prophetic Spirituality</h1>
-        <p>Complete Islamic education taught by qualified scholars</p>
-      </div>
-      <img src="/backgrounds/madina-busy.jpg" />
-    </SwiperSlide>
-    <SwiperSlide>
-      <div class="center">
-        <h1>Tajwid for Ladies</h1>
-        <p>Learn how to recite Allah Almighty's book correctly</p>
-      </div>
-      <img src="/backgrounds/cloud.jpg" />
-    </SwiperSlide>
-    <SwiperSlide
-      ><div class="center">
-        <h1>Islamic Knowledge, Prophetic Spirituality</h1>
-        <p>Complete Islamic education taught by qualified scholars</p>
-      </div>
-      <img src="/backgrounds/garden.jpg" /></SwiperSlide
+{#key dir}
+  <div class="container">
+    <Swiper
+      {dir}
+      navigation={true}
+      autoplay={{
+        delay: 4000,
+        disableOnInteraction: false,
+      }}
+      class="mySwiper"
     >
-    <SwiperSlide
-      ><div class="center">
-        <h1>Islamic Knowledge, Prophetic Spirituality</h1>
-        <p>Complete Islamic education taught by qualified scholars</p>
-      </div>
-      <img src="/backgrounds/flowers.jpg" /></SwiperSlide
-    >
-  </Swiper>
-</div>
+      <SwiperSlide>
+        <div class="center">
+          <h1>Islamic Knowledge, Prophetic Spirituality</h1>
+          <p>Complete Islamic education taught by qualified scholars</p>
+        </div>
+        <img src="/backgrounds/madina-busy.jpg" />
+      </SwiperSlide>
+      <SwiperSlide>
+        <div class="center">
+          <h1>Tajwid for Ladies</h1>
+          <p>Learn how to recite Allah Almighty's book correctly</p>
+        </div>
+        <img src="/backgrounds/cloud.jpg" />
+      </SwiperSlide>
+      <SwiperSlide
+        ><div class="center">
+          <h1>Islamic Knowledge, Prophetic Spirituality</h1>
+          <p>Complete Islamic education taught by qualified scholars</p>
+        </div>
+        <img src="/backgrounds/garden.jpg" /></SwiperSlide
+      >
+      <SwiperSlide
+        ><div class="center">
+          <h1>Islamic Knowledge, Prophetic Spirituality</h1>
+          <p>Complete Islamic education taught by qualified scholars</p>
+        </div>
+        <img src="/backgrounds/flowers.jpg" /></SwiperSlide
+      >
+    </Swiper>
+  </div>
+{/key}
 
 <style>
   div.center {
