@@ -15,6 +15,7 @@
 
 <div>
   <Swiper
+  dir="rtl"
     effect={"cards"}
     grabCursor={true}
     autoplay={{

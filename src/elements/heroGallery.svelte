@@ -1,19 +1,17 @@
 <script>
   import { Swiper, SwiperSlide } from "swiper/svelte";
 
-  // Import Swiper styles
   import "swiper/css";
   import "swiper/css/navigation";
 
-  // import Swiper core and required modules
   import SwiperCore, { Autoplay, Navigation } from "swiper";
 
-  // install Swiper modules
   SwiperCore.use([Navigation, Autoplay]);
 </script>
 
 <div class="container">
   <Swiper
+  dir="rtl"
     navigation={true}
     autoplay={{
       delay: 4000,
