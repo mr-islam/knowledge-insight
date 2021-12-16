@@ -895,12 +895,10 @@
   </h3>
 {:else if searchTerm == "natiq"}
   <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
-    Arabic for Non-native Speakers
-  </h3>
+    { $t('tags.natiq') } </h3>
 {:else if searchTerm == "other"}
   <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
-    Miscellaneous
-  </h3>
+    { $t('tags.misc') } </h3>
 {/if}
 
 <div id="gallery">

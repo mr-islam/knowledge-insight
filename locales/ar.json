@@ -15,28 +15,28 @@
       "book": "نور الإيضاح"
     },
     "fiqh-quduri": {
-      "title": "Fiqh of Interactions: 1",
+      "title": "فقه المعاملات والأحوال: 1",
       "desc": "Being with Allah's creation the way He commanded",
       "src": "/books/fiqh-quduri.jpg",
-      "book": "Mukhtasar al-Quduri"
+      "book": "مختصر القدوري"
     },
     "aqidah-ahl-sunnah": {
-      "title": "Beliefs: Essentials",
+      "title": "العقيدة: الأساسيات",
       "desc": "There is no belief without knowledge",
       "src": "/books/aqidah-ahl-sunnah.jpg",
-      "book": "Aqida Ahl al-Sunnah"
+      "book": "متن عقيدة أهل السنة"
     },
     "tasawwuf-tuhfah": {
-      "title": "Spirituality: Essentials",
+      "title": "التصوف",
       "desc": "A summary of Imam al-Ghazzali's Ihya",
       "src": "/books/tasawwuf-tuhfah.jpg",
-      "book": "Tuhfat al-Salikin"
+      "book": "تحفة السالكين"
     },
     "tasawwuf-fuyud": {
-      "title": "Spirituality: Essentials",
+      "title": "التصوف",
       "desc": "An abridged collection of oaths the Holy Prophet ﷺ took from us",
       "src": "/books/tasawwuf-fuyud.jpg",
-      "book": "Al-Fuyud al-Ahmadiyyah"
+      "book": "الفيوض الأحمدية"
     }
   }
 }

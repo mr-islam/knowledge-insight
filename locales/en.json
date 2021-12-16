@@ -225,7 +225,7 @@
       "src": "/books/fiqh-maram.jpg",
       "book": "Sharh Bulugh al-Maram",
     },
-    "fiqh-ghamz": {
+    "fiqh-ila": {
       "title": "Fiqh: Evidences 2",
       "desc": "The definitive reference for hadith evidence for fiqh",
       "src": "/books/fiqh-ila.jpg",
@@ -458,7 +458,7 @@
       "desc": "",
       "src": "/books/other-diwankurdi.jpg",
       "book": "Diwan al-Shaykh al-Kurdi",
-    },
+    }
 
 
   },
@@ -467,6 +467,5 @@
     "successful_alert": "Payment successful!",
     "error": "Something went wrong",
     "price_140": "$140 (all proceeds are re-invested into the Center's projects)"
-  },
-  "Tajwid: Level 2": "courses.tajwid-hidayatrahman.tutle"
+  }
 }
