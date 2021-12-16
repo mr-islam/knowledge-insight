@@ -1,15 +1,36 @@
 <script>
   import { t, locale, locales, isLoading } from "svelte-intl-precompile";
-  import { onMount } from "svelte";
+  import { crossfade, fade, fly, slide, blur} from "svelte/transition";
+  import { quintOut } from 'svelte/easing';
+
 
   // export let id, title, desc, book, src;
-  export let id;
+  export let id, number;
+
+  const [send, receive] = crossfade({
+		duration: d => Math.sqrt(d * 100),
+
+		fallback(node, params) {
+			const style = getComputedStyle(node);
+			const transform = style.transform === 'none' ? '' : style.transform;
+
+			return {
+				duration: 300,
+				easing: quintOut,
+				css: t => `
+					transform: ${transform} scale(${t});
+					opacity: ${t}
+				`
+			};
+		}
+	});
+
 </script>
 
 {#if $isLoading}
 Loading..
 {:else}
-  <a href={`/courses/${id}`}>
+  <a out:fade="{{duration: 0}}" in:slide href={`/courses/${id}`}>
     <div class="card-course">
       <img src={$t(`courses.${id}.src`)} alt={$t(`courses.${id}.book`)} />
       <div class="card-inner">

@@ -1,9 +1,7 @@
 <script>
-  import CourseCard from "../components/CourseCard.svelte";
   import CourseCard2 from "../components/CourseCard2.svelte";
 
-  import { t, locale, locales, isLoading } from "svelte-intl-precompile";
-  import About from "./about.svelte";
+  import { t, locales } from "svelte-intl-precompile";
 
   console.log($locales);
 
@@ -895,18 +893,22 @@
   </h3>
 {:else if searchTerm == "natiq"}
   <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
-    { $t('tags.natiq') } </h3>
+    {$t("tags.natiq")}
+  </h3>
 {:else if searchTerm == "other"}
   <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
-    { $t('tags.misc') } </h3>
+    {$t("tags.misc")}
+  </h3>
 {/if}
 
-<div id="gallery">
-  {#each filteredCourses as course}
-    <CourseCard2 id={course.id} />
-  {/each}
-  <br />
-</div>
+{#key searchTerm}
+  <div id="gallery">
+    {#each filteredCourses as course, number}
+      <CourseCard2 {number} id={course.id} />
+    {/each}
+    <br />
+  </div>
+{/key}
 
 <div style="" id="articles" />
 
@@ -983,6 +985,8 @@
     font-weight: bold;
     cursor: pointer;
     display: inline-block;
+    border: 2px solid white;
+
     padding: 10px;
     text-transform: capitalize;
     /* background-color: #fbfff9; */
