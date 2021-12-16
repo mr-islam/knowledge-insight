@@ -30,31 +30,31 @@
       <img src="/books/sawanih.jpg" alt="sawanih" />
     </SwiperSlide>
     <SwiperSlide>
-      <img src="/books/fuyud.jpg" alt="Image 2" />
+      <img src="/books/tasawwuf-fuyud.jpg" alt="fuyud" />
     </SwiperSlide>
     <SwiperSlide>
-      <img src="/books/maslak.jpg" alt="Image 2" />
+      <img src="/books/fiqh-maslak.jpg" alt="maslak" />
     </SwiperSlide>
     <SwiperSlide>
-      <img src="/books/qawanin.jpg" alt="Image 2" />
+      <img src="/books/tasawwuf-qawanin.jpg" alt="qawanin" />
     </SwiperSlide>
     <SwiperSlide>
-      <img src="/books/rawdah.jpg" alt="Image 2" />
+      <img src="/books/rawdah.jpg" alt="rawdah" />
     </SwiperSlide>
     <SwiperSlide>
-      <img src="/books/majmu.jpg" alt="Image 2" />
+      <img src="/books/aqidah-sharh-nazm.jpg" alt="majmu" />
     </SwiperSlide>
     <SwiperSlide>
-      <img src="/books/tuhfah.jpg" alt="Image 2" />
+      <img src="/books/tasawwuf-tuhfah.jpg" alt="tuhfah" />
     </SwiperSlide>
     <SwiperSlide>
-      <img src="/books/manar.jpg" alt="Image 2" />
+      <img src="/books/fiqh-manar.jpg" alt="manar" />
     </SwiperSlide>
     <SwiperSlide>
-      <img src="/books/miftah.jpg" alt="Image 2" />
+      <img src="/books/aqidah-miftah.jpg" alt="miftah" />
     </SwiperSlide>
     <SwiperSlide>
-      <img src="/books/suyuti.jpg" alt="Image 2" />
+      <img src="/books/suyuti.jpg" alt="suyuti" />
     </SwiperSlide>
   </Swiper>
 </div>
