@@ -660,7 +660,7 @@
       searchTerm = "fard";
     }}
   >
-    Obligatory Knowledge
+    {$t("tags.fard")}
   </button>
   <button
     href="#gallery"
@@ -669,7 +669,7 @@
       setTimeout(scrollToTitle(), 100);
     }}
   >
-    Bundle Programs
+    {$t("tags.program")}
   </button>
   <button
     href="#section-title"
@@ -678,7 +678,7 @@
       setTimeout(scrollToTitle(), 100);
     }}
   >
-    Quran Recitation & Tajwid
+    {$t("tags.tajwid")}
   </button>
   <button
     href="#gallery"
@@ -687,7 +687,7 @@
       setTimeout(scrollToTitle(), 100);
     }}
   >
-    Arabic for Non-natives
+    {$t("tags.natiq")}
   </button>
   <button
     href="#section-title"
@@ -696,7 +696,7 @@
       setTimeout(scrollToTitle(), 100);
     }}
   >
-    Arabic & Its Sciences
+    {$t("tags.arabi")}
   </button>
   <button
     href="#gallery"
@@ -705,7 +705,7 @@
       setTimeout(scrollToTitle(), 100);
     }}
   >
-    Beliefs
+    {$t("tags.aqidah")}
   </button>
   <button
     href="#section-title"
@@ -714,7 +714,7 @@
       setTimeout(scrollToTitle(), 100);
     }}
   >
-    Fiqh & Its Foundations
+    {$t("tags.fiqh")}
   </button>
   <button
     href="#section-title"
@@ -723,7 +723,7 @@
       setTimeout(scrollToTitle(), 100);
     }}
   >
-    Sprituality
+    {$t("tags.tasawwuf")}
   </button>
   <button
     href="#section-title"
@@ -732,7 +732,7 @@
       setTimeout(scrollToTitle(), 100);
     }}
   >
-    The Quran & Its Sciences
+    {$t("tags.quran")}
   </button>
   <button
     href="#section-title"
@@ -741,7 +741,7 @@
       setTimeout(scrollToTitle(), 100);
     }}
   >
-    Hadith & Its Sciences
+    {$t("tags.hadith")}
   </button>
   <button
     href="#gallery"
@@ -750,7 +750,8 @@
       searchTerm = "sirah";
     }}
   >
-    Seerah & Shamail
+  {$t("tags.sirah")}
+
   </button>
   <button
     href="#gallery"
@@ -759,7 +760,8 @@
       setTimeout(scrollToTitle(), 100);
     }}
   >
-    Assorted Classes
+  {$t("tags.other")}
+
   </button>
 </div>
 
@@ -877,19 +879,19 @@
 
 {#if searchTerm == "fard"}
   <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
-    Obligatory For Every Muslim
+    {$t("tags.fard")}
   </h3>
 {:else if searchTerm == "program"}
   <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
-    Larger Programs
+    {$t("tags.program")}
   </h3>
 {:else if searchTerm == "aqidah"}
   <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
-    Beliefs
+    {$t("tags.aqidah")}
   </h3>
 {:else if searchTerm == "sirah"}
   <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
-    Seerah & Shamail
+    {$t("tags.sirah")}
   </h3>
 {:else if searchTerm == "natiq"}
   <h3 id="section-title" style="margin-top: 5vh; text-align: center;">

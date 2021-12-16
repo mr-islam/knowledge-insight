@@ -1,6 +1,32 @@
 {
-  "title": "مركز العلم والمعرفة",
+  "title": " العلم والمعرفة",
+  "center": "مركز",
   "direction": "rtl",
+  "articles": {
+    "title": "المقالات"
+  },
+  "hero": {
+    "header1": "العلم الرباني، والمعرفة النبوية",
+    "subheader1": "العلم الإسلامي الكامل تُدرّس من قبل علماء",
+  },
+  "about": {
+    "title": "عنا"
+  },
+  "tags": {
+    "fard": "الفرض العيني",
+    "aqidah": "العقيدة",
+    "sirah": "السيرة والشمائل",
+    "program": "برامج كبيرة",
+    "natiq": "العربية للناطقين بغيرها",
+    "misc": "المتنوعات",
+    "tajwid": "التلاوة والتجويد",
+    "arabi": "العربية وعلومها",
+    "fiqh": "الفقه وأصوله",
+    "tasawwuf": "التصوف",
+    "quran": "القرآن وعلومه",
+    "hadith": "الحديث وعلومه",
+    "other": "المتنوعات"
+  },
   "courses": {
     "title": "المواد",
     "tajwid-qaida": {
@@ -38,6 +64,78 @@
       "desc": "An abridged collection of oaths the Holy Prophet ﷺ took from us",
       "src": "/books/tasawwuf-fuyud.jpg",
       "book": "الفيوض الأحمدية"
+    },
+    "tajwid-hidayatrahman": {
+      "title": "التجويد: المستوى 2",
+      "desc": "this is   book",
+      "src": "/books/tajwid-hidayatrahman.jpg",
+      "book": "هداية الرحمن"
+    },
+    "tajwid-thani": {
+      "title": "التجويد: المستوى 3",
+      "desc": "Written by the expert scholar Yahya al-Ghawthani",
+      "src": "/books/tajwid-thani.jpg",
+      "book": "المستوى الثاني"
+    },
+    "tajwid-jazari": {
+      "title": "التجويد: المستوى 4",
+      "desc": "this is   book",
+      "src": "/books/tajwid-jazari.jpg",
+      "book": "شرح الجزرية"
+    },
+    "tajwid-amma": {
+      "title": "التلاوة: المستوى 1",
+      "desc": "this is   book",
+      "src": "/books/mushaf.jpg",
+      "book": "تلاوو عن حاضر: جزء عم"
+    },
+    "tajwid-reading": {
+      "title": "التلاوة: المستوى 2",
+      "desc": "this is   book",
+      "src": "/books/mushaf.jpg",
+      "book": "تلاوة القرآن كاملا عن حاضر"
+    },
+    "tajwid-reciting": {
+      "title": "التلاوة والإجازة: المستوى 3",
+      "desc": "this is   book",
+      "src": "/books/mushaf.jpg",
+      "book": "تلاوة القرآن كاملا عن غيب "
+    },
+    "program-youth": {
+      "title": "A complete program spanning several books",
+      "desc": "This is placeholder of some text, we need to write later",
+      "src": "",
+      "book": "دورة الصغار"
+    },
+    "program-women": {
+      "title": "A complete program spanning several books",
+      "desc": "This is placeholder of some text, we need to write later",
+      "src": "",
+      "book": "دورة النساء"
+    },
+    "natiq-um1": {
+      "title": "مستوى التمهيد",
+      "desc": "This is placeholder of some text, we need to write later",
+      "src": "/books/natiq-um1.jpg",
+      "book": "سلسلة اللسان: 1"
+    },
+    "natiq-um2": {
+      "title": "مستوى المبتدئ",
+      "desc": "This is placeholder of some text, we need to write later",
+      "src": "/books/natiq-um2.jpg",
+      "book": "سلسلة اللسان: 2"
+    },
+    "natiq-um3": {
+      "title": "مستوى المتوسط",
+      "desc": "This is placeholder of some text, we need to write later",
+      "src": "/books/natiq-um3.jpg",
+      "book": "سلسلة اللسان: 3"
+    },
+    "natiq-um4": {
+      "title": "مستوى المتقدم",
+      "desc": "This is placeholder of some text, we need to write later",
+      "src": "/books/natiq-um4.jpg",
+      "book": "سلسلة اللسان: 4"
     }
   }
 }

@@ -1,6 +1,6 @@
 <script>
   import { Swiper, SwiperSlide } from "swiper/svelte";
-  import { locale } from "svelte-intl-precompile";
+  import { t, locale } from "svelte-intl-precompile";
   import { onMount, afterUpdate } from "svelte";
 
   import "swiper/css";
@@ -32,31 +32,31 @@
     >
       <SwiperSlide>
         <div class="center">
-          <h1>Islamic Knowledge, Prophetic Spirituality</h1>
-          <p>Complete Islamic education taught by qualified scholars</p>
+          <h1>{$t("hero.header1")}</h1>
+          <p>{$t("hero.subheader1")}</p>
         </div>
-        <img src="/backgrounds/madina-busy.jpg" />
+        <img alt="pretty background for announcement background" src="/backgrounds/madina-busy.jpg" />
       </SwiperSlide>
       <SwiperSlide>
         <div class="center">
-          <h1>Tajwid for Ladies</h1>
-          <p>Learn how to recite Allah Almighty's book correctly</p>
+          <h1>{$t("hero.header1")}</h1>
+          <p>{$t("hero.subheader1")}</p>
         </div>
-        <img src="/backgrounds/cloud.jpg" />
+        <img alt="pretty background for announcement background" src="/backgrounds/cloud.jpg" />
       </SwiperSlide>
       <SwiperSlide
         ><div class="center">
-          <h1>Islamic Knowledge, Prophetic Spirituality</h1>
-          <p>Complete Islamic education taught by qualified scholars</p>
+          <h1>{$t("hero.header1")}</h1>
+          <p>{$t("hero.subheader1")}</p>
         </div>
-        <img src="/backgrounds/garden.jpg" /></SwiperSlide
+        <img alt="pretty background for announcement background" src="/backgrounds/garden.jpg" /></SwiperSlide
       >
       <SwiperSlide
         ><div class="center">
-          <h1>Islamic Knowledge, Prophetic Spirituality</h1>
-          <p>Complete Islamic education taught by qualified scholars</p>
+          <h1>{$t("hero.header1")}</h1>
+          <p>{$t("hero.subheader1")}</p>
         </div>
-        <img src="/backgrounds/flowers.jpg" /></SwiperSlide
+        <img alt="pretty background for announcement background" src="/backgrounds/flowers.jpg" /></SwiperSlide
       >
     </Swiper>
   </div>

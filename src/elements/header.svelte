@@ -15,9 +15,9 @@
   <div>
     <a href="/#courses">{$t("courses.title")}</a>
     &middot
-    <a href="/#articles">Articles</a>
+    <a href="/#articles">{$t("articles.title")}</a>
     &middot
-    <a href="/#about">About</a>
+    <a href="/#about">{$t("about.title")}</a>
     &middot
     <select
       id="select-lang"
