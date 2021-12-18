@@ -95,7 +95,7 @@
     },
     "tajwid-amma": {
       "title": "التلاوة: المستوى 1",
-      "desc": "this is   book",
+      "desc": "القراءة ركن الصلاة—طبّق أحكام التجويد في هذه السور كثيرة القراءة",
       "src": "/books/mushaf.jpg",
       "book": "تلاوو عن حاضر: جزء عم"
     },
@@ -146,6 +146,120 @@
       "desc": "This is placeholder of some text, we need to write later",
       "src": "/books/natiq-um4.jpg",
       "book": "سلسلة اللسان: 4"
-    }
+    },
+    "aqidah-sharh-nazm": {
+      "title": "العقيدة: مستوى 1",
+      "desc": "منظومة لطيفة عظيمة، سهل التنوال وواسع العلم، مع شرح وتعليق كافٍ",
+      "src": "/books/aqidah-sharh-nazm.jpg",
+      "book": "شرح نظم عقيدة أهل السنة"
+    },
+    "aqidah-tali": {
+      "title": "العقيدة: مستوى 2",
+      "desc": "شرح متقن لهذا المتن المعتمد، ويكفي الطاب الغير المتخصص في العقيدة",
+      "src": "/books/aqidah-tali.jpg",
+      "book": "طالع البشرى على الصغرى"
+    },
+    "aqidah-miftah": {
+      "title": "العقيدة: مستوى 3",
+      "desc": "عبارة عن تلخيص 50 كتاب، هذا الكتاب يفتح أبواب في أبعاد العقائد تمهيدا للمراحل القادمة",
+      "src": "/books/aqidah-miftah.jpg",
+      "book": "مفتاح الجنة"
+    },
+    "aqidah-jawharah": {
+      "title": "العقيدة: مستوى 4",
+      "desc": "A complete poem of beliefs and everything related to creed",
+      "src": "/books/aqidah-jawharah.jpg",
+      "book": "جوهرة التوحيد"
+    },
+    "aqidah-taftazani": {
+      "title": "العقيدة: مستوى 5",
+      "desc": "An explanation of one of the soundest texts in belief",
+      "src": "/books/aqidah-taftazani.jpg",
+      "book": "شرح العقيدة النسفية"
+    },
+    "aqidah-tahrir": {
+      "title": "العقيدة: مستوى 6",
+      "desc": "A deep dive and joruney through the range of views",
+      "src": "/books/aqidah-tahrir.jpg",
+      "book": "تحرير المطالب"
+    },
+    "fiqh-maslak": {
+      "title": "الفقه: مستوى 2",
+      "desc": "Add more depth to your knowledge of law",
+      "src": "/books/fiqh-maslak.jpg",
+      "book": "Maslak al-Najah"
+    },
+    "fiqh-lubab": {
+      "title": "Fiqh: Level 3",
+      "desc": "Add more depth to your knowledge of law",
+      "src": "/books/fiqh-lubab.jpg",
+      "book": "Al-Lubab"
+    },
+    "fiqh-hidayah": {
+      "title": "Fiqh: Level 4",
+      "desc": "The mother book of the Madhhab",
+      "src": "/books/fiqh-hidayah.jpg",
+      "book": "Al-Hidayah"
+    },
+    "fiqh-rad": {
+      "title": "Fiqh: Level 5",
+      "desc": "The relied upon book for rulings and mastery",
+      "src": "/books/fiqh-rad.jpg",
+      "book": "Radd al-Muhtar"
+    },
+    "fiqh-manar": {
+      "title": "Fiqh: Foundations 1",
+      "desc": "The relied upon book for rulings and mastery",
+      "src": "/books/fiqh-manar.jpg",
+      "book": "Sharh Mukhtasar al-Manar"
+    },
+    "fiqh-sharhmanar": {
+      "title": "Fiqh: Foundations 2",
+      "desc": "The relied upon book for rulings and mastery",
+      "src": "/books/fiqh-sharhmanar.jpg",
+      "book": "Sharh al-Manar"
+    },
+    "fiqh-zad": {
+      "title": "Fiqh: Foundations 3",
+      "desc": "The relied upon book for rulings and mastery",
+      "src": "/books/fiqh-zad.jpg",
+      "book": "Zad al-Muktafi"
+    },
+    "fiqh-talwih": {
+      "title": "Fiqh: Foundations 4",
+      "desc": "",
+      "src": "",
+      "book": "Al-Talwih maʿa al-Tawdih"
+    },
+    "fiqh-zaydan": {
+      "title": "Fiqh: Principles 1",
+      "desc": "",
+      "src": "/books/fiqh-zaydan.jpg",
+      "book": "Al-Wajiz Fi al-Qawaid"
+    },
+    "fiqh-isad": {
+      "title": "Fiqh: Principles 2",
+      "desc": "The relied upon book for rulings and mastery",
+      "src": "/books/fiqh-isad.jpg",
+      "book": "Sharh Uqud Rasm al-Mufti"
+    },
+    "fiqh-ghamz": {
+      "title": "Fiqh: Principles 3",
+      "desc": "The standard across schools for this genre",
+      "src": "/books/fiqh-ghamz.jpg",
+      "book": "Ghamz al-Basair"
+    },
+    "fiqh-maram": {
+      "title": "Fiqh: Evidences 1",
+      "desc": "Introduction to the genre of hadith evidences for fiqh",
+      "src": "/books/fiqh-maram.jpg",
+      "book": "Sharh Bulugh al-Maram"
+    },
+    "fiqh-ila": {
+      "title": "Fiqh: Evidences 2",
+      "desc": "The definitive reference for hadith evidence for fiqh",
+      "src": "/books/fiqh-ila.jpg",
+      "book": "Ila al-Sunan"
+    },
   }
 }

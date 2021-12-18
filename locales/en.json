@@ -64,7 +64,7 @@
     },
     "tajwid-amma": {
       "title": "Level 1: Open-book Recitation",
-      "desc": "this is   book",
+      "desc": "Recitation is a pillar of prayer—apply the rules of tajwid to these regularly read surah!",
       "src": "/books/mushaf.jpg",
       "book": "Quran Juz 30: ʿAmma"
     },
@@ -154,19 +154,19 @@
     },
     "aqidah-sharh-nazm": {
       "title": "Beliefs: Level 1",
-      "desc": "A masterful poem and explanation on beliefs",
+      "desc": "A masterful educational poem that's approachable yet vast, with an explanation and commentary",
       "src": "/books/aqidah-sharh-nazm.jpg",
       "book": "Nazm Aqida Ahl al-Sunnah"
     },
     "aqidah-tali": {
       "title": "Beliefs: Level 2",
-      "desc": "One of the best explanations of this key text in creed",
+      "desc": "An expert explanation for this major text. This level is sufficient for students not specialzing in beliefs",
       "src": "/books/aqidah-tali.jpg",
       "book": "Taliʿ al-Bushra"
     },
     "aqidah-miftah": {
       "title": "Beliefs: Level 3",
-      "desc": "A summary of over 50 works in Creed, this is a milestone",
+      "desc": "A summary of over 50 works in Creed, this book suffices students of knowledge not specializing in beliefs",
       "src": "/books/aqidah-miftah.jpg",
       "book": "Miftah al-Jannah"
     },
