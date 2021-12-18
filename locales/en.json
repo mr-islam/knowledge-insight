@@ -126,374 +126,436 @@
       "title": "A complete program spanning several books",
       "desc": "This is placeholder of some text, we need to write later",
       "src": "",
-      "book": "Women's Program"
+      "book": "Women's Program",
+      "explanation": ""
     },
     "natiq-um1": {
       "title": "A complete program spanning several books",
       "desc": "This is placeholder of some text, we need to write later",
       "src": "/books/natiq-um1.jpg",
-      "book": "Silsilah al-Lisan: 1"
+      "book": "Silsilah al-Lisan: 1",
+      "explanation": ""
     },
     "natiq-um2": {
       "title": "A complete program spanning several books",
       "desc": "This is placeholder of some text, we need to write later",
       "src": "/books/natiq-um2.jpg",
-      "book": "Silsilah al-Lisan: 2"
+      "book": "Silsilah al-Lisan: 2",
+      "explanation": ""
     },
     "natiq-um3": {
       "title": "A complete program spanning several books",
       "desc": "This is placeholder of some text, we need to write later",
       "src": "/books/natiq-um3.jpg",
-      "book": "Silsilah al-Lisan: 3"
+      "book": "Silsilah al-Lisan: 3",
+      "explanation": ""
     },
     "natiq-um4": {
       "title": "A complete program spanning several books",
       "desc": "This is placeholder of some text, we need to write later",
       "src": "/books/natiq-um4.jpg",
-      "book": "Silsilah al-Lisan: 4"
+      "book": "Silsilah al-Lisan: 4",
+      "explanation": ""
     },
     "aqidah-sharh-nazm": {
       "title": "Beliefs: Level 1",
       "desc": "A masterful educational poem that's approachable yet vast, with an explanation and commentary",
       "src": "/books/aqidah-sharh-nazm.jpg",
-      "book": "Nazm Aqida Ahl al-Sunnah"
+      "book": "Nazm Aqida Ahl al-Sunnah",
+      "explanation": ""
     },
     "aqidah-tali": {
       "title": "Beliefs: Level 2",
       "desc": "An expert explanation for this major text. This level is sufficient for students not specialzing in beliefs",
       "src": "/books/aqidah-tali.jpg",
-      "book": "Taliʿ al-Bushra"
+      "book": "Taliʿ al-Bushra",
+      "explanation": ""
     },
     "aqidah-miftah": {
       "title": "Beliefs: Level 3",
       "desc": "A summary of over 50 works in Creed, this book suffices students of knowledge not specializing in beliefs",
       "src": "/books/aqidah-miftah.jpg",
-      "book": "Miftah al-Jannah"
+      "book": "Miftah al-Jannah",
+      "explanation": ""
     },
     "aqidah-jawharah": {
       "title": "Beliefs: Level 4",
       "desc": "A complete poem of beliefs and everything related to creed",
       "src": "/books/aqidah-jawharah.jpg",
-      "book": "Jawharat al-Tawhid"
+      "book": "Jawharat al-Tawhid",
+      "explanation": ""
     },
     "aqidah-taftazani": {
       "title": "Beliefs: Level 5",
       "desc": "An explanation of one of the soundest texts in belief",
       "src": "/books/aqidah-taftazani.jpg",
-      "book": "Sharh al-Nasafiyyah"
+      "book": "Sharh al-Nasafiyyah",
+      "explanation": ""
     },
     "aqidah-tahrir": {
       "title": "Beliefs: Level 6",
       "desc": "A deep dive and joruney through the range of views",
       "src": "/books/aqidah-tahrir.jpg",
-      "book": "Tahrir al-Matalib"
+      "book": "Tahrir al-Matalib",
+      "explanation": ""
     },
 
     "fiqh-maslak": {
       "title": "Fiqh: Level 2",
       "desc": "A complete study of the rulings related to acts of worship: purification, prayer, fasting, zakah & hajj",
       "src": "/books/fiqh-maslak.jpg",
-      "book": "Maslak al-Najah"
+      "book": "Maslak al-Najah",
+      "explanation": ""
     },
     "fiqh-lubab": {
       "title": "Fiqh: Level 3",
       "desc": "Add more depth to your knowledge of law",
       "src": "/books/fiqh-lubab.jpg",
-      "book": "Al-Lubab"
+      "book": "Al-Lubab",
+      "explanation": ""
     },
     "fiqh-hidayah": {
       "title": "Fiqh: Level 4",
       "desc": "The source and key for every book in the Madhhab that came after it",
       "src": "/books/fiqh-hidayah.jpg",
-      "book": "Al-Hidayah"
+      "book": "Al-Hidayah",
+      "explanation": ""
     },
     "fiqh-rad": {
       "title": "Fiqh: Level 5",
-      "desc": "The relied upon book for rulings and mastery",
+      "desc": "",
       "src": "/books/fiqh-rad.jpg",
-      "book": "Radd al-Muhtar"
+      "book": "Radd al-Muhtar",
+      "explanation": ""
     },
     "fiqh-manar": {
       "title": "Fiqh: Foundations 1",
       "desc": "The relied upon book for rulings and mastery",
       "src": "/books/fiqh-manar.jpg",
-      "book": "Sharh Mukhtasar al-Manar"
+      "book": "Sharh Mukhtasar al-Manar",
+      "explanation": ""
     },
     "fiqh-sharhmanar": {
       "title": "Fiqh: Foundations 2",
       "desc": "The relied upon book for rulings and mastery",
       "src": "/books/fiqh-sharhmanar.jpg",
-      "book": "Sharh al-Manar"
+      "book": "Sharh al-Manar",
+      "explanation": ""
     },
     "fiqh-zad": {
       "title": "Fiqh: Foundations 3",
       "desc": "The relied upon book for rulings and mastery",
       "src": "/books/fiqh-zad.jpg",
-      "book": "Zad al-Muktafi"
+      "book": "Zad al-Muktafi",
+      "explanation": ""
     },
     "fiqh-talwih": {
       "title": "Fiqh: Foundations 4",
       "desc": "",
       "src": "",
-      "book": "Al-Talwih maʿa al-Tawdih"
+      "book": "Al-Talwih maʿa al-Tawdih",
+      "explanation": ""
     },
     "fiqh-zaydan": {
       "title": "Fiqh: Principles 1",
       "desc": "",
       "src": "/books/fiqh-zaydan.jpg",
-      "book": "Al-Wajiz Fi al-Qawaid"
+      "book": "Al-Wajiz Fi al-Qawaid",
+      "explanation": ""
     },
     "fiqh-isad": {
       "title": "Fiqh: Principles 2",
       "desc": "The relied upon book for rulings and mastery",
       "src": "/books/fiqh-isad.jpg",
-      "book": "Sharh Uqud Rasm al-Mufti"
+      "book": "Sharh Uqud Rasm al-Mufti",
+      "explanation": ""
     },
     "fiqh-ghamz": {
       "title": "Fiqh: Principles 3",
       "desc": "The standard across schools for this genre",
       "src": "/books/fiqh-ghamz.jpg",
-      "book": "Ghamz al-Basair"
+      "book": "Ghamz al-Basair",
+      "explanation": ""
     },
     "fiqh-maram": {
       "title": "Fiqh: Evidences 1",
       "desc": "Introduction to the genre of hadith evidences for fiqh",
       "src": "/books/fiqh-maram.jpg",
-      "book": "Sharh Bulugh al-Maram"
+      "book": "Sharh Bulugh al-Maram",
+      "explanation": ""
     },
     "fiqh-ila": {
       "title": "Fiqh: Evidences 2",
       "desc": "The definitive reference for hadith evidence for fiqh",
       "src": "/books/fiqh-ila.jpg",
-      "book": "Ila al-Sunan"
+      "book": "Ila al-Sunan",
+      "explanation": ""
     },
     "tasawwuf-bidayah": {
       "title": "Spirituality",
       "desc": "The primer for essential guidance in daily life, worship and seeking",
       "src": "/books/tasawwuf-bidayah.jpg",
-      "book": "Bidayat al-Hidayah"
+      "book": "Bidayat al-Hidayah",
+      "explanation": ""
     },
     "tasawwuf-taj": {
       "title": "Spirituality",
       "desc": "The primer for essential guidance in daily life, worship and seeking",
       "src": "/books/tasawwuf-taj.jpg",
-      "book": "Taj al-Arus"
+      "book": "Taj al-Arus",
+      "explanation": ""
     },
     "tasawwuf-uyub": {
       "title": "Spirituality",
       "desc": "The primer for essential guidance in daily life, worship and seeking",
       "src": "/books/tasawwuf-uyub.jpg",
-      "book": "Uyub al-Nafs wa Adwiyatuha"
+      "book": "Uyub al-Nafs wa Adwiyatuha",
+      "explanation": ""
     },
     "tasawwuf-qasd": {
       "title": "Spirituality",
       "desc": "The primer for essential guidance in daily life, worship and seeking",
       "src": "/books/tasawwuf-qasd.jpg",
-      "book": "Sharh al-Muntaqa min al-Qawaid"
+      "book": "Sharh al-Muntaqa min al-Qawaid",
+      "explanation": ""
     },
     "tasawwuf-mabahith": {
       "title": "Spirituality",
       "desc": "The primer for essential guidance in daily life, worship and seeking",
       "src": "/books/tasawwuf-mabahith.jpg",
-      "book": "Sharh al-Mabahith al-Asliyyah"
+      "book": "Sharh al-Mabahith al-Asliyyah",
+      "explanation": ""
     },
     "tasawwuf-manazil": {
       "title": "Spirituality",
       "desc": "The primer for essential guidance in daily life, worship and seeking",
       "src": "/books/tasawwuf-manazil.jpg",
-      "book": "Manazil al-Saʾirin"
+      "book": "Manazil al-Saʾirin",
+      "explanation": ""
     },
     "tasawwuf-wasaya": {
       "title": "Spirituality: Reaching 1",
       "desc": "",
       "src": "/books/tasawwuf-wasaya.jpg",
-      "book": "Al-Wasaya"
+      "book": "Al-Wasaya",
+      "explanation": ""
     },
     "tasawwuf-qawanin": {
       "title": "Spirituality: Reaching 2",
       "desc": "",
       "src": "/books/tasawwuf-qawanin.jpg",
-      "book": "Qawanin Hikam al-Ishraq"
+      "book": "Qawanin Hikam al-Ishraq",
+      "explanation": ""
     },
     "tasawwuf-naqsh": {
       "title": "Spirituality: Reaching 3",
       "desc": "",
       "src": "/books/tasawwuf-naqsh.jpg",
-      "book": "Naqsh al-Fusus"
+      "book": "Naqsh al-Fusus",
+      "explanation": ""
     },
     "tasawwuf-insankamil": {
       "title": "Spirituality: Reaching 4",
       "desc": "",
       "src": "/books/tasawwuf-insankamil.jpg",
-      "book": "Al-Insan al-Kamil"
+      "book": "Al-Insan al-Kamil",
+      "explanation": ""
     },
     "tasawwuf-fusus": {
       "title": "Spirituality: Reaching 5",
       "desc": "",
       "src": "/books/tasawwuf-fusus.jpg",
-      "book": "Fusus al-Hikam"
+      "book": "Fusus al-Hikam",
+      "explanation": ""
     },
     "tafsir-durrah": {
       "title": "Tafsir: External 1",
       "desc": "A contemporary tafsir that provides the cream of those before it",
       "src": "/books/tafsir-durrah.jpg",
-      "book": "Durrah al-Tafasir"
+      "book": "Durrah al-Tafasir",
+      "explanation": ""
     },
     "tafsir-nasafi": {
       "title": "Tafsir: External 2",
       "desc": "A summary of some of the most important tafsir",
       "src": "/books/tafsir-nasafi.jpg",
-      "book": "Tafsir al-Nasafi"
+      "book": "Tafsir al-Nasafi",
+      "explanation": ""
     },
     "tafsir-baydawi": {
       "title": "Tafsir: External 3",
       "desc": "",
       "src": "/books/tafsir-baydawi.jpg",
-      "book": "Tafsir al-Baydawi"
+      "book": "Tafsir al-Baydawi",
+      "explanation": ""
     },
     "tafsir-qurtubi": {
       "title": "Tafsir: External 4",
       "desc": "",
       "src": "/books/tafsir-qurtubi.jpg",
-      "book": "Tafsir al-Qurtubi"
+      "book": "Tafsir al-Qurtubi",
+      "explanation": ""
     },
     "tafsir-bahr": {
       "title": "Tafsir: Ishari 1",
       "desc": "",
       "src": "/books/tafsir-bahr.jpg",
-      "book": "Mukhtasar al-Bahr al-Madid"
+      "book": "Mukhtasar al-Bahr al-Madid",
+      "explanation": ""
     },
     "tafsir-waridat": {
       "title": "Tafsir: Ishari 2",
       "desc": "",
       "src": "/books/tafsir-waridat.jpg",
-      "book": "Al-Waridat al-Ilahiyyah"
+      "book": "Al-Waridat al-Ilahiyyah",
+      "explanation": ""
     },
     "tafsir-mawaqif": {
       "title": "Tafsir: Ishari 3",
       "desc": "",
       "src": "/books/tafsir-mawaqif.jpg",
-      "book": "Al-Mawaqif al-Ruhaniyyah"
+      "book": "Al-Mawaqif al-Ruhaniyyah",
+      "explanation": ""
     },
     "hadith-nawawi": {
       "title": "Hadith: Text 1",
       "desc": "",
       "src": "/books/hadith-nawawi.jpg",
-      "book": "The 40 Nawawi Hadith"
+      "book": "The 40 Nawawi Hadith",
+      "explanation": ""
     },
     "hadith-adab": {
       "title": "Hadith: Text 2",
       "desc": "Bring light to your every action with Prophetic guidance",
       "src": "/books/hadith-adab.jpg",
-      "book": "Al-Adab al-Mufrad"
+      "book": "Al-Adab al-Mufrad",
+      "explanation": ""
     },
     "hadith-riyad": {
       "title": "Hadith: Text 3",
       "desc": "Take delight in the meadow of the righteous",
       "src": "/books/hadith-riyad.jpg",
-      "book": "Riyad al-Salihin"
+      "book": "Riyad al-Salihin",
+      "explanation": ""
     },
     "hadith-bukhari": {
       "title": "Hadith: Text 4",
       "desc": "",
       "src": "/books/hadith-bukhari.jpg",
-      "book": "Sahih al-Bukhari"
+      "book": "Sahih al-Bukhari",
+      "explanation": ""
     },
     "hadith-muslim": {
       "title": "Hadith: Text 5",
       "desc": "",
       "src": "/books/hadith-muslim.jpg",
-      "book": "Sahih Muslim"
+      "book": "Sahih Muslim",
+      "explanation": ""
     },
     "hadith-tirmidhi": {
       "title": "Hadith: Text 6",
       "desc": "",
       "src": "/books/hadith-tirmidhi.jpg",
-      "book": "Sunan al-Tirmidhi"
+      "book": "Sunan al-Tirmidhi",
+      "explanation": ""
     },
     "hadith-abudawud": {
       "title": "Hadith: Text 7",
       "desc": "",
       "src": "/books/hadith-abudawud.jpg",
-      "book": "Sunan Abu Dawud"
+      "book": "Sunan Abu Dawud",
+      "explanation": ""
     },
     "hadith-ibnmajah": {
       "title": "Hadith: Text 8",
       "desc": "",
       "src": "/books/hadith-ibnmajah.jpg",
-      "book": "Sunan ibn Majah"
+      "book": "Sunan ibn Majah",
+      "explanation": ""
     },
     "hadith-nasai": {
       "title": "Hadith: Text 9",
       "desc": "",
       "src": "/books/hadith-nasai.jpg",
-      "book": "Sunan al-Nasai"
+      "book": "Sunan al-Nasai",
+      "explanation": ""
     },
     "hadith-musnad": {
       "title": "Hadith: Text 10",
       "desc": "",
       "src": "/books/hadith-musnad.jpg",
-      "book": "Musnad Ahmad"
+      "book": "Musnad Ahmad",
+      "explanation": ""
     },
     "hadith-darimi": {
       "title": "Hadith: Text 11",
       "desc": "",
       "src": "/books/hadith-darimi.jpg",
-      "book": "Sunan al-Darimi"
+      "book": "Sunan al-Darimi",
+      "explanation": ""
     },
     "hadith-muwatta": {
       "title": "Hadith: Text 12",
       "desc": "",
       "src": "/books/hadith-muwatta.jpg",
-      "book": "Al-Muwatta"
+      "book": "Al-Muwatta",
+      "explanation": ""
     },
     "hadith-bayquni": {
       "title": "Hadith: Terminology 1",
       "desc": "Introducing the tools to interact with Hadith and understand it's scholars",
       "src": "/books/hadith-bayquni.jpg",
-      "book": "Sharh al-Bayquniyyah"
+      "book": "Sharh al-Bayquniyyah",
+      "explanation": ""
     },
     "hadith-nuzhah": {
       "title": "Hadith: Terminology 2",
       "desc": "",
       "src": "/books/hadith-nuzhah.jpg",
-      "book": "Nuzhah al-Nazar"
+      "book": "Nuzhah al-Nazar",
+      "explanation": ""
     },
     "hadith-salah": {
       "title": "Hadith: Terminology 3",
       "desc": "The work that changed the field",
       "src": "/books/hadith-salah.jpg",
-      "book": "Muqaddimah Ibn al-Salah"
+      "book": "Muqaddimah Ibn al-Salah",
+      "explanation": ""
     },
     "hadith-tadrib": {
       "title": "Hadith: Terminology 4",
       "desc": "The level for complete campacity in hadith science",
       "src": "/books/hadith-tadrib.jpg",
-      "book": "Tadrib al-Rawi"
+      "book": "Tadrib al-Rawi",
+      "explanation": ""
     },
     "sirah-halabi": {
       "title": "Seerah 1",
       "desc": "",
       "src": "/books/sirah-halabi.jpg",
-      "book": "Tahdhib al-Seerah al-Halabiyyah"
+      "book": "Tahdhib al-Seerah al-Halabiyyah",
+      "explanation": ""
     },
     "sirah-wasail": {
       "title": "Shamail 1",
       "desc": "",
       "src": "/books/sirah-wasail.jpg",
-      "book": "Wasail al-Wusul"
+      "book": "Wasail al-Wusul",
+      "explanation": ""
     },
     "other-isa": {
       "title": "Logic",
       "desc": "",
       "src": "/books/other-isa.jpg",
-      "book": "Mughni al-Tullab"
+      "book": "Mughni al-Tullab",
+      "explanation": ""
     },
     "other-diwankurdi": {
       "title": "Inshad & Singing",
       "desc": "",
       "src": "/books/other-diwankurdi.jpg",
-      "book": "Diwan al-Shaykh al-Kurdi"
+      "book": "Diwan al-Shaykh al-Kurdi",
+      "explanation": ""
     }
   },
   "contact_us": "Contact Us",
