@@ -85,6 +85,6 @@ Loading..
   }
   subtitle {
     font-weight: 400;
-    font-style: italic;
+    font-weight: lighter;
   }
 </style>

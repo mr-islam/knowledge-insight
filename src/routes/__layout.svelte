@@ -24,13 +24,16 @@
     initialLocale: getLocaleFromNavigator($session.acceptedLanguage),
   });
 
-    onMount(() => {
-        document.dir = $locale === 'ar' ? 'rtl' : 'ltr'
-    });
-    afterUpdate(() => {
-        document.dir = $locale === 'ar' ? 'rtl' : 'ltr'
-    });
-
+  onMount(() => {
+    document.dir = $locale === "ar" ? "rtl" : "ltr";
+    document.body.classList.add($locale === "ar" ? "rtl" : null);
+    document.body.classList.remove($locale === "en" ? "rtl" : null);
+  });
+  afterUpdate(() => {
+    document.dir = $locale === "ar" ? "rtl" : "ltr";
+    document.body.classList.add($locale === "ar" ? "rtl" : null);
+    document.body.classList.remove($locale === "en" ? "rtl" : null);
+  });
 </script>
 
 <Header />

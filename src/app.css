@@ -43,6 +43,10 @@ body {
 	); */
 }
 
+.rtl {
+  font-size: larger;
+}
+
 body::before {
   content: "";
   width: 80vw;
