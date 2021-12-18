@@ -6,14 +6,14 @@
   <div>
     <div>
       <span>🔗</span>
-      <p>{$t("welcome.para_3")}</p>
+      <p>{$t("welcome.mission")}</p>
     </div>
     <div>
-      <span>🌐</span>
+      <span>🪐</span>
 
       <p>
         {$t(
-          "Access your lessons and recordings wherever you are—learning always goes on."
+          "welcome.complete_curriculum"
         )}
       </p>
     </div>
@@ -22,7 +22,7 @@
 
       <p>
         {$t(
-          "Access your lessons and recordings wherever you are—learning always goes on."
+          "welcome.articles"
         )}
       </p>
     </div>
@@ -31,7 +31,7 @@
 
       <p>
         {$t(
-          "Access your lessons and recordings wherever you are—learning always goes on."
+          "welcome.online"
         )}
       </p>
     </div>
