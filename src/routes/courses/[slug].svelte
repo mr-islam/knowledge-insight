@@ -1,15 +1,36 @@
 <script>
-    import { page } from '$app/stores';
-    import { t, locale, locales } from "svelte-intl-precompile";
-    import CourseCard2 from '../../components/CourseCard2.svelte';
+  import { page } from "$app/stores";
+  import { t, locale, locales } from "svelte-intl-precompile";
+  import CourseCard2 from "../../components/CourseCard2.svelte";
 </script>
 
-
-
-<h1> </h1>
-<br>
-<br>
-{$page.params.slug}
+<br />
+<br />
+<br />
+<br />
 <h1>{$t(`courses.${$page.params.slug}.title`)}</h1>
 
-<CourseCard2 id={"tajwid-qaida"} title={$t(`courses.${$page.params.slug}.title`)} desc={$t(`courses.${$page.params.slug}.desc`)} book={$t(`courses.${$page.params.slug}.book`)} src={$t(`courses.${$page.params.slug}.src`)} />
+<div id="card-holder">
+  <CourseCard2
+    id={$page.params.slug}
+    title={$t(`courses.${$page.params.slug}.title`)}
+    desc={$t(`courses.${$page.params.slug}.desc`)}
+    book={$t(`courses.${$page.params.slug}.book`)}
+    src={$t(`courses.${$page.params.slug}.src`)}
+  />
+</div>
+
+<h1>{$t("coursePage.about")}</h1>
+<div id="about-text">
+  {@html $t(`courses.${$page.params.slug}.explanation`)}
+</div>
+
+<style>
+  div#about-text {
+    margin: 10px 20vw;
+  }
+  div#card-holder {
+    display: grid;
+    place-items: center;
+  }
+</style>
