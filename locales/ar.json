@@ -5,6 +5,9 @@
   "articles": {
     "title": "المقالات"
   },
+  "coursePage": {
+    "about": "عن هذه المادة"
+  },
   "hero": {
     "header1": "العلم الرباني، والمعرفة النبوية",
     "subheader1": "العلم الإسلامي الكامل تُدرّس من قبل علماء",
@@ -32,44 +35,51 @@
     "tajwid-qaida": {
       "src": "/books/tajwid-qaida.jpg",
       "title": "التجويد: المستوى 1",
-      "desc": "Level 1 to recite the Quran right",
-      "book": "القاعدة النورانية"
+      "desc": "مقدمة تطبيقية إلى التلاوة الصحيحة لكتابه العزيز",
+      "book": "القاعدة النورانية",
+      "explanation": ""
     },
     "fiqh-nur": {
       "title": "فقه العبادات: 1",
-      "desc": "Worshipping Allah Almighty the way He commanded",
+      "desc": "أحكام ضرورية لكل مسلم في عبادته ومتعلقاتها",
       "src": "/books/fiqh-nur.jpg",
-      "book": "نور الإيضاح"
+      "book": "نور الإيضاح",
+      "explanation": "في هذا المتن المبارك المعتمد من المذهب الحنفي، قام العلامة الشرنبلالي بتقييد أحكام العبادات في كتاب <br> مع هذا الحاشية المتقنة الحديثية، تتم الفائدة"
     },
     "fiqh-quduri": {
       "title": "فقه المعاملات والأحوال: 1",
-      "desc": "Being with Allah's creation the way He commanded",
+      "desc": "أحكام ضرورية لمعاملات المسلم مع خلق الله ﷻ وعلاقاته الجتماعية",
       "src": "/books/fiqh-quduri.jpg",
-      "book": "مختصر القدوري"
+      "book": "مختصر القدوري",
+      "explanation": ""
     },
     "aqidah-ahl-sunnah": {
       "title": "العقيدة: الأساسيات",
-      "desc": "There is no belief without knowledge",
+      "desc": "الإيمان الواجب لكل مسلم في متن موجز مبسط",
       "src": "/books/aqidah-ahl-sunnah.jpg",
-      "book": "متن عقيدة أهل السنة"
+      "book": "متن عقيدة أهل السنة",
+      "explanation": ""
     },
     "tasawwuf-tuhfah": {
       "title": "التصوف",
-      "desc": "A summary of Imam al-Ghazzali's Ihya",
+      "desc": "إصلاح العبادات والعادات وتغيير صفات القلب صحيحا بمختصر إحياء علوم الدين",
       "src": "/books/tasawwuf-tuhfah.jpg",
-      "book": "تحفة السالكين"
+      "book": "تحفة السالكين",
+      "explanation": ""
     },
     "tasawwuf-fuyud": {
       "title": "التصوف",
-      "desc": "An abridged collection of oaths the Holy Prophet ﷺ took from us",
+      "desc": "جمع أحاديث الأموامر من السنة الشريفة وأقوى البيان للتطبيق",
       "src": "/books/tasawwuf-fuyud.jpg",
-      "book": "الفيوض الأحمدية"
+      "book": "الفيوض الأحمدية",
+      "explanation": ""
     },
     "tajwid-hidayatrahman": {
       "title": "التجويد: المستوى 2",
       "desc": "this is   book",
       "src": "/books/tajwid-hidayatrahman.jpg",
-      "book": "هداية الرحمن"
+      "book": "هداية الرحمن",
+      "explanation": ""
     },
     "tajwid-thani": {
       "title": "التجويد: المستوى 3",

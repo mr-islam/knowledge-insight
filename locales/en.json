@@ -5,6 +5,9 @@
   "articles": {
     "title": "Articles"
   },
+  "coursePage": {
+    "about": "About this course"
+  },
   "hero": {
     "header1": "Islamic Knowledge, Prophetic Spirituality",
     "subheader1": "Complete Islamic Knowledge Taught by Scholars",
@@ -37,8 +40,9 @@
     "tajwid-qaida": {
       "src": "/books/tajwid-qaida.jpg",
       "title": "Tajwid: Level 1",
-      "desc": "Level 1 to recite the Quran right",
-      "book": "Al-Qaida al-Nuraniyyah"
+      "desc": "A practical first text to reciting the Noble Quran correctly with tajwid",
+      "book": "Al-Qaida al-Nuraniyyah",
+      "explanation": ""
     },
     "tajwid-hidayatrahman": {
       "title": "Tajwid: Level 2",
@@ -78,39 +82,45 @@
     },
     "fiqh-nur": {
       "title": "Fiqh of Worship: 1",
-      "desc": "Worshipping Allah Almighty the way He commanded",
+      "desc": "Essential rules for a Muslim's worship and all things related to that",
       "src": "/books/fiqh-nur.jpg",
-      "book": "Nur al-Idah"
+      "book": "Nur al-Idah",
+      "explanation": ""
     },
     "fiqh-quduri": {
       "title": "Fiqh of Interactions: 1",
-      "desc": "Being with Allah's creation the way He commanded",
+      "desc": "Essential rules for a Muslim's dealings  with Allah's creation and his relations",
       "src": "/books/fiqh-quduri.jpg",
-      "book": "Mukhtasar al-Quduri"
+      "book": "Mukhtasar al-Quduri",
+      "explanation": ""
     },
     "aqidah-ahl-sunnah": {
       "title": "Beliefs: Essentials",
-      "desc": "There is no belief without knowledge",
+      "desc": "The obligatory beliefs for every Muslim in a brief and simple text",
       "src": "/books/aqidah-ahl-sunnah.jpg",
-      "book": "Aqida Ahl al-Sunnah"
+      "book": "Aqida Ahl al-Sunnah",
+      "explanation": ""
     },
     "tasawwuf-tuhfah": {
       "title": "Spirituality: Essentials",
-      "desc": "A summary of Imam al-Ghazzali's Ihya",
+      "desc": "Rectifying worship, regular actions, and repairing the bad traits of the heart",
       "src": "/books/tasawwuf-tuhfah.jpg",
-      "book": "Tuhfat al-Salikin"
+      "book": "Tuhfat al-Salikin",
+      "explanation": ""
     },
     "tasawwuf-fuyud": {
       "title": "Spirituality: Essentials",
-      "desc": "An abridged collection of oaths the Holy Prophet ﷺ took from us",
+      "desc": "A collection of commanding hadith, with explanations to help bring them to life",
       "src": "/books/tasawwuf-fuyud.jpg",
-      "book": "Al-Fuyud al-Ahmadiyyah"
+      "book": "Al-Fuyud al-Ahmadiyyah",
+      "explanation": ""
     },
     "program-youth": {
       "title": "A complete program spanning several books",
       "desc": "This is placeholder of some text, we need to write later",
       "src": "",
-      "book": "Youth Program"
+      "book": "Youth Program",
+      "explanation": ""
     },
     "program-women": {
       "title": "A complete program spanning several books",
