@@ -1,16 +1,17 @@
 <script>
+  import { locale, t } from "svelte-intl-precompile";
 </script>
 
 <container>
   <h1>Articles</h1>
-  <a target="_blank" href="/articles/fard-ayn"
-    >The Mandatory Knowledge Every Muslim Must Learn →</a
+  <a target="_blank" href="/articles/{$locale}/fard-ayn"
+    >{$t("articles.fard-ayn")} →</a
   >
-  <a target="_blank" href="/articles/knowledge-good-intentions"
-    >Good Intentions – Advice for Students of Knowledge 1 →</a
+  <a target="_blank" href="/articles/{$locale}/knowledge-good-intentions"
+    >{$t("articles.knowledge-good-intentions")} →</a
   >
-  <a target="_blank" href="/articles/curing-laziness" id="about"
-    >Curing Languor and Laziness in Seeking Knowledge →</a
+  <a target="_blank" href="/articles/{$locale}/curing-laziness" id="about"
+    >{$t("articles.curing-laziness")} →</a
   >
 </container>
 
