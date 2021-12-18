@@ -65,7 +65,7 @@
       "desc": "إصلاح العبادات والعادات وتغيير صفات القلب صحيحا بمختصر إحياء علوم الدين",
       "src": "/books/tasawwuf-tuhfah.jpg",
       "book": "تحفة السالكين",
-      "explanation": ""
+      "explanation": "قد وفّق الله تعالى الإمام الغزالي ﵁ لوضع كتابه المتين «إحياء علوم الدين»، وذلك لبيان التصوف الصحيح السليم، المستمد من الكتاب والسنة وإجماع الصحابة ةالتابعين وأحوال ال,لياء العارفين، حتى قال العلماء فيه «من لم يقرأ الإحياء فليس من الأحياء»، وكان الشيخ ألو مدين ﵁ يقول: «نظرت في كتب التصوف فما رأيت مثل الإحياء للغزالي«. <br>لما كان مطولا آثرنا اختصاره وتهذيبه حتى يسهل نتواله فتكون ثماره دانية"
     },
     "tasawwuf-fuyud": {
       "title": "التصوف",
@@ -85,409 +85,477 @@
       "title": "التجويد: المستوى 3",
       "desc": "Written by the expert scholar Yahya al-Ghawthani",
       "src": "/books/tajwid-thani.jpg",
-      "book": "المستوى الثاني"
+      "book": "المستوى الثاني",
+      "explanation": ""
     },
     "tajwid-jazari": {
       "title": "التجويد: المستوى 4",
       "desc": "this is   book",
       "src": "/books/tajwid-jazari.jpg",
-      "book": "شرح الجزرية"
+      "book": "شرح الجزرية",
+      "explanation": ""
     },
     "tajwid-amma": {
       "title": "التلاوة: المستوى 1",
       "desc": "القراءة ركن الصلاة—طبّق أحكام التجويد في هذه السور كثيرة القراءة",
       "src": "/books/mushaf.jpg",
-      "book": "تلاوو عن حاضر: جزء عم"
+      "book": "تلاوو عن حاضر: جزء عم",
+      "explanation": ""
     },
     "tajwid-reading": {
       "title": "التلاوة: المستوى 2",
       "desc": "this is   book",
       "src": "/books/mushaf.jpg",
-      "book": "تلاوة القرآن كاملا عن حاضر"
+      "book": "تلاوة القرآن كاملا عن حاضر",
+      "explanation": ""
     },
     "tajwid-reciting": {
       "title": "التلاوة والإجازة: المستوى 3",
       "desc": "this is   book",
       "src": "/books/mushaf.jpg",
-      "book": "تلاوة القرآن كاملا عن غيب "
+      "book": "تلاوة القرآن كاملا عن غيب ",
+      "explanation": ""
     },
     "program-youth": {
       "title": "A complete program spanning several books",
       "desc": "This is placeholder of some text, we need to write later",
       "src": "",
-      "book": "دورة الصغار"
+      "book": "دورة الصغار",
+      "explanation": ""
     },
     "program-women": {
       "title": "A complete program spanning several books",
       "desc": "This is placeholder of some text, we need to write later",
       "src": "",
-      "book": "دورة النساء"
+      "book": "دورة النساء",
+      "explanation": ""
     },
     "natiq-um1": {
       "title": "مستوى التمهيد",
       "desc": "This is placeholder of some text, we need to write later",
       "src": "/books/natiq-um1.jpg",
-      "book": "سلسلة اللسان: 1"
+      "book": "سلسلة اللسان: 1",
+      "explanation": ""
     },
     "natiq-um2": {
       "title": "مستوى المبتدئ",
       "desc": "This is placeholder of some text, we need to write later",
       "src": "/books/natiq-um2.jpg",
-      "book": "سلسلة اللسان: 2"
+      "book": "سلسلة اللسان: 2",
+      "explanation": ""
     },
     "natiq-um3": {
       "title": "مستوى المتوسط",
       "desc": "This is placeholder of some text, we need to write later",
       "src": "/books/natiq-um3.jpg",
-      "book": "سلسلة اللسان: 3"
+      "book": "سلسلة اللسان: 3",
+      "explanation": ""
     },
     "natiq-um4": {
       "title": "مستوى المتقدم",
       "desc": "This is placeholder of some text, we need to write later",
       "src": "/books/natiq-um4.jpg",
-      "book": "سلسلة اللسان: 4"
+      "book": "سلسلة اللسان: 4",
+      "explanation": ""
     },
     "aqidah-sharh-nazm": {
       "title": "العقيدة: مستوى 1",
       "desc": "منظومة لطيفة عظيمة، سهل التنوال وواسع العلم، مع شرح وتعليق كافٍ",
       "src": "/books/aqidah-sharh-nazm.jpg",
-      "book": "شرح نظم عقيدة أهل السنة"
+      "book": "شرح نظم عقيدة أهل السنة",
+      "explanation": ""
     },
     "aqidah-tali": {
       "title": "العقيدة: مستوى 2",
       "desc": "شرح متقن لهذا المتن المعتمد، ويكفي الطاب الغير المتخصص في العقيدة",
       "src": "/books/aqidah-tali.jpg",
-      "book": "طالع البشرى على الصغرى"
+      "book": "طالع البشرى على الصغرى",
+      "explanation": ""
     },
     "aqidah-miftah": {
       "title": "العقيدة: مستوى 3",
       "desc": "عبارة عن تلخيص 50 كتاب، هذا الكتاب يفتح أبواب في أبعاد العقائد تمهيدا للمراحل القادمة",
       "src": "/books/aqidah-miftah.jpg",
-      "book": "مفتاح الجنة"
+      "book": "مفتاح الجنة",
+      "explanation": ""
     },
     "aqidah-jawharah": {
       "title": "العقيدة: مستوى 4",
       "desc": "",
       "src": "/books/aqidah-jawharah.jpg",
-      "book": "جوهرة التوحيد"
+      "book": "جوهرة التوحيد",
+      "explanation": ""
     },
     "aqidah-taftazani": {
       "title": "العقيدة: مستوى 5",
       "desc": "",
       "src": "/books/aqidah-taftazani.jpg",
-      "book": "شرح العقيدة النسفية"
+      "book": "شرح العقيدة النسفية",
+      "explanation": ""
     },
     "aqidah-tahrir": {
       "title": "العقيدة: مستوى 6",
       "desc": "",
       "src": "/books/aqidah-tahrir.jpg",
-      "book": "تحرير المطالب"
+      "book": "تحرير المطالب",
+      "explanation": ""
     },
     "fiqh-maslak": {
       "title": "الفقه: مستوى 2",
       "desc": "دراسة كاملة لأحكام العبادات. يجمع أحكام كل مرحلة بعده",
       "src": "/books/fiqh-maslak.jpg",
-      "book": "مسلك النجاح"
+      "book": "مسلك النجاح",
+      "explanation": ""
     },
     "fiqh-lubab": {
-      "title": "Fiqh: Level 3",
+      "title": "الفقه: المستوى 3",
       "desc": "",
       "src": "/books/fiqh-lubab.jpg",
-      "book": "اللباب"
+      "book": "اللباب",
+      "explanation": ""
     },
     "fiqh-hidayah": {
-      "title": "Fiqh: Level 4",
+      "title": "الفقه: المستوى 4",
       "desc": "الأصل والمفتاح لكل كتاب بعده في المذهب",
       "src": "/books/fiqh-hidayah.jpg",
-      "book": "الهداية"
+      "book": "الهداية",
+      "explanation": ""
     },
     "fiqh-rad": {
-      "title": "Fiqh: Level 5",
+      "title": "الفقه: المستوى 5",
       "desc": "",
       "src": "/books/fiqh-rad.jpg",
-      "book": "حاشية ابن عابدين"
+      "book": "حاشية ابن عابدين",
+      "explanation": ""
     },
     "fiqh-manar": {
-      "title": "Fiqh: Foundations 1",
+      "title": "الفقه: أصول 1",
       "desc": "",
       "src": "/books/fiqh-manar.jpg",
-      "book": "شرح مختصر المنار"
+      "book": "شرح مختصر المنار",
+      "explanation": ""
     },
     "fiqh-sharhmanar": {
-      "title": "Fiqh: Foundations 2",
+      "title": "الفقه: أصول 2",
       "desc": "",
       "src": "/books/fiqh-sharhmanar.jpg",
-      "book": "شرح المنار"
+      "book": "شرح المنار",
+      "explanation": ""
     },
     "fiqh-zad": {
-      "title": "Fiqh: Foundations 3",
+      "title": "الفقه: أصول 3",
       "desc": "",
       "src": "/books/fiqh-zad.jpg",
-      "book": "زاد المكتفي"
+      "book": "زاد المكتفي",
+      "explanation": ""
     },
     "fiqh-talwih": {
-      "title": "Fiqh: Foundations 4",
+      "title": "الفقه: أصول 4",
       "desc": "",
       "src": "",
-      "book": "التلويح مع التوضيح"
+      "book": "التلويح مع التوضيح",
+      "explanation": ""
     },
     "fiqh-zaydan": {
-      "title": "Fiqh: Principles 1",
+      "title": "الفقه: قواعد 1",
       "desc": "",
       "src": "/books/fiqh-zaydan.jpg",
-      "book": "الوجيز في القواعد"
+      "book": "الوجيز في القواعد",
+      "explanation": ""
     },
     "fiqh-isad": {
-      "title": "Fiqh: Principles 2",
+      "title": "الفقه: قواعد 2",
       "desc": "",
       "src": "/books/fiqh-isad.jpg",
-      "book": "شرح عقود رسم المفتي"
+      "book": "شرح عقود رسم المفتي",
+      "explanation": ""
     },
     "fiqh-ghamz": {
-      "title": "Fiqh: Principles 3",
+      "title": "الفقه: قواعد 3",
       "desc": "",
       "src": "/books/fiqh-ghamz.jpg",
-      "book": "حاشية الأشباه والنظائر"
+      "book": "حاشية الأشباه والنظائر",
+      "explanation": ""
     },
     "fiqh-maram": {
-      "title": "Fiqh: Evidences 1",
+      "title": "الفقه: أدلة 1",
       "desc": "",
       "src": "/books/fiqh-maram.jpg",
-      "book": "شرح بلوغ المرام"
+      "book": "شرح بلوغ المرام",
+      "explanation": ""
     },
     "fiqh-ila": {
-      "title": "Fiqh: Evidences 2",
+      "title": "الفقه: أدلة 2",
       "desc": "",
       "src": "/books/fiqh-ila.jpg",
-      "book": "إعلاء السنن"
+      "book": "إعلاء السنن",
+      "explanation": ""
     },
     "tasawwuf-bidayah": {
-      "title": "Spirituality",
+      "title": "التصوف: سلوك",
       "desc": "",
       "src": "/books/tasawwuf-bidayah.jpg",
-      "book": "بداية الهداية"
+      "book": "بداية الهداية",
+      "explanation": ""
     },
     "tasawwuf-taj": {
-      "title": "Spirituality",
+      "title": "التصوف: سلوك",
       "desc": "",
       "src": "/books/tasawwuf-taj.jpg",
-      "book": "تاج العروس"
+      "book": "تاج العروس",
+      "explanation": ""
     },
     "tasawwuf-uyub": {
-      "title": "Spirituality",
+      "title": "التصوف: سلوك",
       "desc": "",
       "src": "/books/tasawwuf-uyub.jpg",
-      "book": "عيوب النفس وأدويتها"
+      "book": "عيوب النفس وأدويتها",
+      "explanation": ""
     },
     "tasawwuf-qasd": {
-      "title": "Spirituality",
+      "title": "التصوف: سلوك",
       "desc": "",
       "src": "/books/tasawwuf-qasd.jpg",
-      "book": "شرح المنتقى من قواعد التصوف"
+      "book": "شرح المنتقى من قواعد التصوف",
+      "explanation": ""
     },
     "tasawwuf-mabahith": {
-      "title": "Spirituality",
+      "title": "التصوف: سلوك",
       "desc": "",
       "src": "/books/tasawwuf-mabahith.jpg",
-      "book": "شرح المباحث الأصلية"
+      "book": "شرح المباحث الأصلية",
+      "explanation": ""
     },
     "tasawwuf-manazil": {
-      "title": "Spirituality",
+      "title": "التصوف: سلوك",
       "desc": "",
       "src": "/books/tasawwuf-manazil.jpg",
-      "book": "منازل السائرين"
+      "book": "منازل السائرين",
+      "explanation": ""
     },
     "tasawwuf-wasaya": {
-      "title": "Spirituality: Reaching 1",
+      "title": "التصوف: حقائق 1",
       "desc": "",
       "src": "/books/tasawwuf-wasaya.jpg",
-      "book": "الوصايا"
+      "book": "الوصايا",
+      "explanation": ""
     },
     "tasawwuf-qawanin": {
-      "title": "Spirituality: Reaching 2",
+      "title": "التصوف: حقائق 2",
       "desc": "",
       "src": "/books/tasawwuf-qawanin.jpg",
-      "book": "قوانين حكم الإشراق"
+      "book": "قوانين حكم الإشراق",
+      "explanation": ""
     },
     "tasawwuf-naqsh": {
-      "title": "Spirituality: Reaching 3",
+      "title": "التصوف: حقائق 3",
       "desc": "",
       "src": "/books/tasawwuf-naqsh.jpg",
-      "book": "نقش الفصوص"
+      "book": "نقش الفصوص",
+      "explanation": ""
     },
     "tasawwuf-insankamil": {
-      "title": "Spirituality: Reaching 4",
+      "title": "التصوف: حقائق 4",
       "desc": "",
       "src": "/books/tasawwuf-insankamil.jpg",
-      "book": "الإنسان الكامل"
+      "book": "الإنسان الكامل",
+      "explanation": ""
     },
     "tasawwuf-fusus": {
-      "title": "Spirituality: Reaching 5",
+      "title": "التصوف: حقائق 5",
       "desc": "",
       "src": "/books/tasawwuf-fusus.jpg",
-      "book": "فصوص الحكم"
+      "book": "فصوص الحكم",
+      "explanation": ""
     },
     "tafsir-durrah": {
-      "title": "Tafsir: External 1",
+      "title": "تفسير الظاهر: 1",
       "desc": "",
       "src": "/books/tafsir-durrah.jpg",
-      "book": "درة التفاسير"
+      "book": "درة التفاسير",
+      "explanation": ""
     },
     "tafsir-nasafi": {
-      "title": "Tafsir: External 2",
+      "title": "تفسير الظاهر: 2",
       "desc": "",
       "src": "/books/tafsir-nasafi.jpg",
-      "book": "تفسير النسفي"
+      "book": "تفسير النسفي",
+      "explanation": ""
     },
     "tafsir-baydawi": {
-      "title": "Tafsir: External 3",
+      "title": "تفسير الظاهر: 3",
       "desc": "",
       "src": "/books/tafsir-baydawi.jpg",
-      "book": "تفسير البيضاوي"
+      "book": "تفسير البيضاوي",
+      "explanation": ""
     },
     "tafsir-qurtubi": {
-      "title": "Tafsir: External 4",
+      "title": "تفسير الظاهر: 4",
       "desc": "",
       "src": "/books/tafsir-qurtubi.jpg",
-      "book": "تفسير القرطبي"
+      "book": "تفسير القرطبي",
+      "explanation": ""
     },
     "tafsir-bahr": {
-      "title": "Tafsir: Ishari 1",
+      "title": "التفسير الإشاري: 1",
       "desc": "",
       "src": "/books/tafsir-bahr.jpg",
-      "book": "مختصر البحر المديد"
+      "book": "مختصر البحر المديد",
+      "explanation": ""
     },
     "tafsir-waridat": {
-      "title": "Tafsir: Ishari 2",
+      "title": "التفسير الإشاري: 2",
       "desc": "",
       "src": "/books/tafsir-waridat.jpg",
-      "book": "الواردات الإلهية"
+      "book": "الواردات الإلهية",
+      "explanation": ""
     },
     "tafsir-mawaqif": {
-      "title": "Tafsir: Ishari 3",
+      "title": "التفسير الإشاري: 3",
       "desc": "",
       "src": "/books/tafsir-mawaqif.jpg",
-      "book": "المواقف الروحانية"
+      "book": "المواقف الروحانية",
+      "explanation": ""
     },
     "hadith-nawawi": {
-      "title": "Hadith: Text 1",
+      "title": "كتاب حديث",
       "desc": "",
       "src": "/books/hadith-nawawi.jpg",
-      "book": "الأربعون النووية"
+      "book": "الأربعون النووية",
+      "explanation": ""
     },
     "hadith-adab": {
-      "title": "Hadith: Text 2",
+      "title": "كتاب حديث",
       "desc": "",
       "src": "/books/hadith-adab.jpg",
-      "book": "الأدب المفرد"
+      "book": "الأدب المفرد",
+      "explanation": ""
     },
     "hadith-riyad": {
-      "title": "Hadith: Text 3",
+      "title": "كتاب حديث",
       "desc": "Take delight in the meadow of the righteous",
       "src": "/books/hadith-riyad.jpg",
-      "book": "رياض الصالحين"
+      "book": "رياض الصالحين",
+      "explanation": ""
     },
     "hadith-bukhari": {
-      "title": "Hadith: Text 4",
+      "title": "كتاب حديث",
       "desc": "",
       "src": "/books/hadith-bukhari.jpg",
-      "book": "صحيح البخاري"
+      "book": "صحيح البخاري",
+      "explanation": ""
     },
     "hadith-muslim": {
-      "title": "Hadith: Text 5",
+      "title": "كتاب حديث",
       "desc": "",
       "src": "/books/hadith-muslim.jpg",
-      "book": "صحيح مسلم"
+      "book": "صحيح مسلم",
+      "explanation": ""
     },
     "hadith-tirmidhi": {
-      "title": "Hadith: Text 6",
+      "title": "كتاب حديث",
       "desc": "",
       "src": "/books/hadith-tirmidhi.jpg",
-      "book": "سنن الترمذي"
+      "book": "سنن الترمذي",
+      "explanation": ""
     },
     "hadith-abudawud": {
-      "title": "Hadith: Text 7",
+      "title": "كتاب حديث",
       "desc": "",
       "src": "/books/hadith-abudawud.jpg",
-      "book": "سنن أبو داود"
+      "book": "سنن أبو داود",
+      "explanation": ""
     },
     "hadith-ibnmajah": {
-      "title": "Hadith: Text 8",
+      "title": "كتاب حديث",
       "desc": "",
       "src": "/books/hadith-ibnmajah.jpg",
-      "book": "سنن ابن ماجه"
+      "book": "سنن ابن ماجه",
+      "explanation": ""
     },
     "hadith-nasai": {
-      "title": "Hadith: Text 9",
+      "title": "كتاب حديث",
       "desc": "",
       "src": "/books/hadith-nasai.jpg",
-      "book": "سنن النسائي"
+      "book": "سنن النسائي",
+      "explanation": ""
     },
     "hadith-musnad": {
-      "title": "Hadith: Text 10",
+      "title": "كتاب حديث",
       "desc": "",
       "src": "/books/hadith-musnad.jpg",
-      "book": "مسند أحمد"
+      "book": "مسند أحمد",
+      "explanation": ""
     },
     "hadith-darimi": {
-      "title": "Hadith: Text 11",
+      "title": "كتاب حديث",
       "desc": "",
       "src": "/books/hadith-darimi.jpg",
-      "book": "سنن الدارمي"
+      "book": "سنن الدارمي",
+      "explanation": ""
     },
     "hadith-muwatta": {
-      "title": "Hadith: Text 12",
+      "title": "كتاب حديث",
       "desc": "",
       "src": "/books/hadith-muwatta.jpg",
-      "book": "الموطأ"
+      "book": "الموطأ",
+      "explanation": ""
     },
     "hadith-bayquni": {
-      "title": "Hadith: Terminology 1",
+      "title": "الحديث: مصطلحات 1",
       "desc": "Introducing the tools to interact with Hadith and understand it's scholars",
       "src": "/books/hadith-bayquni.jpg",
-      "book": "شرح البيقونية"
+      "book": "شرح البيقونية",
+      "explanation": ""
     },
     "hadith-nuzhah": {
-      "title": "Hadith: Terminology 2",
+      "title": "الحديث: مصطلحات 2",
       "desc": "",
       "src": "/books/hadith-nuzhah.jpg",
-      "book": "نزهة النظر"
+      "book": "نزهة النظر",
+      "explanation": ""
     },
     "hadith-salah": {
-      "title": "Hadith: Terminology 3",
+      "title": "الحديث: مصطلحات 3",
       "desc": "",
       "src": "/books/hadith-salah.jpg",
-      "book": "مقدمة ابن الصلاح"
+      "book": "مقدمة ابن الصلاح",
+      "explanation": ""
     },
     "hadith-tadrib": {
-      "title": "Hadith: Terminology 4",
+      "title": "الحديث: مصطلحات 4",
       "desc": "",
       "src": "/books/hadith-tadrib.jpg",
-      "book": "تدريب الراوي"
+      "book": "تدريب الراوي",
+      "explanation": ""
     },
     "sirah-halabi": {
-      "title": "Seerah 1",
+      "title": "السيرة 1",
       "desc": "",
       "src": "/books/sirah-halabi.jpg",
-      "book": "تهذيب السيرة الحلبية"
+      "book": "تهذيب السيرة الحلبية",
+      "explanation": ""
     },
     "sirah-wasail": {
-      "title": "Shamail 1",
+      "title": "الشمائل 1",
       "desc": "",
       "src": "/books/sirah-wasail.jpg",
-      "book": "وسائل الوصول"
+      "book": "وسائل الوصول",
+      "explanation": ""
     },
     "other-isa": {
-      "title": "Logic",
+      "title": "المنظق",
       "desc": "",
       "src": "/books/other-isa.jpg",
-      "book": "مغني الطلاب"
+      "book": "مغني الطلاب",
+      "explanation": ""
     },
     "other-diwankurdi": {
-      "title": "Inshad & Singing",
+      "title": "الإنشاد",
       "desc": "",
       "src": "/books/other-diwankurdi.jpg",
-      "book": "ديوان الشيخ الكردي ﵁"
+      "book": "ديوان الشيخ الكردي ﵁",
+      "explanation": ""
     }
   }
 }
