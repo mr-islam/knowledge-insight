@@ -191,7 +191,7 @@
 
     "fiqh-maslak": {
       "title": "Fiqh: Level 2",
-      "desc": "Add more depth to your knowledge of law",
+      "desc": "A complete study of the rulings related to acts of worship: purification, prayer, fasting, zakah & hajj",
       "src": "/books/fiqh-maslak.jpg",
       "book": "Maslak al-Najah"
     },
@@ -203,7 +203,7 @@
     },
     "fiqh-hidayah": {
       "title": "Fiqh: Level 4",
-      "desc": "The mother book of the Madhhab",
+      "desc": "The source and key for every book in the Madhhab that came after it",
       "src": "/books/fiqh-hidayah.jpg",
       "book": "Al-Hidayah"
     },
