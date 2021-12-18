@@ -333,6 +333,13 @@
       "book": "Manazil al-Saʾirin",
       "explanation": ""
     },
+    "tasawwuf-himam": {
+      "title": "Spirituality",
+      "desc": "",
+      "src": "/books/tasawwuf-manazil.jpg",
+      "book": "Iqaz al-Himam",
+      "explanation": ""
+    },
     "tasawwuf-wasaya": {
       "title": "Spirituality: Reaching 1",
       "desc": "",

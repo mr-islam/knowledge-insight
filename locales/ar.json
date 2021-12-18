@@ -333,6 +333,13 @@
       "book": "منازل السائرين",
       "explanation": ""
     },
+    "tasawwuf-himam": {
+      "title": "التصوف: سلوك",
+      "desc": "",
+      "src": "/books/tasawwuf-manazil.jpg",
+      "book": "إيقاظ الهمم",
+      "explanation": ""
+    },
     "tasawwuf-wasaya": {
       "title": "التصوف: حقائق 1",
       "desc": "",
