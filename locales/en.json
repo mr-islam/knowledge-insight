@@ -2,9 +2,6 @@
   "title": "Knowledge & Insight",
   "center": "The Center For",
   "direction": "ltr",
-  "articles": {
-    "title": "Articles"
-  },
   "coursePage": {
     "about": "About this course"
   },
@@ -16,9 +13,16 @@
     "title": "About"
   },
   "welcome": {
-    "para_1": "As salamu alaykum, peace be upon you, welcome to the Center for Knowledge & Insight 🍃",
-    "para_2": "The greatest need of all Muslims and people is reliable, authentic, and accessible Islamic knowledge. Moreover, knowledge is the light that is gained by studying under qualified teachers",
-    "para_3": "Our mission is to link students to true scholars, who connect them to the Noble Prophet (ﷺ)."
+    "complete_curriculum": "Begin or continue your studies with our complete curriculum covering all the religious sciences",
+    "mission": "Our mission is to link students to true scholars, who connect them to the Noble Prophet (ﷺ).",
+    "online": "Access your lessons and recordings wherever you are—learning always goes on.",
+    "articles": "Benefit now from the library of articles and videos that will continue tog row inshaAllah"
+  },
+  "articles": {
+    "title": "Articles",
+    "fard-ayn": "The Mandatory Knowledge Every Muslim Must Learn",
+    "knowledge-good-intentions":"Good Intentions – Advice for Students of Knowledge 1",
+    "curing-laziness":"Curing Languor and Laziness in Seeking Knowledge"
   },
   "tags": {
     "fard": "Obligatory Knowledge",
@@ -336,7 +340,7 @@
     "tasawwuf-himam": {
       "title": "Spirituality",
       "desc": "",
-      "src": "/books/tasawwuf-manazil.jpg",
+      "src": "/books/tasawwuf-himam.jpg",
       "book": "Iqaz al-Himam",
       "explanation": ""
     },
