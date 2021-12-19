@@ -30,7 +30,7 @@
 {#if $isLoading}
 Loading..
 {:else}
-  <a out:fade="{{duration: 0}}" in:slide href={`/courses/${id}`}>
+   <a out:fade="{{duration: 0}}" in:slide > <!-- href={`/courses/${id}`} -->
     <div class="card-course">
       <img src={$t(`courses.${id}.src`)} alt={$t(`courses.${id}.book`)} />
       <div class="card-inner">
