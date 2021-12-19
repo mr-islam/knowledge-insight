@@ -29,11 +29,10 @@
   div#about-text {
     margin: 10px 25vw;
     font-size: x-large;
+    white-space: pre-wrap;
   }
   :global(div#about-text > *) {
     margin-bottom: 40px;
-  }
-  br {
   }
   div#card-holder {
     display: grid;
