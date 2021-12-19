@@ -44,8 +44,11 @@ Loading..
 {/if}
 
 <style>
-  h3 {
-    margin-bottom: 0;
+  subtitle {
+    margin: 0 0 5px 0;
+  }
+  h3, p {
+    margin: 0;
   }
   div.card-course {
     display: flex;
@@ -56,6 +59,7 @@ Loading..
     background-color: var(--pure-white);
     /* min-width: 200px; */
     /* flex: 2 1 calc(25% - 1em); */
+    padding: 14px 7px;
     margin: 10px;
     max-width: 350px;
     min-width: 300px;
@@ -70,7 +74,7 @@ Loading..
   div.card-inner {
     display: flex;
     flex-direction: column;
-    margin: 0 5px 0 15px;
+    margin: 0 5px;
   }
   img {
     /* height: auto; */
@@ -78,7 +82,7 @@ Loading..
     /* max-width: 100px; */
     max-height: 163px;
     border-radius: 8px;
-    /* margin-left: 10px; */
+margin: 0px 10px;
   }
   a {
     color: var(--text-color);
