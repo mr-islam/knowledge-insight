@@ -958,7 +958,7 @@
   }
   @media only screen and (max-width: 600px) {
     div#grid {
-      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
     }
     div#gallery {
       flex-direction: column;

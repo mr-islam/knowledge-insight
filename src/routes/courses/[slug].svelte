@@ -30,8 +30,10 @@
     margin: 10px 25vw;
     font-size: x-large;
   }
+  :global(div#about-text > *) {
+    margin-bottom: 40px;
+  }
   br {
-    margin-bottom: 10px;
   }
   div#card-holder {
     display: grid;
@@ -39,8 +41,8 @@
   }
   @media only screen and (max-width: 700px) {
     div#about-text {
-    margin: 10px 3vw;
-    font-size: larger;
-  }
+      margin: 10px 3vw;
+      font-size: larger;
+    }
   }
 </style>
