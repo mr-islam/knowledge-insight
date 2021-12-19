@@ -18,7 +18,7 @@
       </p>
     </div>
     <div>
-      <span>🌐</span>
+      <span>📜</span>
 
       <p>
         {$t(
@@ -27,7 +27,7 @@
       </p>
     </div>
     <div>
-      <span>🌐</span>
+      <span>🖥️</span>
 
       <p>
         {$t(
