@@ -177,7 +177,7 @@
     },
     "aqidah-miftah": {
       "title": "Beliefs: Level 3",
-      "desc": "A summary of over 50 works in Creed, this book suffices students of knowledge not specializing in beliefs",
+      "desc": "A summary of over 50 works in Creed, this book opens the doors of advanced topics to come",
       "src": "/books/aqidah-miftah.jpg",
       "book": "Miftah al-Jannah",
       "explanation": ""
@@ -191,7 +191,7 @@
     },
     "aqidah-taftazani": {
       "title": "Beliefs: Level 5",
-      "desc": "An explanation of one of the soundest texts in belief",
+      "desc": "An explanation of a brief yet comprehensive book containing the Sunni beliefs of those who lean to intellectual investigation",
       "src": "/books/aqidah-taftazani.jpg",
       "book": "Sharh al-Nasafiyyah",
       "explanation": ""
@@ -213,7 +213,7 @@
     },
     "fiqh-lubab": {
       "title": "Fiqh: Level 3",
-      "desc": "Add more depth to your knowledge of law",
+      "desc": "A later work that gathers what came before it to explain the most important Hanafi book",
       "src": "/books/fiqh-lubab.jpg",
       "book": "Al-Lubab",
       "explanation": ""
@@ -227,28 +227,28 @@
     },
     "fiqh-rad": {
       "title": "Fiqh: Level 5",
-      "desc": "",
+      "desc": "The book relied upon for issuing rulings in the Hanafi madhhab",
       "src": "/books/fiqh-rad.jpg",
       "book": "Radd al-Muhtar",
       "explanation": ""
     },
     "fiqh-manar": {
       "title": "Fiqh: Foundations 1",
-      "desc": "The relied upon book for rulings and mastery",
+      "desc": "A brief, comprehensive introduction for the student of foundations and seeker of results",
       "src": "/books/fiqh-manar.jpg",
       "book": "Sharh Mukhtasar al-Manar",
       "explanation": ""
     },
     "fiqh-sharhmanar": {
       "title": "Fiqh: Foundations 2",
-      "desc": "The relied upon book for rulings and mastery",
+      "desc": "",
       "src": "/books/fiqh-sharhmanar.jpg",
       "book": "Sharh al-Manar",
       "explanation": ""
     },
     "fiqh-zad": {
       "title": "Fiqh: Foundations 3",
-      "desc": "The relied upon book for rulings and mastery",
+      "desc": "",
       "src": "/books/fiqh-zad.jpg",
       "book": "Zad al-Muktafi",
       "explanation": ""
@@ -269,35 +269,35 @@
     },
     "fiqh-isad": {
       "title": "Fiqh: Principles 2",
-      "desc": "The relied upon book for rulings and mastery",
+      "desc": "A poem and explanation explaining everything needed by a Mufti or anyone working with fiqh and the madhhab.",
       "src": "/books/fiqh-isad.jpg",
       "book": "Sharh Uqud Rasm al-Mufti",
       "explanation": ""
     },
     "fiqh-ghamz": {
       "title": "Fiqh: Principles 3",
-      "desc": "The standard across schools for this genre",
+      "desc": "",
       "src": "/books/fiqh-ghamz.jpg",
       "book": "Ghamz al-Basair",
       "explanation": ""
     },
     "fiqh-maram": {
       "title": "Fiqh: Evidences 1",
-      "desc": "Introduction to the genre of hadith evidences for fiqh",
+      "desc": "",
       "src": "/books/fiqh-maram.jpg",
       "book": "Sharh Bulugh al-Maram",
       "explanation": ""
     },
     "fiqh-ila": {
       "title": "Fiqh: Evidences 2",
-      "desc": "The definitive reference for hadith evidence for fiqh",
+      "desc": "",
       "src": "/books/fiqh-ila.jpg",
       "book": "Ila al-Sunan",
       "explanation": ""
     },
     "tasawwuf-bidayah": {
       "title": "Spirituality",
-      "desc": "The primer for essential guidance in daily life, worship and seeking",
+      "desc": "The principles of beginnings, which increase Muslims in good activity and correcting their method in that",
       "src": "/books/tasawwuf-bidayah.jpg",
       "book": "Bidayat al-Hidayah",
       "explanation": ""
@@ -353,7 +353,7 @@
     },
     "tasawwuf-qawanin": {
       "title": "Spirituality: Reaching 2",
-      "desc": "",
+      "desc": "One of the most important books of Tasawwuf: innovative in expression and containing major wisdoms in suluk and irfan",
       "src": "/books/tasawwuf-qawanin.jpg",
       "book": "Qawanin Hikam al-Ishraq",
       "explanation": ""
@@ -381,7 +381,7 @@
     },
     "tafsir-durrah": {
       "title": "Tafsir: External 1",
-      "desc": "A contemporary tafsir that provides the cream of those before it",
+      "desc": "Simply phrased, mentioning the incidents of revelation from hadith, with important and precise notes",
       "src": "/books/tafsir-durrah.jpg",
       "book": "Durrah al-Tafasir",
       "explanation": ""
@@ -430,21 +430,21 @@
     },
     "hadith-nawawi": {
       "title": "Hadith: Text 1",
-      "desc": "",
+      "desc": "Famous Hadith which contain the foundations of the religion and principles of Divine Law",
       "src": "/books/hadith-nawawi.jpg",
       "book": "The 40 Nawawi Hadith",
       "explanation": ""
     },
     "hadith-adab": {
       "title": "Hadith: Text 2",
-      "desc": "Bring light to your every action with Prophetic guidance",
+      "desc": "A book of Prophetic, educational ettiquette that inspire the Ummah to folow and be adorned by them",
       "src": "/books/hadith-adab.jpg",
       "book": "Al-Adab al-Mufrad",
       "explanation": ""
     },
     "hadith-riyad": {
       "title": "Hadith: Text 3",
-      "desc": "Take delight in the meadow of the righteous",
+      "desc": "A short collection of strong hadith, with rectification for our hearts and actions, making clear the way to the afterlife",
       "src": "/books/hadith-riyad.jpg",
       "book": "Riyad al-Salihin",
       "explanation": ""
@@ -514,7 +514,7 @@
     },
     "hadith-bayquni": {
       "title": "Hadith: Terminology 1",
-      "desc": "Introducing the tools to interact with Hadith and understand it's scholars",
+      "desc": "Introducing the most famous Hadith sciences and the needed explanations and terminology",
       "src": "/books/hadith-bayquni.jpg",
       "book": "Sharh al-Bayquniyyah",
       "explanation": ""
@@ -542,21 +542,21 @@
     },
     "sirah-halabi": {
       "title": "Seerah 1",
-      "desc": "",
+      "desc": "A refined edition of a trusted reference in Prophetic Biography, containing fluid writing, accurate reports and deep explanations",
       "src": "/books/sirah-halabi.jpg",
       "book": "Tahdhib al-Seerah al-Halabiyyah",
       "explanation": ""
     },
     "sirah-wasail": {
       "title": "Shamail 1",
-      "desc": "",
+      "desc": "A brief book that gathers the traits of the Prophet, blessings and peace upon him, with explanations",
       "src": "/books/sirah-wasail.jpg",
       "book": "Wasail al-Wusul",
       "explanation": ""
     },
     "other-isa": {
       "title": "Logic",
-      "desc": "",
+      "desc": "An explanation of the foundational text in the study of Logic",
       "src": "/books/other-isa.jpg",
       "book": "Mughni al-Tullab",
       "explanation": ""
