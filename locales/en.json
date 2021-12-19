@@ -184,7 +184,7 @@
     },
     "aqidah-jawharah": {
       "title": "Beliefs: Level 4",
-      "desc": "A complete poem of beliefs and everything related to creed",
+      "desc": "A didactic poem containing most topics of belief, decorated with glimpses of higher truths",
       "src": "/books/aqidah-jawharah.jpg",
       "book": "Jawharat al-Tawhid",
       "explanation": ""
@@ -318,7 +318,7 @@
     },
     "tasawwuf-qasd": {
       "title": "Spirituality",
-      "desc": "The primer for essential guidance in daily life, worship and seeking",
+      "desc": "A collection of principles which are the foundation of Tasawwuf and the Path to Allah Almighty",
       "src": "/books/tasawwuf-qasd.jpg",
       "book": "Sharh al-Muntaqa min al-Qawaid",
       "explanation": ""
@@ -388,7 +388,7 @@
     },
     "tafsir-nasafi": {
       "title": "Tafsir: External 2",
-      "desc": "A summary of some of the most important tafsir",
+      "desc": "A summary of Baydawi's tafsir with clear phrasing and benefits in fiqh and beliefs",
       "src": "/books/tafsir-nasafi.jpg",
       "book": "Tafsir al-Nasafi",
       "explanation": ""

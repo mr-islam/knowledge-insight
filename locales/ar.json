@@ -190,7 +190,7 @@
     },
     "aqidah-jawharah": {
       "title": "العقيدة: مستوى 4",
-      "desc": "",
+      "desc": "نظم يحتوي على أخلب مسائل التوحيد، معطرة بنسائم الحقيقة",
       "src": "/books/aqidah-jawharah.jpg",
       "book": "جوهرة التوحيد",
       "explanation": ""
@@ -323,7 +323,7 @@
     },
     "tasawwuf-qasd": {
       "title": "التصوف: سلوك",
-      "desc": "",
+      "desc": "مجموعة من القواعد التي هي أساس التصوف والطريق إلى الله تعالى",
       "src": "/books/tasawwuf-qasd.jpg",
       "book": "شرح المنتقى من قواعد التصوف",
       "explanation": ""
@@ -393,7 +393,7 @@
     },
     "tafsir-nasafi": {
       "title": "تفسير الظاهر: 2",
-      "desc": "",
+      "desc": "تفسير مختصر من البيضاوي، مع عبارات واضحة، وفوائد فقهية وعقدية",
       "src": "/books/tafsir-nasafi.jpg",
       "book": "تفسير النسفي",
       "explanation": ""
