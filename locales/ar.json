@@ -7,7 +7,7 @@
   },
   "hero": {
     "header1": "العلم الرباني، والمعرفة النبوية",
-    "subheader1": "العلم الإسلامي الكامل تُدرّس من قبل علماء",
+    "subheader1": "العلم الإسلامي الكامل تُدرّس من قبل علماء"
   },
   "welcome": {
     "complete_curriculum": "ابدأ أو استأنف بدراستكم من خلال منهاجنا الكامل في كل العلوم الدينية",
@@ -31,13 +31,38 @@
     "tasawwuf": "التصوف",
     "quran": "القرآن وعلومه",
     "hadith": "الحديث وعلومه",
-    "other": "المتنوعات"
+    "other": "المتنوعات",
+    "fard_explanation": "قال صلى الله عليه وسلم: «طلب العلم قريضة على كل مسلم». شرح العلماء أن هذا العلم الواجب خمسة: التجويد لما يصح به الصلاة، فقه العبادات، فقه المعاملات، العقيدة والتصوف. ",
+
+    "aqidah_explanation": "Beliefs",
+
+    "sirah_explanation": "Seerah & Shamail",
+
+    "program_explanation": "Larger Programs",
+
+    "natiq_explanation": "Arabic for Non-natives",
+
+    "misc_explanation": "Various Courses",
+
+    "tajwid_explanation": "Quran Recitation & Tajwid",
+
+    "arabi_explanation": "Arabic & Its Sciences",
+
+    "fiqh_explanation": "Fiqh & Its Foundations",
+
+    "tasawwuf_explanation": "Spirituality",
+
+    "quran_explanation": "The Quran & Its Sciences",
+
+    "hadith_explanation": "Hadith & Its Sciences",
+
+    "other_explanation": "Assorted Classes"
   },
   "articles": {
     "title": "المقالات",
     "fard-ayn": "العلم الفرض العيني",
-    "knowledge-good-intentions":"النية الصالحة: وصايا لطلبة العلم 1",
-    "curing-laziness":"علاج الفتور والكسل في طلب العلم"
+    "knowledge-good-intentions": "النية الصالحة: وصايا لطلبة العلم 1",
+    "curing-laziness": "علاج الفتور والكسل في طلب العلم"
   },
   "courses": {
     "title": "المواد",

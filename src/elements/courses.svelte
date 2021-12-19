@@ -750,8 +750,7 @@
       searchTerm = "sirah";
     }}
   >
-  {$t("tags.sirah")}
-
+    {$t("tags.sirah")}
   </button>
   <button
     href="#gallery"
@@ -760,8 +759,7 @@
       setTimeout(scrollToTitle(), 100);
     }}
   >
-  {$t("tags.other")}
-
+    {$t("tags.other")}
   </button>
 </div>
 
@@ -769,6 +767,9 @@
   <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
     Spirituality
   </h3>
+  <p id="section-explanation" style="text-align: center; margin">
+    {$t("tags.tasawwuf_explanation")}
+  </p>
   <p id="sub-container">
     <label
       ><input type="radio" bind:group={searchTerm} value="suluk" /><span
@@ -785,6 +786,9 @@
   <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
     Tajwid
   </h3>
+  <p id="section-explanation" style="text-align: center; margin">
+    {$t("tags.tajwid_explanation")}
+  </p>
   <p id="sub-container">
     <label
       ><input type="radio" bind:group={searchTerm} value="nazari" /><span
@@ -801,6 +805,9 @@
   <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
     Tafsir
   </h3>
+  <p id="section-explanation" style="text-align: center; margin">
+    {$t("tags.tafsir_explanation")}
+  </p>
   <p id="sub-container">
     <label
       ><input type="radio" bind:group={searchTerm} value="zahir" /><span
@@ -817,6 +824,9 @@
   <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
     Hadith
   </h3>
+  <p id="section-explanation" style="text-align: center; margin">
+    {$t("tags.hadith_explanation")}
+  </p>
   <p id="sub-container">
     <label
       ><input type="radio" bind:group={searchTerm} value="matn" /><span
@@ -831,6 +841,9 @@
   </p>
 {:else if searchTerm == "fiqh" || searchTerm == "ahkam" || searchTerm == "usul" || searchTerm == "qawaid" || searchTerm == "dalil"}
   <h3 id="section-title" style="margin-top: 5vh; text-align: center;">Fiqh</h3>
+  <p id="section-explanation" style="text-align: center; margin">
+    {$t("tags.fiqh_explanation")}
+  </p>
   <p id="sub-container">
     <label
       ><input type="radio" bind:group={searchTerm} value="ahkam" /><span
@@ -854,9 +867,12 @@
     >
   </p>
 {:else if searchTerm == "arabi" || searchTerm == "nahw" || searchTerm == "sarf" || searchTerm == "balaghah"}
-  <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
+  <h3 id="section-title">
     Arabic
   </h3>
+  <p id="section-explanation" style="text-align: center; margin">
+    {$t("tags.arabi_explanation")}
+  </p>
   <p id="sub-container">
     <label
       ><input type="radio" bind:group={searchTerm} value="nahw" /><span
@@ -881,26 +897,44 @@
   <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
     {$t("tags.fard")}
   </h3>
+  <p id="section-explanation" style="text-align: center; margin">
+    {$t("tags.fard_explanation")}
+  </p>
 {:else if searchTerm == "program"}
   <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
     {$t("tags.program")}
   </h3>
+  <p id="section-explanation" style="text-align: center; margin">
+    {$t("tags.program_explanation")}
+  </p>
 {:else if searchTerm == "aqidah"}
   <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
     {$t("tags.aqidah")}
   </h3>
+  <p id="section-explanation" style="text-align: center; margin">
+    {$t("tags.aqidah_explanation")}
+  </p>
 {:else if searchTerm == "sirah"}
   <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
     {$t("tags.sirah")}
   </h3>
+  <p id="section-explanation" style="text-align: center; margin">
+    {$t("tags.sirah_explanation")}
+  </p>
 {:else if searchTerm == "natiq"}
   <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
     {$t("tags.natiq")}
   </h3>
+  <p id="section-explanation" style="text-align: center; margin">
+    {$t("tags.natiq_explanation")}
+  </p>
 {:else if searchTerm == "other"}
   <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
-    {$t("tags.misc")}
+    {$t("tags.other")}
   </h3>
+  <p id="section-explanation" style="text-align: center; margin">
+    {$t("tags.other_explanation")}
+  </p>
 {/if}
 
 {#key searchTerm}
@@ -916,7 +950,11 @@
 
 <style>
   #section-title {
-    padding-top: 10px;
+    padding-top: 10px;margin-top: 5vh; text-align: center;
+  }
+  #section-explanation {
+    margin: 2px 15vw; 
+    text-align: center;
   }
   div#grid > button {
     height: 100px;
