@@ -5,13 +5,13 @@
 <container>
   <h1>Articles</h1>
   <a target="_blank" href="/articles/{$locale}/fard-ayn"
-    >{$t("articles.fard-ayn")} →</a
+    >{$t("articles.fard-ayn")}</a
   >
   <a target="_blank" href="/articles/{$locale}/knowledge-good-intentions"
-    >{$t("articles.knowledge-good-intentions")} →</a
+    >{$t("articles.knowledge-good-intentions")}</a
   >
   <a target="_blank" href="/articles/{$locale}/curing-laziness" id="about"
-    >{$t("articles.curing-laziness")} →</a
+    >{$t("articles.curing-laziness")}</a
   >
 </container>
 

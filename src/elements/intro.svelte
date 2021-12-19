@@ -54,7 +54,7 @@
     grid-template-columns: 1fr 1fr;
     column-gap: 10vw;
     place-content: center;
-    place-items: center;
+    /* place-items: center; */
   }
   div.paras-about > div > div {
     display: flex;
@@ -63,7 +63,7 @@
   }
   span {
     padding: 10px 10px 10px 10px;
-    margin-right: 10px;
+    margin: 0 10px;
     background: var(--secondary-color);
     border-radius: 360px;
   }
