@@ -732,7 +732,7 @@
       setTimeout(scrollToTitle(), 100);
     }}
   >
-    {$t("tags.quran")}
+    {$t("tags.tafsir")}
   </button>
   <button
     href="#section-title"
@@ -803,7 +803,7 @@
   </p>
 {:else if searchTerm == "tafsir" || searchTerm == "zahir" || searchTerm == "ishari" || searchTerm == "tajwid" || searchTerm == "nazari" || searchTerm == "amali"}
   <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
-    Tafsir
+    {$t("tags.tafsir")}
   </h3>
   <p id="section-explanation" style="text-align: center; margin">
     {$t("tags.tafsir_explanation")}
