@@ -867,9 +867,7 @@
     >
   </p>
 {:else if searchTerm == "arabi" || searchTerm == "nahw" || searchTerm == "sarf" || searchTerm == "balaghah"}
-  <h3 id="section-title">
-    Arabic
-  </h3>
+  <h3 id="section-title">Arabic</h3>
   <p id="section-explanation" style="text-align: center; margin">
     {$t("tags.arabi_explanation")}
   </p>
@@ -950,11 +948,15 @@
 
 <style>
   #section-title {
-    padding-top: 10px;margin-top: 5vh; text-align: center;
+    padding-top: 10px;
+    margin-top: 5vh;
+    text-align: center;
+    font-size: 1.5em;
   }
   #section-explanation {
-    margin: 2px 15vw; 
+    margin: 2px 15vw;
     text-align: center;
+    font-size: 1.25em;
   }
   div#grid > button {
     height: 100px;
