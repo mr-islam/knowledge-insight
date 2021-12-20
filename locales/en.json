@@ -159,29 +159,29 @@
       "explanation": ""
     },
     "natiq-um1": {
-      "title": "A complete program spanning several books",
+      "title": "Preparatory Level",
       "desc": "Starting from how to pronounce letters, all the way to communicating in everyday situations",
       "src": "/books/natiq-um1.jpg",
       "book": "Silsilah al-Lisan: 1",
       "explanation": ""
     },
     "natiq-um2": {
-      "title": "A complete program spanning several books",
+      "title": "Beginner Level",
       "desc": "Students begin learning a foundation in Arabic grammar and sentence construction.",
       "src": "/books/natiq-um2.jpg",
       "book": "Silsilah al-Lisan: 2",
       "explanation": ""
     },
     "natiq-um3": {
-      "title": "A complete program spanning several books",
+      "title": "Intermediate Level",
       "desc": "Learners start composing short essays, cover more topics for vocabulary, and expand their grammar.",
       "src": "/books/natiq-um3.jpg",
       "book": "Silsilah al-Lisan: 3",
       "explanation": ""
     },
     "natiq-um4": {
-      "title": "Training to write long texts, dialogues and being able to handle any Arabic book or reference.",
-      "desc": "This is placeholder of some text, we need to write later",
+      "title": "Advanced Level",
+      "desc": "Training to write long texts, dialogues and being able to handle any Arabic book or reference",
       "src": "/books/natiq-um4.jpg",
       "book": "Silsilah al-Lisan: 4",
       "explanation": ""
@@ -329,14 +329,14 @@
     },
     "tasawwuf-taj": {
       "title": "Spirituality",
-      "desc": "The primer for essential guidance in daily life, worship and seeking",
+      "desc": "",
       "src": "/books/tasawwuf-taj.jpg",
       "book": "Taj al-Arus",
       "explanation": ""
     },
     "tasawwuf-uyub": {
       "title": "Spirituality",
-      "desc": "The primer for essential guidance in daily life, worship and seeking",
+      "desc": "",
       "src": "/books/tasawwuf-uyub.jpg",
       "book": "Uyub al-Nafs wa Adwiyatuha",
       "explanation": ""
@@ -350,14 +350,14 @@
     },
     "tasawwuf-mabahith": {
       "title": "Spirituality",
-      "desc": "The primer for essential guidance in daily life, worship and seeking",
+      "desc": "",
       "src": "/books/tasawwuf-mabahith.jpg",
       "book": "Sharh al-Mabahith al-Asliyyah",
       "explanation": ""
     },
     "tasawwuf-manazil": {
       "title": "Spirituality",
-      "desc": "The primer for essential guidance in daily life, worship and seeking",
+      "desc": "",
       "src": "/books/tasawwuf-manazil.jpg",
       "book": "Manazil al-Saʾirin",
       "explanation": ""
