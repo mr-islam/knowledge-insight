@@ -166,28 +166,28 @@
     },
     "natiq-um1": {
       "title": "مستوى التمهيد",
-      "desc": "This is placeholder of some text, we need to write later",
+      "desc": "الركن لطلاب اللغة العربة. بداية من النطق الصحيح للحروف، إلى المحادثة في منواقف يومية",
       "src": "/books/natiq-um1.jpg",
       "book": "سلسلة اللسان: 1",
       "explanation": ""
     },
     "natiq-um2": {
       "title": "مستوى المبتدئ",
-      "desc": "This is placeholder of some text, we need to write later",
+      "desc": "بعد التمكن من من المحادثة في الحياة اليومية، يبدأ الطالب في تعلم أساس في النحو",
       "src": "/books/natiq-um2.jpg",
       "book": "سلسلة اللسان: 2",
       "explanation": ""
     },
     "natiq-um3": {
       "title": "مستوى المتوسط",
-      "desc": "This is placeholder of some text, we need to write later",
+      "desc": "يبدأ المتعلمين في تأليف مقالات قصيرة، يتناولون المزيد من المواضيع، ويتوسعون في النحو",
       "src": "/books/natiq-um3.jpg",
       "book": "سلسلة اللسان: 3",
       "explanation": ""
     },
     "natiq-um4": {
       "title": "مستوى المتقدم",
-      "desc": "This is placeholder of some text, we need to write later",
+      "desc": "تدريب في كتابة مقالات طويلة والمحادثات، إلى مستوى يتمكن الطالب من تناول أو كتاب عربي أو مرجع",
       "src": "/books/natiq-um4.jpg",
       "book": "سلسلة اللسان: 4",
       "explanation": ""
