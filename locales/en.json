@@ -44,22 +44,37 @@
     "misc_explanation": "Various Courses",
 
     "tajwid": "Quran Recitation & Tajwid",
+    "tajwid_nazari": "Theoretical",
+    "tajwid_amali": "Practical",
     "tajwid_explanation": "Quran Recitation & Tajwid",
 
     "arabi": "Arabic & Its Sciences",
+    "arabi_nahw": "Nahw",
+    "arabi_sarf": "Sarf",
+    "arabi_balaghah": "Balaghah",
     "arabi_explanation": "\"Indeed Allah Almighty honored the Arabic language out of all others, by making it the vessel for His Noble Book and the Sunnah of His Prophet - Allah send blessings and peace upon him - the Almighty said: \"We have sent it down as an Arabic Quran so that you may understand\" [Yusuf: 2]. Thus, it is the tongue of the clear Divine law and it's study is widespread and an inseparable part of the religion.\"",
 
     "fiqh": "Fiqh & Its Foundations",
+    "fiqh_rulings": "Rulings",
+    "fiqh_foundations": "Foundations",
+    "fiqh_principles": "Principles",
+    "fiqh_evidences": "Evidences",
     "fiqh_explanation": "Truly Fiqh is one of the noblest and greatest religious sciences - after learning what corrects his belief. Indeed, Fiqh corrects a person's worship and interactions, allowing him to worship Allah upon guidance, getting to know Him in the worldy life upto the levels of the rigtheous, and in the afterlife upto the ranks of the best. Allah make us of them by His generosity and favor!",
 
     "tasawwuf": "Spirituality",
+    "tasawwuf_suluk": "Self-purification & Suluk",
+    "tasawwuf_irfan": "Higher Realities",
     "tasawwuf_explanation": "There is no doubt that Tasawwuf (Spirituality) is the most beneficial knowledge, because it is the way to clear the soul of its flaws and filth, and adorning it with higher truths and realities, and purifying it with precise and wonderful details. Thus it is the beneficial knowledge the fruit of which is fear of Allah Almighty. Real Spirituality is what makes clear the behavioural, nurturing and development method - and after that the spiritual. It is made up of three stages: cleansing, adorning and manifesting.",
 
     "tafsir": "The Quran & Its Sciences",
+    "tafsir_ishari": "Ishari Tafsir",
+    "tafsir_zahir": "External Tafsir",
     "tafsir_explanation": "\"Truly the Quran is the book of guidance for mankind, it guides them to the upright, and leads them to what is good for their worldly- and afterlife. Among the most important things a Muslim must be concerned about and focus on: reflecting on the Quran and understanding its meanings. That is the way to success in this life and the next, and this is not possible except by returning to what the Scholars of Tafsir have written about the Words of Allah Almighty.\"",
 
     "hadith": "Hadith & Its Sciences",
-    "hadith_explanation": "Hadith & Its Sciences",
+    "hadith_texts": "Hadith Texts",
+    "hadith_sciences": "Hadith Sciences",
+    "hadith_explanation": "",
 
     "other": "Assorted Classes",
     "other_explanation": "Assorted Classes"

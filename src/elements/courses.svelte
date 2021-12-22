@@ -765,7 +765,7 @@
 
 {#if searchTerm == "tasawwuf" || searchTerm == "suluk" || searchTerm == "irfan"}
   <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
-    Spirituality
+    {$t("tags.tasawwuf")}
   </h3>
   <p id="section-explanation" style="text-align: center; margin">
     {$t("tags.tasawwuf_explanation")}
@@ -773,18 +773,18 @@
   <p id="sub-container">
     <label
       ><input type="radio" bind:group={searchTerm} value="suluk" /><span
-        >Self-purification & Suluk</span
+        >{$t("tags.tasawwuf_suluk")}</span
       ></label
     >
     <label
       ><input type="radio" bind:group={searchTerm} value="irfan" /><span
-        >Higher Understandings</span
+        >{$t("tags.tasawwuf_irfan")}</span
       ></label
     >
   </p>
 {:else if searchTerm == "tajwid" || searchTerm == "nazari" || searchTerm == "amali"}
   <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
-    Tajwid
+    {$t("tags.tajwid")}
   </h3>
   <p id="section-explanation" style="text-align: center; margin">
     {$t("tags.tajwid_explanation")}
@@ -792,12 +792,12 @@
   <p id="sub-container">
     <label
       ><input type="radio" bind:group={searchTerm} value="nazari" /><span
-        >Theory & Rules</span
+        >{$t("tags.tajwid_nazari")}</span
       ></label
     >
     <label
       ><input type="radio" bind:group={searchTerm} value="amali" /><span
-        >Practical Recitation</span
+        >{$t("tags.tajwid_amali")}</span
       ></label
     >
   </p>
@@ -811,18 +811,18 @@
   <p id="sub-container">
     <label
       ><input type="radio" bind:group={searchTerm} value="zahir" /><span
-        >External Tafsir</span
+        >{$t("tags.tafsir_zahir")}</span
       ></label
     >
     <label
       ><input type="radio" bind:group={searchTerm} value="ishari" /><span
-        >Ishari Tafsir</span
+        >{$t("tags.tafsir_ishari")}</span
       ></label
     >
   </p>
 {:else if searchTerm == "hadith" || searchTerm == "matn" || searchTerm == "ulum"}
   <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
-    Hadith
+    {$t("tags.hadith")}
   </h3>
   <p id="section-explanation" style="text-align: center; margin">
     {$t("tags.hadith_explanation")}
@@ -830,61 +830,61 @@
   <p id="sub-container">
     <label
       ><input type="radio" bind:group={searchTerm} value="matn" /><span
-        >Hadith Texts</span
+        >{$t("tags.hadith_texts")}</span
       ></label
     >
     <label
       ><input type="radio" bind:group={searchTerm} value="ulum" /><span
-        >Hadith Sciences</span
+        >{$t("tags.hadith_sciences")}</span
       ></label
     >
   </p>
 {:else if searchTerm == "fiqh" || searchTerm == "ahkam" || searchTerm == "usul" || searchTerm == "qawaid" || searchTerm == "dalil"}
-  <h3 id="section-title" style="margin-top: 5vh; text-align: center;">Fiqh</h3>
+  <h3 id="section-title" style="margin-top: 5vh; text-align: center;">{$t("tags.fiqh")}</h3>
   <p id="section-explanation" style="text-align: center; margin">
     {$t("tags.fiqh_explanation")}
   </p>
   <p id="sub-container">
     <label
       ><input type="radio" bind:group={searchTerm} value="ahkam" /><span
-        >Rulings</span
+        >{$t("tags.fiqh_rulings")}</span
       ></label
     >
     <label
       ><input type="radio" bind:group={searchTerm} value="usul" /><span
-        >Foundations</span
+        >{$t("tags.fiqh_foundations")}</span
       ></label
     >
     <label
-      ><input type="radio" bind:group={searchTerm} value="qawaid" /><span
-        >Principles</span
-      ></label
+      ><input type="radio" bind:group={searchTerm} value="qawaid" /><span>
+        {$t("tags.fiqh_principles")}
+      </span></label
     >
     <label
-      ><input type="radio" bind:group={searchTerm} value="dalil" /><span
-        >Evidences</span
-      ></label
+      ><input type="radio" bind:group={searchTerm} value="dalil" /><span>
+        {$t("tags.fiqh_evidences")}
+      </span></label
     >
   </p>
 {:else if searchTerm == "arabi" || searchTerm == "nahw" || searchTerm == "sarf" || searchTerm == "balaghah"}
-  <h3 id="section-title">Arabic</h3>
+  <h3 id="section-title">{$t("tags.arabi")}</h3>
   <p id="section-explanation" style="text-align: center; margin">
     {$t("tags.arabi_explanation")}
   </p>
   <p id="sub-container">
     <label
       ><input type="radio" bind:group={searchTerm} value="nahw" /><span
-        >nahw</span
+        >{$t("tags.arabi_nahw")}</span
       ></label
     >
     <label
       ><input type="radio" bind:group={searchTerm} value="sarf" /><span
-        >sarf</span
+        >{$t("tags.arabi_sarf")}</span
       ></label
     >
     <label
       ><input type="radio" bind:group={searchTerm} value="balaghah" /><span
-        >balaghah</span
+        >{$t("tags.arabi_balaghah")}</span
       ></label
     >
   </p>

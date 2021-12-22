@@ -38,25 +38,40 @@
 
     "sirah_explanation": "«السيرة والشمائل تشع منهما أنوار المبادئ الإسلامية والأخلاق السامية، وهي الإكسير الذي به يُفهم كتاب الله تعالى تعرف مقاصده. إن الرسول صلى الله عليه وسلم - هو الترجمان الجلي والتفسير العملي لكل ما ورد في القرآن؛ كما قالت السيدة عائشة رضي الله عنها عندما سئلت عن خلقه صلى الله عليه وسلم: كان خلقه القرآن.»",
 
-    "program_explanation": "Larger Programs",
+    "program_explanation": "",
 
-    "natiq_explanation": "Arabic for Non-natives",
+    "natiq_explanation": "",
 
-    "misc_explanation": "Various Courses",
+    "misc_explanation": "",
 
-    "tajwid_explanation": "Quran Recitation & Tajwid",
+    "tajwid_explanation": "",
+    "tajwid_nazari": "النظري",
+    "tajwid_amali": "العملي",
 
     "arabi_explanation": "«إن الله سبحانه وتعالى شرّف اللغة العربية من بين سائر اللغات، بأن جعلها وعاء لكتابه الكريم، وسنة نبيه - صلى الله عليه وسلم - قال تعالى: ﴿إِنَّاۤ أَنزَلۡنَـٰهُ قُرۡءَ ٰ⁠ نًا عَرَبِیࣰّا لَّعَلَّكُمۡ تَعۡقِلُونَ﴾ [يوسف ٢]. فهي لسان شريعة الإسلام المبين، ولذا غدت دراسة علومها المختلفة جزءا لا ستجزأ من الدين.»",
+    "arabi_nahw": "النحو",
+    "arabi_sarf": "الصرف",
+    "arabi_balaghah": "البلاغة",
 
     "fiqh_explanation": "إن الفقه في الدين من أشرف العلوم وأفضلها بعد أن يتعلم المسلم ما يصحح به عقيدته، وقد ندبنا الحق تعالى إلى تعلمه بقوله: ﴿فَلَوۡلَا نَفَرَ مِن كُلِّ فِرۡقَةࣲ مِّنۡهُمۡ طَاۤىِٕفَةࣱ لِّیَتَفَقَّهُوا۟ فِی ٱلدِّینِ وَلِیُنذِرُوا۟ قَوۡمَهُمۡ إِذَا رَجَعُوۤا۟ إِلَیۡهِمۡ لَعَلَّهُمۡ یَحۡذَرُونَ﴾ [التوبة ١٢٢]. وقد أخبرنا النبي صلى الله عليه وسلم: «من يرد الله به خيرا يفقهه في الدين ويلهمه رشده» — وكيف لا يكون الفقه كذلك وهو المصحح لعبادات المرء ومعاملاته.  فيعبد ربه على بصيرة، فيعرفه في الدنيا إلى مراتب الأولياء والصالحين، وفي الآخرة إلى منازل الأبرار في عليين، جعلنا الله منهم بفضله وكرمه.",
+    "fiqh_rulings": "الأحكام",
+    "fiqh_foundations": "الأصول",
+    "fiqh_principles": "القواعد",
+    "fiqh_evidences": "الأدلة",
 
     "tafsir_explanation": "«إن القرآن العظيم كتاب هداية للبشرية، يهديهم للتي هي أقوم، ويرشدهم إلى ما فيه صلاح أمورهم في الدنيا والآخرة. ومن أهم ما ينبغي أن يهتم به المسلم ويحرص عليه تدبر القرآن وتفهم معانيه، فذاك طريق الفلاح في الدنيا والآخرة، ولا يحصل ذلك إلى بالرجوع إلى ما كتبه العلماء المفسرون لكلام الله تعالى.» (مقدمة تفسير النسفي)",
+    "tafsir_ishari": "التفسير الإشاري",
+    "tafsir_zahir": "تفسير الظاهر",
 
     "tasawwuf_explanation": "لا شك أن علم التصوف أنفع العلوم، لكونه سليلا إلى تخلية النفس عن آفاتها وكدوراتها، وتحليتها بالحقائق والمعارف، وتزكيتها بالدقائق واللطائف، فهو العلم النافع الذي يثمر في القلب خشية الله تعالى. فالتصوف الحق هو الذي يوضح المنهاج التربوي والسلوكي والأخلاقي ومن ثم الروحي والمعرفي، لأنه عبارة عن مقامات ثلاث، وهي التخلي والتحلي والتجلي.",
+    "tasawwuf_suluk": "السلوك",
+    "tasawwuf_irfan": "العرفان",
 
-    "hadith_explanation": "Hadith & Its Sciences",
+    "hadith_explanation": "",
+    "hadith_texts": "متون الحديث",
+    "hadith_sciences": "علوم الحديث",
 
-    "other_explanation": "Assorted Classes"
+    "other_explanation": ""
   },
   "articles": {
     "title": "المقالات",
@@ -117,7 +132,7 @@
     },
     "tajwid-thani": {
       "title": "التجويد: المستوى 3",
-      "desc": "Written by the expert scholar Yahya al-Ghawthani",
+      "desc": "من قلم العالم الخبير يحيى الغوثاني",
       "src": "/books/tajwid-thani.jpg",
       "book": "المستوى الثاني",
       "explanation": ""
@@ -151,15 +166,15 @@
       "explanation": ""
     },
     "program-youth": {
-      "title": "A complete program spanning several books",
-      "desc": "This is placeholder of some text, we need to write later",
+      "title": "",
+      "desc": "",
       "src": "",
       "book": "دورة الصغار",
       "explanation": ""
     },
     "program-women": {
-      "title": "A complete program spanning several books",
-      "desc": "This is placeholder of some text, we need to write later",
+      "title": "",
+      "desc": "",
       "src": "",
       "book": "دورة النساء",
       "explanation": ""
