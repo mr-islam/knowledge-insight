@@ -10,6 +10,9 @@
       .getElementById("section-title")
       .scrollIntoView({ behavior: "smooth" });
   }
+  function scrollToContact() {
+    document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+  }
 
   let courses = [
     {
@@ -652,6 +655,15 @@
 </script>
 
 <h1 id="courses">{$t("courses.title")}</h1>
+<div style="text-align: center; padding: 0 0 20px 0;">
+  <a
+    style="color: #dea300; text-decoration: underline dotted;"
+    href="#"
+    on:click={() => {
+      scrollToContact();
+    }}>{$t("contact.courses")}</a
+  >
+</div>
 
 <div id="grid">
   <button
@@ -840,7 +852,9 @@
     >
   </p>
 {:else if searchTerm == "fiqh" || searchTerm == "ahkam" || searchTerm == "usul" || searchTerm == "qawaid" || searchTerm == "dalil"}
-  <h3 id="section-title" style="margin-top: 5vh; text-align: center;">{$t("tags.fiqh")}</h3>
+  <h3 id="section-title" style="margin-top: 5vh; text-align: center;">
+    {$t("tags.fiqh")}
+  </h3>
   <p id="section-explanation" style="text-align: center; margin">
     {$t("tags.fiqh_explanation")}
   </p>

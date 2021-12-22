@@ -10,8 +10,17 @@
       <Books />
     </div>
     <div class="text-right">
-      <p>Complete: Center for Knowledge, Markaz al-Ilm wal-Maʿrifah, based in Jordan aims to uphold to the </p>
-      <p>Based in Jordan</p>
+      <p>
+        Complete: Center for Knowledge, Markaz al-Ilm wal-Maʿrifah, based in
+        Jordan aims to uphold to the
+      </p>
+      <p id="contact">
+        {$t("contact.contact_us")}<a href="mailto:ilm.marifah.center@gmail.com">
+          {$t("contact.email")}
+        </a>
+        {$t("contact.or")}
+        <a href="https://t.me/naved_islam">{$t("contact.telegram")}</a>
+      </p>
     </div>
   </div>
 </div>
@@ -19,7 +28,8 @@
 <style>
   h1,
   h2,
-  p {
+  p,
+  a {
     color: white;
   }
   div.container {
@@ -29,14 +39,14 @@
   }
   div.flex-row {
     padding: 0 5vw;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
   }
   div.image-left {
-      margin-right: 20px;
+    margin-right: 20px;
   }
   div.text-right {
-      min-width: 50%;
+    min-width: 50%;
   }
   @media only screen and (max-width: 600px) {
     div.flex-row {

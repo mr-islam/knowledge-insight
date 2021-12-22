@@ -43,9 +43,6 @@
 </main>
 
 <footer>
-  <div style="text-align: center;">
-    <a href="mailto:ilm.marifah.center@gmail.com">{$t("contact_us")}</a>
-  </div>
   <script
     defer
     data-domain="ilm-marifah.com"
