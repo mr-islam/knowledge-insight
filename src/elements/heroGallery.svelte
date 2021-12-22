@@ -136,12 +136,12 @@
       height: 40vh;
     }
     p {
-      font-size: 1rem;
+      font-size: 1.5rem;
       color: var(--pure-white);
       /* display: none; */
     }
     h1 {
-      font-size: 1.5rem;
+      font-size: 2rem;
       font-weight: bold;
       color: var(--pure-white);
     }
