@@ -1017,6 +1017,11 @@
     div#gallery {
       flex-direction: column;
     }
+    #section-explanation {
+      margin: 2px 3vw;
+      text-align: center;
+      font-size: 1.1em;
+    }
   }
   #sub-container {
     margin-top: 30px;

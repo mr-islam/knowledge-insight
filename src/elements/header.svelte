@@ -2,13 +2,17 @@
   import { t, locale, locales } from "svelte-intl-precompile";
 </script>
 
+
+
 <header>
   <div class="flex-row">
     <a href="/">
       <img alt="Logo of Arabic calligraphy" id="logo" src="/logo.jpg" />
     </a>
     <div class="flex-column">
-      <span>{$t("center")}</span>
+      {#if $t("center") !== ""}
+        <span>{$t("center")}</span>
+      {/if}
       <h1>{$t("title")}</h1>
     </div>
   </div>
@@ -78,7 +82,7 @@
   }
   h1 {
     font-size: 1.5rem;
-    margin: 0 10px 0 0;
+    margin: 0;
   }
   div.flex-row {
     align-items: center;
