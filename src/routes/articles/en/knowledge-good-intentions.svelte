@@ -21,4 +21,4 @@
 <li>Acting according to one’s knowledge</li>
 <li>Oh Allah, make our knowledge, actions, teaching, and the rest of our actions sincere for Your Noble Countenance, by the rank of Your Greatest Beloved, peace and blessings be upon him and his beloveds.</li>
 </ul>
-<p>A servant of this noble knowledge, <br>Abd al-Rahman al-Sha`ār <br>02/21/19</p>
+<p>A servant of this noble knowledge, <br>Abd al-Rahman al-Sha`ār</p>
