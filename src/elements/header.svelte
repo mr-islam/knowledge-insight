@@ -1,8 +1,10 @@
 <script context="module">
   import { t, locale, locales } from "svelte-intl-precompile";
+
+  function scrollToTitle(id) {
+    document.getElementById(id).scrollIntoView({ behavior: "smooth" });
+  }
 </script>
-
-
 
 <header>
   <div class="flex-row">
@@ -17,11 +19,26 @@
     </div>
   </div>
   <div>
-    <a href="/#courses">{$t("courses.title")}</a>
+    <a
+      on:click={() => {
+        scrollToTitle("courses");
+      }}
+      href="#">{$t("courses.title")}</a
+    >
     &middot
-    <a href="/#articles">{$t("articles.title")}</a>
+    <a
+      on:click={() => {
+        scrollToTitle("articles");
+      }}
+      href="#">{$t("articles.title")}</a
+    >
     &middot
-    <a href="/#about">{$t("about.title")}</a>
+    <a
+      on:click={() => {
+        scrollToTitle("about");
+      }}
+      href="#">{$t("about.title")}</a
+    >
     &middot
     <select
       id="select-lang"
@@ -40,7 +57,7 @@
   header {
     background-color: var(--pure-white);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     border: 4px solid var(--primary-color);
