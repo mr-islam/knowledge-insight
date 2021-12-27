@@ -572,7 +572,7 @@
     },
     {
       id: "other-diwankurdi",
-      tags: ["other"],
+      tags: ["public"],
       level: 1,
       action: "later",
       price: "",
@@ -684,15 +684,6 @@
     {$t("tags.program")}
   </button>
   <button
-    href="#section-title"
-    on:click={() => {
-      searchTerm = "nazari";
-      setTimeout(scrollToTitle(), 100);
-    }}
-  >
-    {$t("tags.tajwid")}
-  </button>
-  <button
     href="#gallery"
     on:click={() => {
       searchTerm = "natiq";
@@ -711,31 +702,13 @@
     {$t("tags.arabi")}
   </button>
   <button
-    href="#gallery"
-    on:click={() => {
-      searchTerm = "aqidah";
-      setTimeout(scrollToTitle(), 100);
-    }}
-  >
-    {$t("tags.aqidah")}
-  </button>
-  <button
     href="#section-title"
     on:click={() => {
-      searchTerm = "ahkam";
+      searchTerm = "nazari";
       setTimeout(scrollToTitle(), 100);
     }}
   >
-    {$t("tags.fiqh")}
-  </button>
-  <button
-    href="#section-title"
-    on:click={() => {
-      searchTerm = "suluk";
-      setTimeout(scrollToTitle(), 100);
-    }}
-  >
-    {$t("tags.tasawwuf")}
+    {$t("tags.tajwid")}
   </button>
   <button
     href="#section-title"
@@ -767,12 +740,49 @@
   <button
     href="#gallery"
     on:click={() => {
+      searchTerm = "aqidah";
+      setTimeout(scrollToTitle(), 100);
+    }}
+  >
+    {$t("tags.aqidah")}
+  </button>
+  <button
+    href="#section-title"
+    on:click={() => {
+      searchTerm = "ahkam";
+      setTimeout(scrollToTitle(), 100);
+    }}
+  >
+    {$t("tags.fiqh")}
+  </button>
+  <button
+    href="#section-title"
+    on:click={() => {
+      searchTerm = "suluk";
+      setTimeout(scrollToTitle(), 100);
+    }}
+  >
+    {$t("tags.tasawwuf")}
+  </button>
+  <button
+    href="#gallery"
+    on:click={() => {
+      searchTerm = "public";
+      setTimeout(scrollToTitle(), 100);
+    }}
+  >
+    {$t("tags.public")}
+  </button>
+  <button
+    href="#gallery"
+    on:click={() => {
       searchTerm = "other";
       setTimeout(scrollToTitle(), 100);
     }}
   >
     {$t("tags.other")}
   </button>
+  
 </div>
 
 {#if searchTerm == "tasawwuf" || searchTerm == "suluk" || searchTerm == "irfan"}
