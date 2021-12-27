@@ -635,10 +635,6 @@
       registration: "",
     },
 
-
-
-
-
     {
       id: "nahw-mabadi",
       tags: ["nahw"],
@@ -793,36 +789,6 @@
     {$t("tags.fard")}
   </button>
   <button
-    id="program"
-    href="#gallery"
-    on:click={() => {
-      searchTerm = "program";
-      setTimeout(scrollToTitle(), 100);
-    }}
-  >
-    {$t("tags.program")}
-  </button>
-  <button
-    id="natiq"
-    href="#gallery"
-    on:click={() => {
-      searchTerm = "natiq";
-      setTimeout(scrollToTitle(), 100);
-    }}
-  >
-    {$t("tags.natiq")}
-  </button>
-  <button
-    id="nahw"
-    href="#section-title"
-    on:click={() => {
-      searchTerm = "nahw";
-      setTimeout(scrollToTitle(), 100);
-    }}
-  >
-    {$t("tags.arabi")}
-  </button>
-  <button
     id="nazari"
     href="#section-title"
     on:click={() => {
@@ -893,6 +859,26 @@
     {$t("tags.tasawwuf")}
   </button>
   <button
+    id="natiq"
+    href="#gallery"
+    on:click={() => {
+      searchTerm = "natiq";
+      setTimeout(scrollToTitle(), 100);
+    }}
+  >
+    {$t("tags.natiq")}
+  </button>
+  <button
+    id="nahw"
+    href="#section-title"
+    on:click={() => {
+      searchTerm = "nahw";
+      setTimeout(scrollToTitle(), 100);
+    }}
+  >
+    {$t("tags.arabi")}
+  </button>
+  <button
     id="public"
     href="#gallery"
     on:click={() => {
@@ -901,6 +887,16 @@
     }}
   >
     {$t("tags.public")}
+  </button>
+  <button
+    id="program"
+    href="#gallery"
+    on:click={() => {
+      searchTerm = "program";
+      setTimeout(scrollToTitle(), 100);
+    }}
+  >
+    {$t("tags.program")}
   </button>
   <button
     id="other"
@@ -1208,39 +1204,39 @@
     background: #ffee93;
   }
   button#program {
-    background: #fcf5c7;
+    background: #f1f1d2;
   }
   button#natiq {
-    background: #fff1e6 ;
+    background: #fff1e6;
   }
   button#nahw {
-    background: #eddcd2 ;
+    background: #eddcd2;
   }
   button#nazari {
-    background: #F4EEFF;
+    background: #f4eeff;
   }
   button#zahir {
-    background: #DCD6F7;
+    background: #dcd6f7;
   }
-  button#matn { 
-    background: #adf7b6 ;
+  button#matn {
+    background: #adf7b6;
   }
-  button#sirah { 
-    background: #98db9f ;
+  button#sirah {
+    background: #98db9f;
   }
   button#aqidah {
-    background: #faa5ba;
+    background: #ffb0c4;
   }
   button#ahkam {
-    background: #65cbe9 ;
+    background: #95e6ff;
   }
   button#suluk {
-    background: #f6ac69 ;
+    background: #fab879;
   }
   button#public {
-    background: #9bf6ff ;
+    background: #f2feff;
   }
   button#other {
-    background: #d4d4c0;
+    background: #e9e9e9;
   }
 </style>
