@@ -34,7 +34,7 @@ Loading..
     <div class="card-course">
       <!-- <img id="currentPhoto" src="SomeImage.jpg" onerror="this.onerror=null; this.src='Default.jpg'" alt="" width="100" height="120"> -->
 
-      <img src={$t(`courses.${id}.src`)} onerror="this.onerror=null; this.src='/books/fallback.jpg'" alt={$t(`courses.${id}.book`)} />
+      <img src={`/books/${id}.jpg`} onerror="this.onerror=null; this.src='/books/fallback.jpg'" alt={$t(`courses.${id}.book`)} />
       <div class="card-inner">
         <h3>{$t(`courses.${id}.book`)}</h3>
         <subtitle>{$t(`courses.${id}.title`)}</subtitle>

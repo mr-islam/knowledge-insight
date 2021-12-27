@@ -547,14 +547,6 @@
       registration: "",
     },
     {
-      id: "tafsir-waridat",
-      tags: ["ishari"],
-      level: 2,
-      action: "later",
-      price: "",
-      registration: "",
-    },
-    {
       id: "tafsir-mawaqif",
       tags: ["ishari"],
       level: 3,

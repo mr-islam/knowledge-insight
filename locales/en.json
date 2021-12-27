@@ -105,7 +105,7 @@
     },
     "tajwid-jazari": {
       "title": "Tajwid: Level 4",
-      "desc": "this is   book",
+      "desc": "",
       "src": "/books/tajwid-jazari.jpg",
       "book": "Sharh al-Jazariyyah"
     },
@@ -676,14 +676,14 @@
     },
     "hadith-salah": {
       "title": "Hadith: Terminology 3",
-      "desc": "The work that changed the field",
+      "desc": "",
       "src": "/books/hadith-salah.jpg",
       "book": "Muqaddimah Ibn al-Salah",
       "explanation": ""
     },
     "hadith-tadrib": {
       "title": "Hadith: Terminology 4",
-      "desc": "The level for complete campacity in hadith science",
+      "desc": "",
       "src": "/books/hadith-tadrib.jpg",
       "book": "Tadrib al-Rawi",
       "explanation": ""
