@@ -667,6 +667,7 @@
 
 <div id="grid">
   <button
+    id="fard"
     on:click={() => {
       setTimeout(scrollToTitle(), 100);
       searchTerm = "fard";
@@ -675,6 +676,7 @@
     {$t("tags.fard")}
   </button>
   <button
+    id="program"
     href="#gallery"
     on:click={() => {
       searchTerm = "program";
@@ -684,6 +686,7 @@
     {$t("tags.program")}
   </button>
   <button
+    id="natiq"
     href="#gallery"
     on:click={() => {
       searchTerm = "natiq";
@@ -693,6 +696,7 @@
     {$t("tags.natiq")}
   </button>
   <button
+    id="nahw"
     href="#section-title"
     on:click={() => {
       searchTerm = "nahw";
@@ -702,6 +706,7 @@
     {$t("tags.arabi")}
   </button>
   <button
+    id="nazari"
     href="#section-title"
     on:click={() => {
       searchTerm = "nazari";
@@ -711,6 +716,7 @@
     {$t("tags.tajwid")}
   </button>
   <button
+    id="zahir"
     href="#section-title"
     on:click={() => {
       searchTerm = "zahir";
@@ -720,6 +726,7 @@
     {$t("tags.tafsir")}
   </button>
   <button
+    id="matn"
     href="#section-title"
     on:click={() => {
       searchTerm = "matn";
@@ -729,6 +736,7 @@
     {$t("tags.hadith")}
   </button>
   <button
+    id="sirah"
     href="#gallery"
     on:click={() => {
       setTimeout(scrollToTitle(), 100);
@@ -738,6 +746,7 @@
     {$t("tags.sirah")}
   </button>
   <button
+    id="aqidah"
     href="#gallery"
     on:click={() => {
       searchTerm = "aqidah";
@@ -747,6 +756,7 @@
     {$t("tags.aqidah")}
   </button>
   <button
+    id="ahkam"
     href="#section-title"
     on:click={() => {
       searchTerm = "ahkam";
@@ -756,6 +766,7 @@
     {$t("tags.fiqh")}
   </button>
   <button
+    id="suluk"
     href="#section-title"
     on:click={() => {
       searchTerm = "suluk";
@@ -765,6 +776,7 @@
     {$t("tags.tasawwuf")}
   </button>
   <button
+    id="public"
     href="#gallery"
     on:click={() => {
       searchTerm = "public";
@@ -774,6 +786,7 @@
     {$t("tags.public")}
   </button>
   <button
+    id="other"
     href="#gallery"
     on:click={() => {
       searchTerm = "other";
@@ -782,7 +795,6 @@
   >
     {$t("tags.other")}
   </button>
-  
 </div>
 
 {#if searchTerm == "tasawwuf" || searchTerm == "suluk" || searchTerm == "irfan"}
@@ -985,17 +997,17 @@
   div#grid > button {
     height: 100px;
     text-align: center;
-    background: #f2ffe9;
+    /* background: #f2ffe9; */
     border-radius: 4px;
-    border: 2px dashed #90d344;
+    border: 2px dashed #cacaca;
     padding: 10px;
     font-weight: bold;
     justify-self: stretch;
     align-self: stretch;
   }
-  div#grid > button:nth-child(odd) {
+  /* div#grid > button:nth-child(odd) {
     background: #f9fff5;
-  }
+  } */
   div#grid > button:hover {
     background-color: #bef184;
     border: 2px solid #90d344;
@@ -1074,5 +1086,44 @@
     border: 2px solid gold;
 
     color: black;
+  }
+  button#fard {
+    background: #ffee93;
+  }
+  button#program {
+    background: #fcf5c7;
+  }
+  button#natiq {
+    background: #fff1e6 ;
+  }
+  button#nahw {
+    background: #eddcd2 ;
+  }
+  button#nazari {
+    background: #F4EEFF;
+  }
+  button#zahir {
+    background: #DCD6F7;
+  }
+  button#matn { 
+    background: #adf7b6 ;
+  }
+  button#sirah { 
+    background: #98db9f ;
+  }
+  button#aqidah {
+    background: #faa5ba;
+  }
+  button#ahkam {
+    background: #65cbe9 ;
+  }
+  button#suluk {
+    background: #f6ac69 ;
+  }
+  button#public {
+    background: #9bf6ff ;
+  }
+  button#other {
+    background: #d4d4c0;
   }
 </style>
