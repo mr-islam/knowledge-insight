@@ -204,6 +204,111 @@
       "book": "Silsilah al-Lisan: 4",
       "explanation": ""
     },
+    "nahw-mabadi": {
+      "title": "Level 1",
+      "desc": "",
+      "src": "",
+      "book": "Mabadiʾ Durus al-Arabiyyah",
+      "explanation": ""
+    },
+    "nahw-tawdih": {
+      "title": "Level 1",
+      "desc": "",
+      "src": "",
+      "book": "Al-Tawdih: Sharh al-Ajurumiyyah",
+      "explanation": ""
+    },
+    "nahw-tashil": {
+      "title": "Level 2",
+      "desc": "",
+      "src": "",
+      "book": "Al-Tashil: Sharh al-Ajurumiyyah",
+      "explanation": ""
+    },
+    "nahw-durus": {
+      "title": "Level 3",
+      "desc": "",
+      "src": "",
+      "book": "Durus Nahwiyya",
+      "explanation": ""
+    },
+    "nahw-qatr": {
+      "title": "Level 4",
+      "desc": "",
+      "src": "",
+      "book": "Sharh Qatr al-Nada",
+      "explanation": ""
+    },
+    "nahw-alfiyyah": {
+      "title": "Level 5",
+      "desc": "",
+      "src": "",
+      "book": "Al-Alfiyyah",
+      "explanation": ""
+    },
+    "nahw-ibnaqil": {
+      "title": "Level 6",
+      "desc": "",
+      "src": "",
+      "book": "Sharh ibn Aqīl",
+      "explanation": ""
+    },
+    "sarf-amthilah": {
+      "title": "Level 1",
+      "desc": "",
+      "src": "",
+      "book": "Al-Amthilah",
+      "explanation": ""
+    },
+    "sarf-bina": {
+      "title": "Level 2",
+      "desc": "",
+      "src": "",
+      "book": "Sharh Bina al-Afʿāl",
+      "explanation": ""
+    },
+    "sarf-shadha": {
+      "title": "Level 3",
+      "desc": "",
+      "src": "",
+      "book": "Shadha al-ʿArf",
+      "explanation": ""
+    },
+    "balaghah-durus": {
+      "title": "Level 1",
+      "desc": "",
+      "src": "",
+      "book": "Durus al-balagha",
+      "explanation": ""
+    },
+    "balaghah-tuhfah": {
+      "title": "Level 2",
+      "desc": "",
+      "src": "",
+      "book": "Tuhfat al-Ikhwan",
+      "explanation": ""
+    },
+    "balaghah-mukhtasar": {
+      "title": "Level 3",
+      "desc": "",
+      "src": "",
+      "book": "Mukhtasar al-Maʿāni",
+      "explanation": ""
+    },
+    "balaghah-balaghah": {
+      "title": "Perusal",
+      "desc": "",
+      "src": "",
+      "book": "Al-Balaghah al-Arabiyyah",
+      "explanation": ""
+    },
+    "balaghah-burdah": {
+      "title": "Perusal",
+      "desc": "",
+      "src": "",
+      "book": "Al-Burdah: Explanation, Grammar & Balaghah",
+      "explanation": ""
+    },
     "aqidah-sharh-nazm": {
       "title": "Beliefs: Level 1",
       "desc": "A masterful educational poem that's approachable yet vast, with an explanation and commentary",

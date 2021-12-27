@@ -620,6 +620,112 @@
       "src": "/books/other-diwankurdi.jpg",
       "book": "ديوان الشيخ الكردي ﵁",
       "explanation": ""
+    },
+    
+    "nahw-mabadi": {
+      "title": "Level 1",
+      "desc": "",
+      "src": "",
+      "book": "مبادئ الدروس العربية",
+      "explanation": ""
+    },
+    "nahw-tawdih": {
+      "title": "Level 1",
+      "desc": "",
+      "src": "",
+      "book": "التوضيح شرح الآجرومية",
+      "explanation": ""
+    },
+    "nahw-tashil": {
+      "title": "Level 2",
+      "desc": "",
+      "src": "",
+      "book": "التسهيل شرح الآجرومية",
+      "explanation": ""
+    },
+    "nahw-durus": {
+      "title": "Level 3",
+      "desc": "",
+      "src": "",
+      "book": "الدروس النحوية",
+      "explanation": ""
+    },
+    "nahw-qatr": {
+      "title": "Level 4",
+      "desc": "",
+      "src": "",
+      "book": "شرح قطر الندى",
+      "explanation": ""
+    },
+    "nahw-alfiyyah": {
+      "title": "Level 5",
+      "desc": "",
+      "src": "",
+      "book": "ألفية ابن مالك",
+      "explanation": ""
+    },
+    "nahw-ibnaqil": {
+      "title": "Level 6",
+      "desc": "",
+      "src": "",
+      "book": "شرح ابن عقيل",
+      "explanation": ""
+    },
+    "sarf-amthilah": {
+      "title": "Level 1",
+      "desc": "",
+      "src": "",
+      "book": "الأمثلة",
+      "explanation": ""
+    },
+    "sarf-bina": {
+      "title": "Level 2",
+      "desc": "",
+      "src": "",
+      "book": "شرح بناء الأفعال",
+      "explanation": ""
+    },
+    "sarf-shadha": {
+      "title": "Level 3",
+      "desc": "",
+      "src": "",
+      "book": "شذا العرف",
+      "explanation": ""
+    },
+    "balaghah-durus": {
+      "title": "Level 1",
+      "desc": "",
+      "src": "",
+      "book": "دروس البلاغة",
+      "explanation": ""
+    },
+    "balaghah-tuhfah": {
+      "title": "Level 2",
+      "desc": "",
+      "src": "",
+      "book": "تحفة الإخوان",
+      "explanation": ""
+    },
+    "balaghah-mukhtasar": {
+      "title": "Level 3",
+      "desc": "",
+      "src": "",
+      "book": "مختصر المعاني",
+      "explanation": ""
+    },
+    "balaghah-balaghah": {
+      "title": "Perusal",
+      "desc": "",
+      "src": "",
+      "book": "البلاغة العربية",
+      "explanation": ""
+    },
+    "balaghah-burdah": {
+      "title": "Perusal",
+      "desc": "",
+      "src": "",
+      "book": "البردة: شرحا وإعرابا وبلاغة",
+      "explanation": ""
     }
   }
 }
