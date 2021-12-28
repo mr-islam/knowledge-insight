@@ -1122,8 +1122,8 @@
     background: #f9fff5;
   } */
   div#grid > button:hover {
-    background-color: #bef184;
-    border: 2px solid #90d344;
+    background-color: #e7e7e72a;
+    border: 2px solid #1818182a;
     cursor: pointer;
   }
   div#grid {
