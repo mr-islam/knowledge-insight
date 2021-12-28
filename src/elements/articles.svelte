@@ -26,6 +26,7 @@
     gap: 2vh;
   }
   a {
+    margin: 0 5px;
     border-radius: 8px;
     border: 2px dashed gold;
     padding: 10px;

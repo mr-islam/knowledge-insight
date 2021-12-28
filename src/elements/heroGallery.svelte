@@ -91,8 +91,9 @@
     /* margin-top: 10vh; */
   }
   div :global(.swiper) {
+    top: 20vh;
     width: 100%;
-    height: 80vh;
+    height: 60vh;
   }
 
   div :global(.swiper-slide) {
@@ -134,6 +135,7 @@
     div :global(.swiper) {
       width: 100%;
       height: 40vh;
+      top: 0;
     }
     p {
       font-size: 1.5rem;

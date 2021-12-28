@@ -8,15 +8,19 @@
 
 <header>
   <div class="flex-row">
-    <a href="/">
-      <img alt="Logo of Arabic calligraphy" id="logo" src="/logo.jpg" />
-    </a>
+    
     <div class="flex-column">
+      <a href="/">
+        <img alt="Logo of Arabic calligraphy" id="logo" src="/logo.jpg" />
+      </a>
       {#if $t("center") !== ""}
         <span>{$t("center")}</span>
       {/if}
       <h1>{$t("title")}</h1>
+      <span>{ $t('slogan') }</span>
+
     </div>
+    
   </div>
   <div>
     <a
@@ -61,11 +65,12 @@
     align-items: center;
     justify-content: space-between;
     border: 4px solid var(--primary-color);
-    left: 10vw;
+    left: 30vw;
     border-radius: 8px;
     position: absolute;
+    padding: 10px 0;
     top: 10px;
-    width: 80vw;
+    width: 40vw;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     z-index: 5;
   }
@@ -103,5 +108,9 @@
   }
   div.flex-row {
     align-items: center;
+  }
+  div.flex-column {
+    align-items: center;
+
   }
 </style>
