@@ -7,9 +7,9 @@
     "preview": "svelte-kit preview"
   },
   "devDependencies": {
-    "@sveltejs/adapter-cloudflare": "^1.0.0-next.2",
+    "@sveltejs/adapter-cloudflare": "^1.0.0-next.5",
     "@sveltejs/adapter-netlify": "^1.0.0-next.35",
-    "@sveltejs/adapter-static": "^1.0.0-next.21",
+    "@sveltejs/adapter-static": "^1.0.0-next.24",
     "@sveltejs/kit": "^1.0.0-next.216",
     "svelte": "^3.43.0"
   },
