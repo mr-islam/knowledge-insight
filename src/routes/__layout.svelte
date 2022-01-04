@@ -6,6 +6,7 @@
     locale,
     getLocaleFromNavigator,
     isLoading,
+    waitLocale,
   } from "svelte-intl-precompile";
   import { session } from "$app/stores";
   import "../app.css";
@@ -23,6 +24,10 @@
     fallbackLocale: "en",
     initialLocale: getLocaleFromNavigator($session.acceptedLanguage),
   });
+
+  export async function preload() {
+    return waitLocale();
+  }
 
   onMount(() => {
     document.dir = $locale === "ar" ? "rtl" : "ltr";
