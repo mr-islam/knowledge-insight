@@ -79,7 +79,7 @@
     },
     "tajwid-hidayatrahman": {
       "title": "Tajwid: Level 2",
-      "desc": "this is   book",
+      "desc": "",
       "src": "/books/tajwid-hidayatrahman.jpg",
       "book": "Hidayat al-Rahman"
     },
@@ -97,19 +97,19 @@
     },
     "tajwid-amma": {
       "title": "Level 1: Open-book Recitation",
-      "desc": "Recitation is a pillar of prayer—apply the rules of tajwid to these regularly read surah!",
+      "desc": "Apply the rules of tajwid to these regularly read surah!",
       "src": "/books/mushaf.jpg",
       "book": "Quran Juz 30: ʿAmma"
     },
     "tajwid-reading": {
       "title": "Level 2: Open-book Recitation",
-      "desc": "this is   book",
+      "desc": "",
       "src": "/books/mushaf.jpg",
       "book": "The Entire Quran"
     },
     "tajwid-reciting": {
       "title": "Level 3: Reciting from Memory",
-      "desc": "this is   book",
+      "desc": "In all 10 recitations, depending on the student's aims",
       "src": "/books/mushaf.jpg",
       "book": "The Entire Quran for Ijaza"
     },
