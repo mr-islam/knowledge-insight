@@ -19,6 +19,11 @@
   });
 </script>
 
+
+<svelte:head>
+ <title>{$t("title")}</title>
+</svelte:head>
+
 {#key dir}
   <div class="container">
     <Swiper
