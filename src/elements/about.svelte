@@ -1,6 +1,8 @@
 <script context="module">
   import { t, locale, locales } from "svelte-intl-precompile";
   import Books from "../elements/books.svelte";
+
+  let simpleList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 </script>
 
 <div class="container">
@@ -10,10 +12,20 @@
       <Books />
     </div>
     <div class="text-right">
-      <p>
-        Complete: Center for Knowledge, Markaz al-Ilm wal-Maʿrifah, based in
-        Jordan aims to uphold to the
-      </p>
+      <h1>{$t("goals.title")}</h1>
+      <ol>
+        <li>{$t("goals.1")}</li>
+        <li>{$t("goals.2")}</li>
+        <li>{$t("goals.3")}</li>
+        <li>{$t("goals.4")}</li>
+        <li>{$t("goals.5")}</li>
+        <li>{$t("goals.6")}</li>
+        <li>{$t("goals.6")}</li>
+        <li>{$t("goals.7")}</li>
+        <li>{$t("goals.8")}</li>
+        <li>{$t("goals.9")}</li>
+        <li>{$t("goals.10")}</li>
+      </ol>
       <p id="contact">
         {$t("contact.contact_us")}<a href="mailto:ilm.marifah.center@gmail.com">
           {$t("contact.email")}

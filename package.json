@@ -1,5 +1,5 @@
 {
-  "name": "Knowledge & Insight",
+  "name": "knowledge-insight",
   "version": "0.0.1",
   "scripts": {
     "dev": "svelte-kit dev",
