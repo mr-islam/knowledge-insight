@@ -56,7 +56,6 @@
 
 <style>
   footer {
-    padding-bottom: 5px;
     background: var(--primary-color);
   }
   footer > div > a {

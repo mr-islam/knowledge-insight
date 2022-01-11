@@ -1145,7 +1145,7 @@
     margin: 5vh 0;
     padding-bottom: 10vh;
   }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 700px) {
     div#grid {
       grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
     }
@@ -1157,6 +1157,7 @@
       text-align: center;
       font-size: 1.1em;
     }
+    
   }
   #sub-container {
     margin-top: 30px;

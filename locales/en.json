@@ -18,8 +18,11 @@
     "online": "Access your lessons and recordings wherever you are—learning always goes on.",
     "articles": "Benefit now from the library of articles and videos that will continue tog row inshaAllah"
   },
+  "shaykh": {
+    "heading": "Education Head",
+    "subheading": "Honorable Shaykh Abd al-Rahman al-Sha'ar"
+  },
   "goals": {
-    "title": "Our goal: Reviving the religious sciences, through",
     "1": "Spreading the inner and outer sciences as Imam al-Ghazali accomplished – Allah be pleased with him.",
     "2": "Perfecting the reading of the Noble Quran in recitation and tajwid, with a linked chain of ascription and ijaza certification in the Ten Readings – all upon the way the noble Companions received the Quran from the Prophet – peace and blessings upon him –along with reviving the role of the Quran in Muslims’ souls.",
     "3": "Reviving the service of the Prophetic Sunnah and the noble Science of Hadith in both narration and understanding. Furthermore, resetting the compass of the Ummah towards following the guidance of the Prophet – Allah send peace and blessings upon him – and also his biography (Sirah), so that the Ummah can gain peace and be saved.",
@@ -29,7 +32,9 @@
     "7": "Spreading the correct spirituality (tasawwuf) which is the soul of the religion, what’s been named ihsan. This includes both spiritual seeking and enlightened understanding. This is for a Muslim to leave all sins and follow the way of the Master of All Creation in worshipping His lord with witnessing and awareness that he himself is being witnessed, which leads to complete inheritance and following.",
     "8": "Teaching the Arabic language, the language of the Quan and the Beloved Prophet – peace and blessings upon him. This is to correctly understand the words of Allah Almighty and the purified prophetic Sunnah, and the words of the scholars. Indeed, it has been said: “Whoever does not perfect the Arabic language, is not trusted in his knowledge.”",
     "9": "Perfecting the tool-sciences such as rhetoric (maʿani), expression (bayan), linguistic devices (badiʿ), etymology (sarf), grammar (nahw), poetic meters, and logic. A student of knowledge needs all of them in order to completely absorb knowledge and then present it in the best way possible.",
-    "10": "Training in dawah, public speaking and poetry skills, all of which are essential in benefitting others, through an approach where one can express things in a clear, convincing, and moving way."
+    "10": "Training in dawah, public speaking and poetry skills, all of which are essential in benefitting others, through an approach where one can express things in a clear, convincing, and moving way.",
+    "goal": "Our goal",
+    "title": "Reviving the religious sciences by"
   },
   "articles": {
     "title": "Articles",
@@ -727,5 +732,5 @@
     "error": "Something went wrong",
     "price_140": "$140 (all proceeds are re-invested into the Center's projects)"
   },
-  "slogan": "The Inner & Outer Sciences"
+  "slogan": "The Inner & Outer Sciences",
 }
