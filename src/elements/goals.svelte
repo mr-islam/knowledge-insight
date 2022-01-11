@@ -6,7 +6,6 @@
 </script>
 
 <div class="container">
-
   <div class="flex-row">
     <div class="img-left">
       <!-- <Books /> -->
@@ -14,6 +13,8 @@
 
       <img alt="Shaykh Abd al-Rahman" class="profile" src="master.jpg" />
       <p>{$t("shaykh.subheading")}</p>
+      <p>More more more</p>
+      <button>Learn more about the Shaykh</button>
     </div>
     <div class="text-right">
       <div>
@@ -88,11 +89,28 @@
   ol {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    column-gap: 40px;
-    row-gap: 20px;
+    column-gap: 10px;
+    row-gap: 5px;
   }
   li {
-    font-size: 1.1em;  
+    font-size: 1.1em;
+    padding-right: 10px;
+    background-color: #4a5d33;
+    border-radius: 8px;
+    padding: 5px 15px;
+  }
+  ol li {
+    counter-increment: my-awesome-counter;
+    display: flex;
+    margin-bottom: 0.5rem;
+  }
+  ol li::before {
+    content: counter(my-awesome-counter);
+    font-weight: bold;
+    font-size: 3rem;
+    margin-right: -0.5rem;
+    line-height: 1;
+    color: #efffe4;
   }
   @media only screen and (max-width: 900px) {
     div.flex-row {
