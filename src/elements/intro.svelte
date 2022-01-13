@@ -45,7 +45,7 @@
   div.paras-about {
     background: var(--accent-color);
     width: 100%;
-    margin: 20vh 0 56px 0;
+    margin: 0 0 56px 0;
     /* max-height: 10vh; */
   }
   div.paras-about > div {

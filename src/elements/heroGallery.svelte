@@ -96,9 +96,8 @@
     /* margin-top: 10vh; */
   }
   div :global(.swiper) {
-    top: 20vh;
     width: 100%;
-    height: 60vh;
+    height: 70vh;
   }
 
   div :global(.swiper-slide) {
