@@ -64,7 +64,7 @@
   span {
     padding: 10px 10px 10px 10px;
     margin: 0 10px;
-    background: var(--secondary-color);
+    background: var(--primary-color);
     border-radius: 360px;
   }
 

@@ -98,12 +98,13 @@
   div :global(.swiper) {
     width: 100%;
     height: 70vh;
+    background-color: #4a5d33;
+
   }
 
   div :global(.swiper-slide) {
     text-align: center;
     font-size: 18px;
-    background: #fff;
 
     /* Center slide text vertically */
     display: -webkit-box;

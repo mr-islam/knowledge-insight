@@ -62,7 +62,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    border: 4px solid var(--primary-color);
+    border-bottom: 4px solid var(--primary-color);
     left: 30vw;
     padding: 10px 0;
     z-index: 5;
