@@ -24,7 +24,7 @@
       <div>
         <ol>
           {#each simpleList as item}
-            <li>{$t(`goals.${[item]}`)}</li>
+            <li>&nbsp;&nbsp;{$t(`goals.${[item]}`)}</li>
           {/each}
         </ol>
       </div>
@@ -90,27 +90,35 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     column-gap: 10px;
-    row-gap: 5px;
+    row-gap: 10px;
+    list-style-type:none;
+    justify-items: center;
   }
   li {
     font-size: 1.1em;
     padding-right: 10px;
     background-color: #4a5d33;
     border-radius: 8px;
-    padding: 5px 15px;
+    padding:  10px;
   }
   ol li {
     counter-increment: my-awesome-counter;
-    display: flex;
-    margin-bottom: 0.5rem;
+    /* display: flex; */
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
   }
   ol li::before {
     content: counter(my-awesome-counter);
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 1.5rem;
     margin-right: -0.5rem;
     line-height: 1;
     color: #efffe4;
+    background-color: #353640;
+    border-radius: 300px;
+    padding: 3px 11px;
+    margin: 0px 0px 0 0;
   }
   @media only screen and (max-width: 900px) {
     div.flex-row {
