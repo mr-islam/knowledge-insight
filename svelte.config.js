@@ -10,7 +10,10 @@ const config = {
     vite: {
       plugins: [
         precompileIntl('locales') // if your translations are defined in /locales/[lang].json
-      ]			
+      ],
+      optimizeDeps: {
+        exclude: ['svelte-modals']
+      }
     }		
 	}
 };
