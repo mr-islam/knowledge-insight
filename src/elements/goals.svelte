@@ -26,7 +26,7 @@
       <img alt="Shaykh Abd al-Rahman" class="profile" src="master.jpg" />
       <p>{$t("shaykh.subheading")}</p>
       <p>{$t("shaykh.short_bio")}</p>
-      <button on:click={handleClick}>{$t("shaykh.button")}</button>
+      <button id="bio" on:click={handleClick}>{$t("shaykh.button")}</button>
     </div>
     <div class="text-right">
       <div>
@@ -92,12 +92,16 @@
   #contact {
     text-align: center;
   }
-  #contact > a {
+  #contact > a, button#bio {
     background-color: burlywood;
     padding: 10px;
     border-radius: 8px;
     color: black;
     font-weight: bold;
+    cursor: pointer;
+  }
+  #contact > a:hover, button#bio:hover, #contact > a:focus, button#bio:focus {
+    background-color: rgb(240, 201, 150);
   }
   ol {
     display: grid;
