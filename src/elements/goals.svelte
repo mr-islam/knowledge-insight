@@ -1,11 +1,14 @@
-<script context="module">
+<script>
   import { t, locale, locales } from "svelte-intl-precompile";
   import Books from "../elements/books.svelte";
-  import { Modals, closeModal, openModal } from 'svelte-modals'
-  import Modal from '../components/Modal.svelte'
+  import { Modals, closeModal, openModal } from "svelte-modals";
+  import Modal from "../components/Modal.svelte";
 
   function handleClick() {
-    openModal(Modal, { title: 'Short Biography', message: 'This is an alert' })
+    openModal(Modal, {
+      title: $t("shaykh.long_bio_title"),
+      message: $t("shaykh.long_bio"),
+    });
   }
 
   let simpleList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -13,11 +16,7 @@
 
 <div class="container">
   <Modals>
-    <div
-      slot="backdrop"
-      class="backdrop"
-      on:click={closeModal}
-    />
+    <div slot="backdrop" class="backdrop" on:click={closeModal} />
   </Modals>
   <div class="flex-row">
     <div class="img-left">
@@ -26,8 +25,8 @@
 
       <img alt="Shaykh Abd al-Rahman" class="profile" src="master.jpg" />
       <p>{$t("shaykh.subheading")}</p>
-      <p>More more more</p>
-      <button on:click="{handleClick}">Learn more about the Shaykh</button>
+      <p>{$t("shaykh.short_bio")}</p>
+      <button on:click={handleClick}>{$t("shaykh.button")}</button>
     </div>
     <div class="text-right">
       <div>
@@ -69,14 +68,15 @@
     color: white;
   }
   div.flex-row {
-    padding: 0 5vw;
+    padding: 0 3vw;
     justify-content: space-between;
-    gap: 30px;
+    gap: 10px;
   }
   div.img-left {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 25%;
   }
   div.text-right {
     min-width: 50%;
@@ -104,7 +104,7 @@
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     column-gap: 10px;
     row-gap: 10px;
-    list-style-type:none;
+    list-style-type: none;
     justify-items: center;
   }
   li {
@@ -112,7 +112,7 @@
     padding-right: 10px;
     background-color: #4a5d33;
     border-radius: 8px;
-    padding:  10px;
+    padding: 10px;
   }
   ol li {
     counter-increment: my-awesome-counter;
@@ -135,11 +135,10 @@
   }
   @media only screen and (max-width: 900px) {
     div.flex-row {
-      padding: 0 5vw;
+      padding: 0 3vw;
       flex-direction: column;
     }
   }
-
 
   .backdrop {
     position: fixed;
@@ -147,6 +146,6 @@
     bottom: 0;
     right: 0;
     left: 0;
-    background: rgba(0,0,0,0.50)
+    background: rgba(0, 0, 0, 0.5);
   }
 </style>
