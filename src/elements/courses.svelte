@@ -1112,7 +1112,6 @@
     text-align: center;
     /* background: #f2ffe9; */
     border-radius: 4px;
-    border: 2px dashed #cacaca;
     padding: 10px;
     font-weight: bold;
     justify-self: stretch;
@@ -1123,7 +1122,6 @@
   } */
   div#grid > button:hover {
     background-color: #e7e7e72a;
-    border: 2px solid #1818182a;
     cursor: pointer;
   }
   div#grid {
@@ -1157,7 +1155,6 @@
       text-align: center;
       font-size: 1.1em;
     }
-    
   }
   #sub-container {
     margin-top: 30px;
@@ -1197,15 +1194,17 @@
 
   #sub-container input[type="radio"]:checked + span {
     background-color: rgb(255, 242, 172);
-    border: 2px solid gold;
 
     color: black;
   }
+  button {
+    color: #2d2d2d;
+  }
   button#fard {
-    background: #ffee93;
+    background: #70dfdf;
   }
   button#program {
-    background: #f1f1d2;
+    background: #F2F0EC;
   }
   button#natiq {
     background: #fff1e6;
@@ -1214,25 +1213,25 @@
     background: #eddcd2;
   }
   button#nazari {
-    background: #f4eeff;
+    background: #ecb1ec;
   }
   button#zahir {
-    background: #dcd6f7;
+    background: #f0baf0;
   }
   button#matn {
-    background: #adf7b6;
+    background: #99CC99;
   }
   button#sirah {
-    background: #98db9f;
+    background: #b0ebb0;
   }
   button#aqidah {
-    background: #ffb0c4;
+    background: #F2777A;
   }
   button#ahkam {
-    background: #95e6ff;
+    background: #6ea4db;
   }
   button#suluk {
-    background: #fab879;
+    background: #ffcc66;
   }
   button#public {
     background: #f2feff;
