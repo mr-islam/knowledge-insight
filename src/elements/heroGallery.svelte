@@ -40,7 +40,7 @@
           <h1>{$t("hero.header1")}</h1>
           <p>{$t("hero.subheader1")}</p>
         </div>
-        <img alt="pretty background for announcement background" src="/backgrounds/madina-busy.jpg" />
+        <img alt="pretty background for announcement background" src="/backgrounds/flowers.jpg" />
       </SwiperSlide>
       <SwiperSlide>
         <div class="center">
