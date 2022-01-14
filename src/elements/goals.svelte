@@ -1,15 +1,8 @@
 <script>
-  import { t, locale, locales } from "svelte-intl-precompile";
-  import Books from "../elements/books.svelte";
+  import { t } from "svelte-intl-precompile";
   import { Modals, closeModal, openModal } from "svelte-modals";
   import Modal from "../components/Modal.svelte";
-
-  function handleClick() {
-    openModal(Modal, {
-      title: $t("shaykh.long_bio_title"),
-      message: $t("shaykh.long_bio"),
-    });
-  }
+  import Books from "../elements/books.svelte";
 
   let simpleList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 </script>
@@ -20,13 +13,14 @@
   </Modals>
   <div class="flex-row">
     <div class="img-left">
-      <!-- <Books /> -->
       <h1>{$t("shaykh.heading")}</h1>
 
       <img alt="Shaykh Abd al-Rahman" class="profile" src="master.jpg" />
       <p>{$t("shaykh.subheading")}</p>
       <p>{$t("shaykh.short_bio")}</p>
-      <button id="bio" on:click={handleClick}>{$t("shaykh.button")}</button>
+      <button id="bio" on:click={() => {openModal(Modal)}}>{$t("shaykh.button")}</button>
+      <Books />
+
     </div>
     <div class="text-right">
       <div>
@@ -43,7 +37,7 @@
     </div>
   </div>
   <div id="contact">
-    <br />
+    <br /> <p>***</p>
     {$t("contact.contact_us")}<a href="mailto:markaz@ilm-marifah.com">
       {$t("contact.email")}
     </a>
