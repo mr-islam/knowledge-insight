@@ -10,7 +10,6 @@
   <div role="dialog" class="modal">
     <div class="contents">
       <h1>{$t("shaykh.long_bio_title")}</h1>
-      <p>{$t("shaykh.long_bio")}</p>
 
       <h2>{$t("shaykh.long_bio_studies_title")}</h2>
       <p>{$t("shaykh.long_bio_studies_1")}</p>
