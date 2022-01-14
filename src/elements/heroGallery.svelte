@@ -68,6 +68,9 @@
 {/key}
 
 <style>
+  :global(div.swiper-button-prev, div.swiper-button-next) {
+    color: rgb(65, 255, 65);
+  }
   div.center {
     position: absolute;
     top: 50%;
