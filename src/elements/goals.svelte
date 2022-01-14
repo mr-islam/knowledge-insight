@@ -18,9 +18,13 @@
       <img alt="Shaykh Abd al-Rahman" class="profile" src="master.jpg" />
       <p>{$t("shaykh.subheading")}</p>
       <p>{$t("shaykh.short_bio")}</p>
-      <button id="bio" on:click={() => {openModal(Modal)}}>{$t("shaykh.button")}</button>
+      <button
+        id="bio"
+        on:click={() => {
+          openModal(Modal);
+        }}>{$t("shaykh.button")}</button
+      >
       <Books />
-
     </div>
     <div class="text-right">
       <div>
@@ -37,7 +41,8 @@
     </div>
   </div>
   <div id="contact">
-    <br /> <p>***</p>
+    <br />
+    <p>***</p>
     {$t("contact.contact_us")}<a href="mailto:markaz@ilm-marifah.com">
       {$t("contact.email")}
     </a>
@@ -86,7 +91,8 @@
   #contact {
     text-align: center;
   }
-  #contact > a, button#bio {
+  #contact > a,
+  button#bio {
     background-color: burlywood;
     padding: 10px;
     border-radius: 8px;
@@ -94,7 +100,10 @@
     font-weight: bold;
     cursor: pointer;
   }
-  #contact > a:hover, button#bio:hover, #contact > a:focus, button#bio:focus {
+  #contact > a:hover,
+  button#bio:hover,
+  #contact > a:focus,
+  button#bio:focus {
     background-color: rgb(240, 201, 150);
   }
   ol {
@@ -135,6 +144,13 @@
     div.flex-row {
       padding: 0 3vw;
       flex-direction: column;
+      align-items: center;
+    }
+    div.img-left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 80%;
     }
   }
 
