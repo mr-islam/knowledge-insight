@@ -47,7 +47,7 @@
         <img src="/books/tasawwuf-qawanin.jpg" alt="qawanin" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src="/books/rawdah.jpg" alt="rawdah" />
+        <img src="/books/tasawwuf-rawdah.jpg" alt="rawdah" />
       </SwiperSlide>
       <SwiperSlide>
         <img src="/books/aqidah-sharh-nazm.jpg" alt="majmu" />

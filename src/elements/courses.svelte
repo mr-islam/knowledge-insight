@@ -439,6 +439,14 @@
       registration: "",
     },
     {
+      id: "tasawwuf-rawdah",
+      tags: ["suluk"],
+      level: 0,
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
       id: "tasawwuf-tuhfah",
       tags: ["fard", "suluk"],
       level: 6,
