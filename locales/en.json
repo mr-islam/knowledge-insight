@@ -88,6 +88,7 @@
     "tafsir": "The Quran & Its Sciences",
     "tafsir_ishari": "Ishari Tafsir",
     "tafsir_zahir": "External Tafsir",
+    "ulum_quran": "Quran Sciences",
     "tafsir_explanation": "\"Truly the Quran is the book of guidance for mankind, it guides them to the upright, and leads them to what is good for their worldly- and afterlife. Among the most important things a Muslim must be concerned about and focus on: reflecting on the Quran and understanding its meanings. That is the way to success in this life and the next, and this is not possible except by returning to what the Scholars of Tafsir have written about the Words of Allah Almighty.\"",
     "hadith": "Hadith & Its Sciences",
     "hadith_texts": "Hadith Texts",
@@ -539,6 +540,18 @@
       "desc": "",
       "src": "/books/tasawwuf-fusus.jpg",
       "book": "Fusus al-Hikam",
+      "explanation": ""
+    },
+    "ulumQuran-ulum": {
+      "title": "Sciences: 1",
+      "desc": "A modern book on the Sciences of the Quran by Dr. Nur al-Din Itr, one of the great scholars of the last century",
+      "book": "Ulum al-Quran",
+      "explanation": ""
+    },
+    "ulumQuran-zubdah": {
+      "title": "Sciences: Side reading",
+      "desc": "A summary of the key text in the field",
+      "book": "Zubdat al-Itqan",
       "explanation": ""
     },
     "tafsir-durrah": {

@@ -383,6 +383,22 @@
       registration: "",
     },
     {
+      id: "ulumQuran-ulum",
+      tags: ["ulumQuran"],
+      level: 1,
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
+      id: "ulumQuran-zubdah",
+      tags: ["ulumQuran"],
+      level: 1,
+      action: "later",
+      price: "",
+      registration: "",
+    },
+    {
       id: "tafsir-durrah",
       tags: ["zahir"],
       level: 1,
@@ -957,6 +973,11 @@
   </p>
   <p id="sub-container">
     <label
+      ><input type="radio" bind:group={searchTerm} value="ulumQuran" /><span
+        >{$t("tags.ulum_quran")}</span
+      ></label
+    >
+    <label
       ><input type="radio" bind:group={searchTerm} value="zahir" /><span
         >{$t("tags.tafsir_zahir")}</span
       ></label
@@ -1204,7 +1225,7 @@
     background: #70dfdf;
   }
   button#program {
-    background: #F2F0EC;
+    background: #f2f0ec;
   }
   button#natiq {
     background: #fff1e6;
@@ -1213,19 +1234,19 @@
     background: #eddcd2;
   }
   button#nazari {
-    background: #ecb1ec;
+    background: #f1c7f1;
   }
   button#zahir {
-    background: #f0baf0;
+    background: rgb(250, 187, 250);
   }
   button#matn {
-    background: #99CC99;
+    background: #99cc99;
   }
   button#sirah {
     background: #b0ebb0;
   }
   button#aqidah {
-    background: #F2777A;
+    background: #f2777a;
   }
   button#ahkam {
     background: #6ea4db;
