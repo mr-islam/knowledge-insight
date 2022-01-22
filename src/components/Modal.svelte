@@ -11,7 +11,7 @@
     <div class="contents">
       <h1>{$t("shaykh.long_bio_title")}</h1>
 
-      <h2>{$t("shaykh.long_bio_studies_title")}</h2>
+      <!-- <h2>{$t("shaykh.long_bio_studies_title")}</h2>
       <p>{$t("shaykh.long_bio_studies_1")}</p>
       <p>{$t("shaykh.long_bio_studies_2")}</p>
       <p>{$t("shaykh.long_bio_studies_3")}</p>
@@ -19,7 +19,7 @@
       <h2>{$t("shaykh.long_bio_spirituality_title")}</h2>
       <p>{$t("shaykh.long_bio_spirituality_1")}</p>
       <p>{$t("shaykh.long_bio_spirituality_2")}</p>
-      <p>{$t("shaykh.long_bio_spirituality_3")}</p>
+      <p>{$t("shaykh.long_bio_spirituality_3")}</p> -->
 
       <div class="actions">
         <button on:click={closeModal}>OK</button>
