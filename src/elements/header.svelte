@@ -1,5 +1,6 @@
 <script context="module">
   import { t, locale, locales } from "svelte-intl-precompile";
+import { append } from "svelte/internal";
 
   function scrollToTitle(id) {
     document.getElementById(id).scrollIntoView({ behavior: "smooth" });
@@ -48,9 +49,9 @@
         $locale =
           document.getElementById("select-lang").selectedOptions[0].value;
       }}
-      >{#each $locales as loc}
-        <option value={loc}>{loc}</option>
-      {/each}
+      >
+      <option value={"ar"}>العربية</option>
+      <option value={"en"}>English</option>
     </select>
   </div>
 </header>
