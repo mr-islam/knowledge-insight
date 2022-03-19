@@ -9,7 +9,7 @@ import { append } from "svelte/internal";
 
 <header>
   <a href="/">
-    <img alt="Logo of Arabic calligraphy" id="logo" src="/logo.jpg" />
+    <img alt="Logo of Arabic calligraphy" id="logo" src="/logo-new.jpg" />
   </a>
 
   <div style="text-align: center;">
